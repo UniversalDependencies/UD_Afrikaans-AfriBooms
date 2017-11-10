@@ -11516,3 +11516,250 @@
 13	nie	nie	PART	UPO	PartType=Neg	2	advmod	_	SpaceAfter=No
 14	.	.	PUNCT	ZE	_	2	punct	_	_
 
+# sent_id = test-s419
+# text = Dit word stadig maar seker sterker, en dit word ondersteun deur 'n Grondwet wat nÃªrens ter wÃªreld geÃ«wenaar kan word nie.
+# org_sent_id = 1316
+1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	word	word	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	6	cop	_	_
+3	stadig	stadig	ADV	BS	Degree=Pos	2	advmod	_	_
+4	maar	maar	CCONJ	KN	_	3	dep	_	_
+5	seker	seker	ADV	BS	Degree=Pos	4	dep	_	_
+6	sterker	sterk	ADJ	AVP	AdjType=Pred|Case=Nom|Degree=Cmp	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	ZM	_	2	punct	_	_
+8	en	en	CCONJ	KN	_	2	cc	_	_
+9	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	11	aux:pass	_	_
+11	ondersteun	ondersteun	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	conj	_	_
+12	deur	deur	ADP	SVS	AdpType=Prep	14	case	_	_
+13	'n	'n	DET	LO	Definite=Ind|PronType=Art	14	det	_	_
+14	Grondwet	grondwet	NOUN	NSE	Number=Sing	11	obl	_	_
+15	wat	wat	PRON	PB	PronType=Rel	19	nsubj:pass	_	_
+16	nÃªrens	nÃªrens	ADV	BS	Degree=Pos	19	advmod	_	_
+17	ter	ter	ADP	SVS	AdpType=Prep	18	case	_	_
+18	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	19	obl	_	_
+19	geÃ«wenaar	ewenaar	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	ccomp	_	_
+20	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	19	aux	_	_
+21	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	19	aux:pass	_	_
+22	nie	nie	PART	UPO	PartType=Neg	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	ZE	_	19	punct	_	_
+
+# sent_id = test-s420
+# text = Die krag van ons politieke verbintenis tydens hierdie tyd van die verkiesingstryd- wat ons almal saamstem waardig en vredevol moet afloop- is inderdaad die beste waarborg van die volgehoue oorlewing en verdieping van ons demokrasie.
+# org_sent_id = 1317
+1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
+2	krag	krag	NOUN	NA	Number=Sing	28	nsubj	_	_
+3	van	van	ADP	SVS	AdpType=Prep	6	case	_	_
+4	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
+5	politieke	politiek	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
+6	verbintenis	verbintenis	NOUN	NSE	Number=Sing	2	nmod	_	_
+7	tydens	tydens	ADP	SVS	AdpType=Prep	9	case	_	_
+8	hierdie	hierdie	DET	PA	PronType=Dem	9	det	_	_
+9	tyd	tyd	NOUN	NM	Number=Sing	6	nmod	_	_
+10	van	van	ADP	SVS	AdpType=Prep	12	case	_	_
+11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
+12	verkiesingstryd	verkiesingstryd	NOUN	NA	Number=Sing	9	nmod	_	SpaceAfter=No
+13	-	-	PUNCT	ZM	_	12	punct	_	_
+14	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
+15	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	almal	almal	PRON	PO	PronType=Ind	15	amod	_	_
+17	saamstem	saamstem	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	22	dep	_	_
+18	waardig	waardig	ADV	BS	Degree=Pos	22	advmod	_	_
+19	en	en	CCONJ	KN	_	18	cc	_	_
+20	vredevol	vredevol	ADV	BS	Degree=Pos	18	conj	_	_
+21	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	22	aux	_	_
+22	afloop	afloop	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	12	ccomp	_	SpaceAfter=No
+23	-	-	PUNCT	ZM	_	22	punct	_	_
+24	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	28	cop	_	_
+25	inderdaad	inderdaad	ADV	BS	Degree=Pos	24	advmod	_	_
+26	die	die	DET	LB	Definite=Def|PronType=Art	28	det	_	_
+27	beste	goed	ADJ	AOA	AdjType=Attr|Case=Nom|Degree=Sup	28	amod	_	_
+28	waarborg	waarborg	NOUN	NSE	Number=Sing	0	root	_	_
+29	van	van	ADP	SVS	AdpType=Prep	32	case	_	_
+30	die	die	DET	LB	Definite=Def|PronType=Art	32	det	_	_
+31	volgehoue	volhou	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
+32	oorlewing	oorlewing	NOUN	NA	Number=Sing	28	nmod	_	_
+33	en	en	CCONJ	KN	_	32	cc	_	_
+34	verdieping	verdieping	NOUN	NA	Number=Sing	32	conj	_	_
+35	van	van	ADP	SVS	AdpType=Prep	37	case	_	_
+36	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	37	det	_	_
+37	demokrasie	demokrasie	NOUN	NSE	Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	ZE	_	24	punct	_	_
+
+# sent_id = test-s421
+# text = Dit is Suid-Afrika se mense wat die land se vooruitgang verseker; en dit is hulle wat ons demokrasie sal verseker in die jare wat voorlÃª.
+# org_sent_id = 1318
+1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	3	cop	_	_
+3	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	5	nmod	_	_
+4	se	se	PART	UPS	PartType=Gen	3	case	_	_
+5	mense	mens	NOUN	NSM	Number=Plur	0	root	_	_
+6	wat	wat	PRON	PB	PronType=Rel	11	nsubj	_	_
+7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
+8	land	land	NOUN	NSE	Number=Sing	10	nmod	_	_
+9	se	se	PART	UPS	PartType=Gen	8	case	_	_
+10	vooruitgang	vooruitgang	NOUN	NM	Number=Sing	11	obj	_	_
+11	verseker	verseker	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	5	ccomp	_	SpaceAfter=No
+12	;	;	PUNCT	ZM	_	11	punct	_	_
+13	en	en	CCONJ	KN	_	2	cc	_	_
+14	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	16	cop	_	_
+16	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	2	conj	_	_
+17	wat	wat	PRON	PB	PronType=Rel	21	nsubj	_	_
+18	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+19	demokrasie	demokrasie	NOUN	NSE	Number=Sing	21	obj	_	_
+20	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	21	aux	_	_
+21	verseker	verseker	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	15	ccomp	_	_
+22	in	in	ADP	SVS	AdpType=Prep	24	case	_	_
+23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
+24	jare	jaar	NOUN	NSM	Number=Plur	21	obl	_	_
+25	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
+26	voorlÃª	voorlÃª	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	24	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	ZE	_	26	punct	_	_
+
+# sent_id = test-s422
+# text = Vergun my, Mevrou die Speaker en Voorsitter, om op hierdie noot alle stemgeregtigde Suid-Afrikaners aan te spoor om te registreer en te stem in die komende nasionale en plaaslike verkiesings sodat ons self die toekoms kan bepaal.
+# org_sent_id = 1319
+1	Vergun	vergun	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
+2	my	my	PRON	PEEDP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	ZM	_	2	punct	_	_
+4	Mevrou	mevrou	NOUN	NSE	Number=Sing	2	dep	_	_
+5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
+6	Speaker	speaker	NOUN	NSE	Number=Sing	4	dep	_	_
+7	en	en	CCONJ	KN	_	6	cc	_	_
+8	Voorsitter	voorsitter	NOUN	NSE	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	ZM	_	8	punct	_	_
+10	om	om	ADP	SVS	AdpType=Prep	19	case	_	_
+11	op	op	ADP	SVS	AdpType=Prep	13	case	_	_
+12	hierdie	hierdie	DET	PA	PronType=Dem	13	det	_	_
+13	noot	noot	NOUN	NSE	Number=Sing	19	obl	_	_
+14	alle	al	DET	THAO	PronType=Ind	16	nummod	_	_
+15	stemgeregtigde	stemgeregtig	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	16	amod	_	_
+16	Suid-Afrikaners	Suid-Afrikaner	NOUN	NSM	Number=Plur	19	obj	_	_
+17	aan	aan	ADV	UPW	Degree=Pos	19	compound:prt	_	_
+18	te	te	PART	UPI	PartType=Inf	19	mark	_	_
+19	spoor	spoor	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	1	obl	_	_
+20	om	om	ADP	SVS	AdpType=Prep	22	case	_	_
+21	te	te	PART	UPI	PartType=Inf	22	mark	_	_
+22	registreer	registreer	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	19	obl	_	_
+23	en	en	CCONJ	KN	_	22	cc	_	_
+24	te	te	PART	UPI	PartType=Inf	25	mark	_	_
+25	stem	stem	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	22	xcomp	_	_
+26	in	in	ADP	SVS	AdpType=Prep	32	case	_	_
+27	die	die	DET	LB	Definite=Def|PronType=Art	32	det	_	_
+28	komende	kom	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
+29	nasionale	nasionaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
+30	en	en	CCONJ	KN	_	29	cc	_	_
+31	plaaslike	plaaslik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	29	conj	_	_
+32	verkiesings	verkiesing	NOUN	NSM	Number=Plur	25	obl	_	_
+33	sodat	sodat	SCONJ	KO	_	25	amod	_	_
+34	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	_
+35	self	self	PRON	PDOEW	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	34	amod	_	_
+36	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
+37	toekoms	toekoms	NOUN	NA	Number=Sing	39	obj	_	_
+38	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	39	aux	_	_
+39	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	33	dep	_	SpaceAfter=No
+40	.	.	PUNCT	ZE	_	39	punct	_	_
+
+# sent_id = test-s423
+# text = Dit kan elke werksdag by die munisipale kantore gedoen word tot tyd en wyl die kieserslys afgesluit word.
+# org_sent_id = 1320
+1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	9	aux	_	_
+3	elke	elk	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
+4	werksdag	werksdag	NOUN	NSE	Number=Sing	9	obj	_	_
+5	by	by	ADP	SVS	AdpType=Prep	8	case	_	_
+6	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
+7	munisipale	munisipaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
+8	kantore	kantoor	NOUN	NSM	Number=Plur	9	obl	_	_
+9	gedoen	doen	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
+10	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	9	aux:pass	_	_
+11	tot	tot	ADP	SVS	AdpType=Prep	17	case	_	_
+12	tyd	tyd	NOUN	NM	Number=Sing	17	nmod	_	_
+13	en	en	CCONJ	KN	_	12	cc	_	_
+14	wyl	wyl	NOUN	NM	Number=Sing	12	conj	_	_
+15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
+16	kieserslys	kieserslys	NOUN	NSE	Number=Sing	17	obj	_	_
+17	afgesluit	afsluit	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	9	obl	_	_
+18	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	17	aux:pass	_	SpaceAfter=No
+19	.	.	PUNCT	ZE	_	17	punct	_	_
+
+# sent_id = test-s424
+# text = Maar ons moet ook gebruik maak van die spesiale registrasie-naweek wat deur die Verkiesingskommissie van Suid-Afrika (die OVK) gereÃ«l is, naamlik mÃ´re en Sondag, onderskeidelik die 7de en 8ste Februarie.
+# org_sent_id = 1321
+1	Maar	maar	CCONJ	KN	_	6	amod	_	_
+2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	6	aux	_	_
+4	ook	ook	ADV	BS	Degree=Pos	6	advmod	_	_
+5	gebruik	gebruik	NOUN	NA	Number=Sing	6	obj	_	_
+6	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
+7	van	van	ADP	SVS	AdpType=Prep	10	case	_	_
+8	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
+9	spesiale	spesiaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	10	amod	_	_
+10	registrasie-naweek	registrasie-naweek	NOUN	NSE	Number=Sing	6	obl	_	_
+11	wat	wat	PRON	PB	PronType=Rel	21	nsubj:pass	_	_
+12	deur	deur	ADP	SVS	AdpType=Prep	14	case	_	_
+13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
+14	Verkiesingskommissie	verkiesingskommissie	NOUN	NSE	Number=Sing	21	obl	_	_
+15	van	van	ADP	SVS	AdpType=Prep	16	case	_	_
+16	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	14	nmod	_	_
+17	(	(	PUNCT	ZPL	_	19	punct	_	SpaceAfter=No
+18	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
+19	OVK	OVK	X	RL	_	16	appos	_	SpaceAfter=No
+20	)	)	PUNCT	ZPR	_	19	punct	_	_
+21	gereÃ«l	reÃ«l	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	10	ccomp	_	_
+22	is	is	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	21	aux:pass	_	SpaceAfter=No
+23	,	,	PUNCT	ZM	_	21	punct	_	_
+24	naamlik	naamlik	ADV	BS	Degree=Pos	10	advmod	_	_
+25	mÃ´re	mÃ´re	ADV	BS	Degree=Pos	10	advmod	_	_
+26	en	en	CCONJ	KN	_	25	cc	_	_
+27	Sondag	Sondag	PROPN	NEE	Number=Sing	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	ZM	_	27	punct	_	_
+29	onderskeidelik	onderskeidelik	ADV	BS	Degree=Pos	25	advmod	_	_
+30	die	die	DET	LB	Definite=Def|PronType=Art	31	det	_	_
+31	7de	7de	SYM	RS	_	34	amod	_	_
+32	en	en	CCONJ	KN	_	31	cc	_	_
+33	8ste	8ste	SYM	RS	_	31	conj	_	_
+34	Februarie	Februarie	PROPN	NEE	Number=Sing	29	amod	_	SpaceAfter=No
+35	.	.	PUNCT	ZE	_	6	punct	_	_
+
+# sent_id = train-s425
+# text = Ek wil ook van die geleentheid gebruik maak om te sÃª dat ek oor die volgende paar dae samesprekings met die Verkiesingskommissie en die provinsiale premiers sal hÃª en die datum van die verkiesing sal aankondig.
+# org_sent_id = 1322
+1	Ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	8	aux	_	_
+3	ook	ook	ADV	BS	Degree=Pos	8	advmod	_	_
+4	van	van	ADP	SVS	AdpType=Prep	6	case	_	_
+5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
+6	geleentheid	geleentheid	NOUN	NSE	Number=Sing	8	obl	_	_
+7	gebruik	gebruik	NOUN	NA	Number=Sing	8	obj	_	_
+8	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
+9	om	om	ADP	SVS	AdpType=Prep	11	case	_	_
+10	te	te	PART	UPI	PartType=Inf	11	mark	_	_
+11	sÃª	sÃª	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	obl	_	_
+12	dat	dat	SCONJ	KO	_	11	amod	_	_
+13	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+14	oor	oor	ADP	SVS	AdpType=Prep	18	case	_	_
+15	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
+16	volgende	volg	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	amod	_	_
+17	paar	paar	DET	THAO	PronType=Ind	18	nummod	_	_
+18	dae	dag	NOUN	NSM	Number=Plur	28	obl	_	_
+19	samesprekings	samespreking	NOUN	NSM	Number=Plur	28	obj	_	_
+20	met	met	ADP	SVS	AdpType=Prep	22	case	_	_
+21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
+22	Verkiesingskommissie	verkiesingskommissie	NOUN	NSE	Number=Sing	28	obl	_	_
+23	en	en	CCONJ	KN	_	22	cc	_	_
+24	die	die	DET	LB	Definite=Def|PronType=Art	26	det	_	_
+25	provinsiale	provinsiaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	26	amod	_	_
+26	premiers	premier	NOUN	NSM	Number=Plur	22	conj	_	_
+27	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	28	aux	_	_
+28	hÃª	het	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	12	dep	_	_
+29	en	en	CCONJ	KN	_	28	cc	_	_
+30	die	die	DET	LB	Definite=Def|PronType=Art	31	det	_	_
+31	datum	datum	NOUN	NSE	Number=Sing	36	obj	_	_
+32	van	van	ADP	SVS	AdpType=Prep	34	case	_	_
+33	die	die	DET	LB	Definite=Def|PronType=Art	34	det	_	_
+34	verkiesing	verkiesing	NOUN	NSE	Number=Sing	31	nmod	_	_
+35	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	36	aux	_	_
+36	aankondig	aankondig	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	28	conj	_	SpaceAfter=No
+37	.	.	PUNCT	ZE	_	36	punct	_	_
+

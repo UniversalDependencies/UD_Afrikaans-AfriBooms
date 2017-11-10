@@ -7,9 +7,9 @@ UD Afrikaans is a conversion of the AfriBooms Dependency Treebank, originally an
 UD Afrikaans is a conversion AfriBooms Dependency Treebank, which is based on the Afrikaans section of the NCHLT Annotated Text Corpora and is available from the South African Language Resource Management Agency, Potchefstroom. We will be working on manually verifying the treebank.
 
 Size of the differents parts:
-  - train size =  1322 sentences
+  - train size =  1315 sentences
   - dev size   =  194 sentences
-  - test size  =  418 sentences
+  - test size  =  425 sentences
 
 # Acknowledgments 
 
