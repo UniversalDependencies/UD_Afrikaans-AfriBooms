@@ -1,10 +1,10 @@
 # Summary
 
-UD Afrikaans is a conversion of the AfriBooms Dependency Treebank, originally annotated with a simplified PoS set and dependency relations according to a subset of the Stanford tag set. The corpus consists of public government documents.
+UD Afrikaans-AfriBooms is a conversion of the AfriBooms Dependency Treebank, originally annotated with a simplified PoS set and dependency relations according to a subset of the Stanford tag set. The corpus consists of public government documents.
 
 # Introduction
 
-UD Afrikaans is a conversion AfriBooms Dependency Treebank, which is based on the Afrikaans section of the NCHLT Annotated Text Corpora and is available from the South African Language Resource Management Agency, Potchefstroom. We will be working on manually verifying the treebank.
+UD Afrikaans-AfriBooms is a conversion AfriBooms Dependency Treebank, which is based on the Afrikaans section of the NCHLT Annotated Text Corpora and is available from the South African Language Resource Management Agency, Potchefstroom. We will be working on manually verifying the treebank.
 
 Size of the differents parts:
   - train size =  1315 sentences

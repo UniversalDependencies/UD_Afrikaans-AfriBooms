@@ -2032,12 +2032,12 @@
 # text = Die GCIS is nie verantwoordelik of aanspreeklik, hetsy direk of indirek, of op enige ander wyse, vir die inhoud, gebruik, of onvermoë om enige geskakelde webwerwe of enige skakel wat in 'n geskakelde webwerf vervat is, te gebruik of toegang daartoe te verkry nie.
 # org_sent_id = 1600
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
-2	GCIS	GCIS	X	RL	_	7	nsubj	_	_
-3	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	7	cop	_	_
+2	GCIS	GCIS	X	RL	_	5	nsubj	_	_
+3	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	5	cop	_	_
 4	nie	nie	ADV	BS	Degree=Pos	3	advmod	_	_
-5	verantwoordelik	verantwoordelik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	7	conj	_	_
-6	of	of	CCONJ	KN	_	7	cc	_	_
-7	aanspreeklik	aanspreeklik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	SpaceAfter=No
+5	verantwoordelik	verantwoordelik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
+6	of	of	CCONJ	KN	_	5	cc	_	_
+7	aanspreeklik	aanspreeklik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	ZM	_	3	punct	_	_
 9	hetsy	hetsy	SCONJ	KO	_	3	amod	_	_
 10	direk	direk	ADV	BS	Degree=Pos	9	dep	_	_
@@ -4233,8 +4233,8 @@
 # sent_id = dev-s124
 # text = Crime Stop is 'n reeks oproepsentrums wat by die publiek inligting oor misdadigers en hulle bedrywighede insamel.
 # org_sent_id = 1670
-1	Crime	Crime	PROPN	NEE	Number=Sing	2	flat	_	_
-2	Stop	Stop	PROPN	NEE	Number=Sing	5	nsubj	_	_
+1	Crime	Crime	PROPN	NEE	Number=Sing	5	nsubj	_	_
+2	Stop	Stop	PROPN	NEE	Number=Sing	1	flat	_	_
 3	is	is	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	5	cop	_	_
 4	'n	'n	DET	LO	Definite=Ind|PronType=Art	5	det	_	_
 5	reeks	reeks	NOUN	NSE	Number=Sing	0	root	_	_
