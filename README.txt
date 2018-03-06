@@ -11,12 +11,14 @@ Size of the differents parts:
   - dev size   =  194 sentences
   - test size  =  425 sentences
 
-# Acknowledgments 
+# Acknowledgments
 
 The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at the University of Leuven and by Daniel van Niekerk at the Potchefstroom campus of North West University.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Afrikaans to UD_Afrikaans-AfriBooms.
 * 2017-11-15 v2.1
   * First release in UD
 
