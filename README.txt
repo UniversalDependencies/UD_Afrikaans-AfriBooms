@@ -27,7 +27,7 @@ The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at 
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: government text
+Genre: legal nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
