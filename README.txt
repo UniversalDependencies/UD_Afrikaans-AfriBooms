@@ -17,6 +17,8 @@ The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at 
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Fixed validation errors coming from new validation scripts, in particular for auxiliaries, copulas, and coordinations.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Afrikaans to UD_Afrikaans-AfriBooms.
 * 2017-11-15 v2.1
