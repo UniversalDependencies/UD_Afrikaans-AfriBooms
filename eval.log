@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit 80f67e12fdcc442a8c6fc9e0c6c12a82b78de2cc
-Merge: 1c28fc6 255fc44
+commit 387c024ab497220cede26a85e70c65ba6268d0f9
+Merge: 4174558 af14c16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 49276 of 49276 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79487429419946.
