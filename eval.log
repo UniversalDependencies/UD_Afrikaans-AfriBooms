@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit 387c024ab497220cede26a85e70c65ba6268d0f9
-Merge: 4174558 af14c16
+commit 4230e091c99e429220b2ade783611315201ff4c7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 20:51:33 2019 +0200
 Size: counted 49276 of 49276 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79487429419946.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 1966 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 49276 words.
 Genres: found 2 out of 17 known.
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.conllu
-*** PASSED ***
+[Line 265 Sent dev-s7 Node 2]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (2:is:cop --> 1:Daar:amod)
+[Line 322 Sent dev-s7 Node 58]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [50, 51, 52, 53, 54, 55, 56]
+[Line 330 Sent dev-s8 Node 4]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 421 Sent dev-s10 Node 27]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (27:is:cop --> 25:die:amod)
+[Line 427 Sent dev-s10 Node 31]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28, 29]
+[Line 434 Sent dev-s11 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:is:cop --> 3:hoofsaaklik:advmod)
+[Line 444 Sent dev-s11 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:is:cop --> 13:sê:ccomp)
+[Line 468 Sent dev-s13 Node 2]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (2:word:cop --> 3:toenemend:advmod)
+[Line 467 Sent dev-s13 Node 2]: [L5 Syntax cop-lemma] 'word' is not a copula in language [af]
+...suppressing further errors regarding Syntax
+Syntax errors: 136
+*** FAILED *** with 136 errors
+Exit code: 1
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-test.conllu
-*** PASSED ***
+[Line 9 Sent test-s1 Node 6]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
+[Line 35 Sent test-s3 Node 1]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 49 Sent test-s3 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10, 11, 12, 13]
+[Line 282 Sent test-s13 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:is:cop --> 6:nie:advmod)
+[Line 288 Sent test-s13 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:is:cop --> 12:nie:advmod)
+[Line 339 Sent test-s15 Node 22]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (22:met:case --> 23:ander:dep)
+[Line 369 Sent test-s16 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+[Line 387 Sent test-s17 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 391 Sent test-s17 Node 18]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+...suppressing further errors regarding Syntax
+Syntax errors: 354
+*** FAILED *** with 354 errors
+Exit code: 1
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 53 Sent train-s2 Node 19]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
+[Line 72 Sent train-s3 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:is:cop --> 9:gerig:ccomp)
+[Line 103 Sent train-s4 Node 11]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 143 Sent train-s5 Node 7]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 168 Sent train-s5 Node 35]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (35:is:cop --> 32:nie:advmod)
+[Line 181 Sent train-s5 Node 45]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'dep'
+[Line 219 Sent train-s7 Node 10]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (10:is:cop --> 8:spesifiek:advmod)
+[Line 225 Sent train-s7 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
+[Line 424 Sent train-s13 Node 25]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+...suppressing further errors regarding Syntax
+Syntax errors: 950
+*** FAILED *** with 950 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.601022810293043) = 0.184930095474783
 (weight=0.0769230769230769) * (score{udeprels}=0.518918918918919) = 0.0399168399168399
-(TOTAL score=0.593920854905714) * (availability=1) * (validity=1) = 0.593920854905714
-STARS = 3
-UD_Afrikaans-AfriBooms	0.593920854905714	3
+(TOTAL score=0.593920854905714) * (availability=1) * (validity=0.01) = 0.00593920854905714
+STARS = 0
+UD_Afrikaans-AfriBooms	0.00593920854905714	0
