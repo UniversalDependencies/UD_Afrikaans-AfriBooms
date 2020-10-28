@@ -17,6 +17,9 @@ The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at 
 
 # Changelog
 
+* 2020-11-15 v2.7
+  * Fixed validation errors coming from new validation scripts, in particular for auxiliaries, copulas, and coordinations.
+  * Fixed lemma of 'is' and 'was' to 'wees'
 * 2019-05-15 v2.4
   * Fixed validation errors coming from new validation scripts, in particular for auxiliaries, copulas, and coordinations.
 * 2018-04-15 v2.2
