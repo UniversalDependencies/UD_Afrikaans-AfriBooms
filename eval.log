@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit 2c5569e5822d86b9a0e12e58ac019bfba8ee57b9
+commit d4e835164fe0191a0a6600ac1862c62ae413ac66
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:37:35 2019 +0100
+Date:   Sun May 10 17:32:15 2020 +0200
 Size: counted 49276 of 49276 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79487429419946.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,15 +23,15 @@ Udapi: found 1969 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 49276 words.
 Genres: found 2 out of 17 known.
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.conllu
+[Line 87 Sent dev-s3 Node 2]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 265 Sent dev-s7 Node 2]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (2:is:cop --> 1:Daar:amod)
-[Line 322 Sent dev-s7 Node 58]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [50, 51, 52, 53, 54, 55, 56]
+[Line 322 Sent dev-s7 Node 58]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [50, 51, 52, 53, 54, 55, 56, 57]
+[Line 266 Sent dev-s7 Node 2]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
+[Line 313 Sent dev-s7 Node 49]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 330 Sent dev-s8 Node 4]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
 [Line 421 Sent dev-s10 Node 27]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (27:is:cop --> 25:die:amod)
-[Line 427 Sent dev-s10 Node 31]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28, 29]
-[Line 434 Sent dev-s11 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:is:cop --> 3:hoofsaaklik:advmod)
-[Line 444 Sent dev-s11 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:is:cop --> 13:sê:ccomp)
-[Line 468 Sent dev-s13 Node 2]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (2:word:cop --> 3:toenemend:advmod)
-[Line 467 Sent dev-s13 Node 2]: [L5 Syntax cop-lemma] 'word' is not a copula in language [af]
+[Line 427 Sent dev-s10 Node 31]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28, 29, 30]
+[Line 423 Sent dev-s10 Node 27]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 ...suppressing further errors regarding Syntax
 [Line 1812 Sent dev-s47 Node 17]: [L5 Morpho aux-lemma] 'probeer' is not an auxiliary verb in language [af]
 [Line 1838 Sent dev-s47 Node 43]: [L5 Morpho aux-lemma] 'probeer' is not an auxiliary verb in language [af]
@@ -39,26 +39,26 @@ validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.co
 [Line 1864 Sent dev-s48 Node 20]: [L5 Morpho aux-lemma] 'probeer' is not an auxiliary verb in language [af]
 [Line 3002 Sent dev-s81 Node 12]: [L5 Morpho aux-lemma] 'probeer' is not an auxiliary verb in language [af]
 [Line 3189 Sent dev-s86 Node 23]: [L5 Morpho aux-lemma] 'bly' is not an auxiliary verb in language [af]
-[Line 3390 Sent dev-s92 Node 18]: [L5 Morpho aux-lemma] 'hoef' is not an auxiliary verb in language [af]
 [Line 3799 Sent dev-s106 Node 13]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
-[Line 4442 Sent dev-s133 Node 16]: [L5 Morpho aux-lemma] 'hoef' is not an auxiliary verb in language [af]
+[Line 5265 Sent dev-s163 Node 1]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
+[Line 5447 Sent dev-s169 Node 6]: [L5 Morpho aux-lemma] 'blyk' is not an auxiliary verb in language [af]
 ...suppressing further errors regarding Morpho
-Morpho errors: 12
-Syntax errors: 136
-*** FAILED *** with 148 errors
+Morpho errors: 10
+Syntax errors: 196
+*** FAILED *** with 206 errors
 Exit code: 1
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-test.conllu
 [Line 9 Sent test-s1 Node 6]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
 [Line 35 Sent test-s3 Node 1]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
-[Line 49 Sent test-s3 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10, 11, 12, 13]
+[Line 49 Sent test-s3 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [10, 11, 12, 13, 14]
+[Line 43 Sent test-s3 Node 9]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 282 Sent test-s13 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:is:cop --> 6:nie:advmod)
 [Line 288 Sent test-s13 Node 11]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (11:is:cop --> 12:nie:advmod)
+[Line 287 Sent test-s13 Node 11]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
+[Line 295 Sent test-s14 Node 2]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 339 Sent test-s15 Node 22]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (22:met:case --> 23:ander:dep)
-[Line 369 Sent test-s16 Node 15]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-[Line 387 Sent test-s17 Node 14]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 391 Sent test-s17 Node 18]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
-[Line 386 Sent test-s17 Node 13]: [L5 Morpho aux-lemma] 'gaan' is not an auxiliary verb in language [af]
 ...suppressing further errors regarding Syntax
+[Line 386 Sent test-s17 Node 13]: [L5 Morpho aux-lemma] 'gaan' is not an auxiliary verb in language [af]
 [Line 1248 Sent test-s56 Node 15]: [L5 Morpho aux-lemma] 'gaan' is not an auxiliary verb in language [af]
 [Line 1488 Sent test-s67 Node 4]: [L5 Morpho aux-lemma] 'help' is not an auxiliary verb in language [af]
 [Line 2144 Sent test-s95 Node 12]: [L5 Morpho aux-lemma] 'voel' is not an auxiliary verb in language [af]
@@ -68,20 +68,20 @@ validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-test.c
 [Line 2538 Sent test-s116 Node 1]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
 [Line 3316 Sent test-s147 Node 19]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
 ...suppressing further errors regarding Morpho
-Morpho errors: 35
-Syntax errors: 354
-*** FAILED *** with 389 errors
+Morpho errors: 32
+Syntax errors: 480
+*** FAILED *** with 512 errors
 Exit code: 1
 validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-train.conllu
+[Line 12 Sent train-s1 Node 9]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 53 Sent train-s2 Node 19]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADJ'
+[Line 37 Sent train-s2 Node 3]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 72 Sent train-s3 Node 3]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (3:is:cop --> 9:gerig:ccomp)
+[Line 66 Sent train-s3 Node 3]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 103 Sent train-s4 Node 11]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
+[Line 99 Sent train-s4 Node 7]: [L5 Syntax cop-lemma] 'is' is not a copula in language [af]
 [Line 143 Sent train-s5 Node 7]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
 [Line 168 Sent train-s5 Node 35]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (35:is:cop --> 32:nie:advmod)
-[Line 181 Sent train-s5 Node 45]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'dep'
-[Line 219 Sent train-s7 Node 10]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (10:is:cop --> 8:spesifiek:advmod)
-[Line 225 Sent train-s7 Node 14]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 424 Sent train-s13 Node 25]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'DET'
 ...suppressing further errors regarding Syntax
 [Line 750 Sent train-s29 Node 3]: [L5 Morpho aux-lemma] 'gaan' is not an auxiliary verb in language [af]
 [Line 1300 Sent train-s54 Node 49]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
@@ -93,9 +93,9 @@ validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-train.
 [Line 6371 Sent train-s245 Node 15]: [L5 Morpho aux-lemma] 'laat' is not an auxiliary verb in language [af]
 [Line 7299 Sent train-s285 Node 9]: [L5 Morpho aux-lemma] 'gaan' is not an auxiliary verb in language [af]
 ...suppressing further errors regarding Morpho
-Morpho errors: 105
-Syntax errors: 950
-*** FAILED *** with 1055 errors
+Morpho errors: 72
+Syntax errors: 1335
+*** FAILED *** with 1407 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
