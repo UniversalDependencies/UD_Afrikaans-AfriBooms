@@ -5937,7 +5937,7 @@
 16	omdat	omdat	SCONJ	KO	_	11	dep	_	_
 17	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 18	onvoldoende	onvoldoende	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	19	xcomp	_	_
-19	geword	word	AUX	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	11	dep	_	_
+19	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	11	dep	_	_
 20	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	19	aux	_	_
 21	of	of	CCONJ	KN	_	11	dep	_	_
 22	omdat	omdat	SCONJ	KO	_	11	dep	_	_
@@ -15027,7 +15027,7 @@
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	permit	permit	NOUN	NSE	Number=Sing	11	obj	_	_
 9	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	10	aux	_	_
-10	kom	kom	VERB	VTUOA	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	1	dep	_	_
+10	kom	kom	VERB	VTUOA	Tense=Pres|VerbForm=Fin,Inf	1	dep	_	_
 11	haal	haal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	10	xcomp	_	_
 12	en	en	CCONJ	KN	_	1	dep	_	_
 13	of	of	SCONJ	KO	_	1	dep	_	_
@@ -18848,7 +18848,7 @@
 # org_sent_id = 734
 1	Jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	det	_	_
 2	opgawe	opgawe	NOUN	NSE	Number=Sing	9	obj	_	_
-3	kan	kan	AUX	VTUOM	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	9	aux	_	_
+3	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf	9	aux	_	_
 4	dus	dus	ADV	BS	Degree=Pos	9	advmod	_	_
 5	afsonderlik	afsonderlik	ADV	BS	Degree=Pos	9	advmod	_	_
 6	van	van	ADP	SVS	AdpType=Prep	8	case	_	_
@@ -22374,7 +22374,7 @@
 # text = Ek voel ontsaglik trots dat demokratiese Suid-Afrika verstandig en fyngevoelig genoeg was om erkenning te gee aan wat Albert Luthuli en Oliver Tambo vir ons volk beteken deur twee van ons nasionale ordes na hulle te vernoem: die Orde van Luthuli, en die Orde van die Metgeselle van OR Tambo.
 # org_sent_id = 867
 1	Ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	voel	voel	VERB	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	0	root	_	_
+2	voel	voel	VERB	VTHOK	Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 3	ontsaglik	ontsaglik	ADV	BS	Degree=Pos	4	advmod	_	_
 4	trots	trots	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	2	xcomp	_	_
 5	dat	dat	SCONJ	KO	_	8	amod	_	_
@@ -23053,7 +23053,7 @@
 # sent_id = train-s878
 # text = Laat ons saam oor vryheid praat.
 # org_sent_id = 878
-1	Laat	laat	VERB	VTUOA	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	0	root	_	_
+1	Laat	laat	VERB	VTUOA	Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
 3	saam	saam	ADV	BS	Degree=Pos	6	advmod	_	_
 4	oor	oor	ADP	SVS	AdpType=Prep	5	case	_	_
@@ -28071,7 +28071,7 @@
 15	gesig	gesig	NOUN	NSE	Number=Sing	16	obl	_	_
 16	staar	staar	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	ccomp	_	SpaceAfter=No
 17	,	,	PUNCT	ZM	_	16	punct	_	_
-18	het	het	AUX	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	23	aux	_	_
+18	het	het	AUX	VTHOO	Tense=Pres|VerbForm=Fin,Inf	23	aux	_	_
 19	min	min	DET	THBO	PronType=Ind	23	amod	_	_
 20	met	met	ADP	SVS	AdpType=Prep	21	case	_	_
 21	beleid	beleid	NOUN	NSE	Number=Sing	23	obl	_	_
@@ -31051,7 +31051,7 @@
 # sent_id = train-s1097
 # text = Die situasie wat ons land en nasie in die gesig staar, en die take wat ons onsself opgelê het, vereis nou, meer as ooit tevore, dat ons ons mense inspireer en organiseer om saam te staan, om alles te doen wat gedoen moet word, en om te begryp dat, in die ware sin van die woord, ons toekoms in ons almal se hande is!
 # org_sent_id = 1097
-1	Die	die	DET	LB	PartType=Inf	2	det	_	_
+1	Die	die	DET	LB	_	2	det	_	_
 2	situasie	situasie	NOUN	NSE	Number=Sing	22	nsubj	_	_
 3	wat	wat	PRON	PB	PronType=Rel	11	nsubj	_	_
 4	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
@@ -31145,7 +31145,7 @@
 15	nou	nou	ADV	BS	Degree=Pos	17	advmod	_	_
 16	te	te	PART	UPI	PartType=Inf	17	mark	_	_
 17	make	maak	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	12	xcomp	_	_
-18	het	het	AUX	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	17	aux	_	_
+18	het	het	AUX	VTHOO	Tense=Pres|VerbForm=Fin,Inf	17	aux	_	_
 19	met	met	ADP	SVS	AdpType=Prep	21	case	_	_
 20	"	"	PUNCT	ZPL	_	21	punct	_	SpaceAfter=No
 21	Besigheid	besigheid	NOUN	NSE	Number=Sing	17	obl	_	_
@@ -33996,7 +33996,7 @@
 9	koordlose	koordloos	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	10	amod	_	_
 10	Internetgroothandelaar	Internetgroothandelaar	NOUN	NSE	Number=Sing	12	xcomp	_	_
 11	te	te	PART	UPI	PartType=Inf	12	mark	_	_
-12	word	word	AUX	VTHOK	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	obl	_	_
+12	word	word	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf	6	obl	_	_
 13	en	en	CCONJ	KN	_	18	cc	_	_
 14	om	om	ADP	SVS	AdpType=Prep	18	case	_	_
 15	sy	sy	PRON	PDHEB	Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
@@ -35821,7 +35821,7 @@
 1	Die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 2	tweede	tweede	ADJ	TRAB	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
 3	aangeleentheid	aangeleentheid	NOUN	NSE	Number=Sing	6	nsubj	_	_
-4	het	het	AUX	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	6	aux	_	_
+4	het	het	AUX	VTHOO	Tense=Pres|VerbForm=Fin,Inf	6	aux	_	_
 5	te	te	PART	UPI	PartType=Inf	6	mark	_	_
 6	doen	doen	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 7	met	met	ADP	SVS	AdpType=Prep	8	case	_	_

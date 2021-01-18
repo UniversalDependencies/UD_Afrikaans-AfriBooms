@@ -4696,7 +4696,7 @@
 45	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	46	det	_	_
 46	land	land	NOUN	NSE	Number=Sing	43	nmod	_	_
 47	sou	sal	AUX	VVUOM	Tense=Past|VerbForm=Fin|VerbType=Mod	48	aux	_	_
-48	word	word	AUX	VTHOK	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	28	dep	_	SpaceAfter=No
+48	word	word	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf	28	dep	_	SpaceAfter=No
 49	.	.	PUNCT	ZE	_	48	punct	_	_
 
 # sent_id = test-s202
