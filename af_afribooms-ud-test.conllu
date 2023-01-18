@@ -6312,7 +6312,7 @@
 3	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	6	aux	_	_
 4	meer	baie	DET	THBO	PronType=Ind	6	amod	_	_
 5	toeganklik	toeganklik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	6	xcomp	_	_
-6	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Inf	0	root	_	SpaceAfter=No
+6	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	ZM	_	6	punct	_	_
 8	en	en	CCONJ	KN	_	6	cc	_	_
 9	sedert	sedert	ADP	SVS	AdpType=Prep	10	case	_	_
@@ -6322,7 +6322,7 @@
 13	gelyktydig	gelyktydig	ADV	BS	Degree=Pos	16	advmod	_	_
 14	meer	baie	DET	THBO	PronType=Ind	16	amod	_	_
 15	geÃ¯ntegreerd	integreer	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	16	xcomp	_	_
-16	geraak	raak	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Inf	6	conj	_	_
+16	geraak	raak	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	6	conj	_	_
 17	in	in	ADP	SVS	AdpType=Prep	20	case	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
 19	globale	globaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	20	amod	_	_
@@ -9326,7 +9326,7 @@
 58	sektore	sektor	NOUN	NSM	Number=Plur	61	obl	_	_
 59	'n	'n	DET	LO	Definite=Ind|PronType=Art	61	det	_	_
 60	realiteit	realiteit	NOUN	NSE	Number=Sing	61	xcomp	_	_
-61	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Inf	7	dep	_	_
+61	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	7	dep	_	_
 62	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	61	aux	_	SpaceAfter=No
 63	.	.	PUNCT	ZE	_	61	punct	_	_
 
@@ -10124,7 +10124,7 @@
 33	onvermydelik	onvermydelik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	22	dep	_	_
 34	en	en	CCONJ	KN	_	36	cc	_	_
 35	noodsaaklik	noodsaaklik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	36	xcomp	_	_
-36	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Inf	22	conj	_	_
+36	geword	word	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	22	conj	_	_
 37	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	36	aux	_	SpaceAfter=No
 38	.	.	PUNCT	ZE	_	36	punct	_	_
 
@@ -11364,7 +11364,7 @@
 6	duideliker	duidelik	ADJ	AVP	AdjType=Pred|Case=Nom|Degree=Cmp	9	xcomp	_	_
 7	as	as	SCONJ	KO	_	9	amod	_	_
 8	ooit	ooit	ADV	BS	Degree=Pos	9	dep	_	_
-9	geraak	raak	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Inf	0	root	_	_
+9	geraak	raak	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 10	dat	dat	SCONJ	KO	_	9	amod	_	_
 11	hierdie	hierdie	DET	PA	PronType=Dem	12	det	_	_
 12	vennootskap	vennootskap	NOUN	NSE	Number=Sing	16	nsubj	_	_
