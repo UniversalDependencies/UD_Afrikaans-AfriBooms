@@ -343,7 +343,7 @@
 27	van	van	ADP	SVS	AdpType=Prep	29	case	_	_
 28	die	die	DET	LB	Definite=Def|PronType=Art	29	det	_	_
 29	doelwit	doelwit	NOUN	NSE	Number=Sing	26	obl	_	_
-30	wat	wat	PRON	PB	PronType=Rel	32	nsubj	_	_
+30	wat	wat	PRON	PB	PronType=Rel	32	obj	_	_
 31	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 32	gestel	stel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	29	ccomp	_	_
 33	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	32	aux	_	SpaceAfter=No
@@ -510,7 +510,7 @@
 7	,	,	PUNCT	ZM	_	6	punct	_	_
 8	dui	dui	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 9	daarop	daarop	PRON	PB	PronType=Rel	8	amod	_	_
-10	dat	dat	PRON	PB	PronType=Rel	15	nsubj	_	_
+10	dat	dat	SCONJ	PB	_	8	amod	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 12	ekonomie	ekonomie	NOUN	NSE	Number=Sing	15	nsubj	_	_
 13	tans	tans	ADV	BS	Degree=Pos	14	advmod	_	_
@@ -1026,7 +1026,7 @@
 # sent_id = test-s46
 # text = Toe hierdie administrasie verlede jaar aan bewind gekom het, het ons onsself daartoe verbind om harder te werk om 'n sterk ontwikkelingstaat te bou.
 # org_sent_id = 1786
-1	Toe	toe	PRON	PB	PronType=Rel	8	nsubj	_	_
+1	Toe	toe	ADV	PB	Degree=Pos	8	advmod	_	_
 2	hierdie	hierdie	DET	PA	PronType=Dem	3	det	_	_
 3	administrasie	administrasie	NOUN	NSE	Number=Sing	8	nsubj	_	_
 4	verlede	verlede	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	amod	_	_
@@ -1113,7 +1113,7 @@
 9	dat	dat	SCONJ	KO	_	8	amod	_	_
 10	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 11	weet	weet	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	dep	_	_
-12	waar	waar	PRON	PB	PronType=Rel	14	nsubj	_	_
+12	waar	waar	ADV	PB	Degree=Pos	14	advmod	_	_
 13	mense	mens	NOUN	NSM	Number=Plur	14	nsubj	_	_
 14	bly	bly	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	11	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	ZM	_	11	punct	_	_
@@ -1689,7 +1689,7 @@
 15	en	en	CCONJ	KN	_	14	cc	_	_
 16	SAOU	SAOU	X	RK	_	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	ZM	_	16	punct	_	_
-18	waarin	waarin	PRON	PB	PronType=Rel	26	nsubj	_	_
+18	waarin	waarin	ADV	PB	Degree=Pos	26	advmod	_	_
 19	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
 20	hulle	hulle	PRON	PDMW	Number=Plur|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	_
 21	vanaf	vanaf	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -3298,7 +3298,7 @@
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 2	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	6	aux	_	_
 3	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
-4	energie	energie	NOUN	NM	Number=Sing	6	nsubj	_	_
+4	energie	energie	NOUN	NM	Number=Sing	6	obj	_	_
 5	daarop	daarop	PRON	PB	PronType=Rel	6	amod	_	_
 6	toespits	toespits	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 7	om	om	ADP	SVS	AdpType=Prep	20	case	_	_
@@ -3625,7 +3625,7 @@
 22	eerste	eerste	ADJ	TRAB	AdjType=Attr|Case=Nom|Degree=Pos	23	amod	_	_
 23	oproep	oproep	NOUN	NSE	Number=Sing	12	obj	_	_
 24	was	wees	AUX	VVHOK	Tense=Past|VerbForm=Fin|VerbType=Cop	23	cop	_	_
-25	wat	wat	PRON	PB	PronType=Rel	34	nsubj	_	_
+25	wat	wat	PRON	PB	PronType=Rel	34	obj	_	_
 26	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
 27	op	op	ADP	SVS	AdpType=Prep	30	case	_	_
 28	die	die	DET	LB	Definite=Def|PronType=Art	30	det	_	_
@@ -4244,7 +4244,7 @@
 # sent_id = test-s187
 # text = Wanneer ons vandag Madiba se vrylating gedenk, herverbind ons onsself tot versoening, nasionale eenheid, nie-rassigheid en om 'n beter toekoms vir ons as Suid-Afrikaners, swart en wit, te bou.
 # org_sent_id = 1927
-1	Wanneer	wanneer	PRON	PB	PronType=Rel	7	nsubj	_	_
+1	Wanneer	wanneer	ADV	PB	Degree=Pos	7	advmod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 3	vandag	vandag	ADV	BS	Degree=Pos	7	advmod	_	_
 4	Madiba	Madiba	PROPN	NEE	Number=Sing	6	nmod	_	_
@@ -4333,7 +4333,7 @@
 10	vrye	vry	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	conj	_	_
 11	samelewing	samelewing	NOUN	NSE	Number=Sing	5	obl	_	SpaceAfter=No
 12	,	,	PUNCT	ZM	_	11	punct	_	_
-13	waarin	waarin	PRON	PB	PronType=Rel	17	nsubj	_	_
+13	waarin	waarin	ADV	PB	Degree=Pos	17	advmod	_	_
 14	almal	almal	PRON	PO	PronType=Ind	17	nsubj	_	_
 15	in	in	ADP	SVS	AdpType=Prep	16	case	_	_
 16	harmonie	harmonie	NOUN	NA	Number=Sing	17	obl	_	_
@@ -4350,7 +4350,7 @@
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
 3	'n	'n	DET	LO	Definite=Ind|PronType=Art	4	det	_	_
 4	ideaal	ideaal	NOUN	NSE	Number=Sing	0	root	_	_
-5	waarvoor	waarvoor	PRON	PB	PronType=Rel	7	nsubj	_	_
+5	waarvoor	waarvoor	ADV	PB	Degree=Pos	7	advmod	_	_
 6	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	hoop	hoop	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	4	ccomp	_	_
 8	om	om	ADP	SVS	AdpType=Prep	10	case	_	_
@@ -4524,7 +4524,7 @@
 # sent_id = test-s197
 # text = Daarom is dit gepas om by hierdie geleentheid die 20ste herdenking te vier van die Verklaring van die OAE se ad hoc-komitee vir Suidelike Afrika ten opsigte van die vraag oor Suid-Afrika- algemeen bekend as die Harare Deklarasie.
 # org_sent_id = 1325
-1	Daarom	daarom	PRON	PB	PronType=Rel	4	nsubj	_	_
+1	Daarom	daarom	ADV	PB	Degree=Pos	4	advmod	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
 3	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	gepas	pas	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
@@ -4566,16 +4566,16 @@
 40	.	.	PUNCT	ZE	_	39	punct	_	_
 
 # sent_id = test-s198
-# text = Daardie inisiatief het die grondslag gelÃª vir wÃªreldwye konsensus deur die Verenigde Nasies oor die benadering tot onderhandelinge in Suid-Afrika.
+# text = Daardie inisiatief het die grondslag gelê vir wêreldwye konsensus deur die Verenigde Nasies oor die benadering tot onderhandelinge in Suid-Afrika.
 # org_sent_id = 1326
 1	Daardie	daardie	DET	PA	PronType=Dem	2	det	_	_
 2	inisiatief	inisiatief	NOUN	NSE	Number=Sing	6	nsubj	_	_
 3	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	6	aux	_	_
 4	die	die	DET	LB	Definite=Def|PronType=Art	5	det	_	_
 5	grondslag	grondslag	NOUN	NSE	Number=Sing	6	obj	_	_
-6	gelÃª	lÃª	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
+6	gelê	lê	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 7	vir	vir	ADP	SVS	AdpType=Prep	9	case	_	_
-8	wÃªreldwye	wÃªreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	9	amod	_	_
+8	wêreldwye	wêreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	9	amod	_	_
 9	konsensus	konsensus	NOUN	NA	Number=Sing	6	obl	_	_
 10	deur	deur	ADP	SVS	AdpType=Prep	13	case	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
@@ -4647,7 +4647,7 @@
 19	.	.	PUNCT	ZE	_	5	punct	_	_
 
 # sent_id = test-s201
-# text = In hierdie opsig moet ons die oorlede president van die African National Congress, Oliver Reginald Tambo, salueer vir dit wat hy deur vastelands- en wÃªreldliggame geÃ¯nisieer en bekendgestel het en wat later 'n kompas vir die vreedsame oplossing van die konflik in ons land sou word.
+# text = In hierdie opsig moet ons die oorlede president van die African National Congress, Oliver Reginald Tambo, salueer vir dit wat hy deur vastelands- en wêreldliggame geïnisieer en bekendgestel het en wat later 'n kompas vir die vreedsame oplossing van die konflik in ons land sou word.
 # org_sent_id = 1329
 1	In	in	ADP	SVS	AdpType=Prep	3	case	_	_
 2	hierdie	hierdie	DET	PA	PronType=Dem	3	det	_	_
@@ -4670,13 +4670,13 @@
 19	salueer	salueer	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 20	vir	vir	ADP	SVS	AdpType=Prep	21	case	_	_
 21	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
-22	wat	wat	PRON	PB	PronType=Rel	28	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	28	obj	_	_
 23	hy	hy	PRON	PDHENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 24	deur	deur	ADP	SVS	AdpType=Prep	25	case	_	_
 25	vastelands-	vastelands-	X	RWD	_	28	obl	_	_
 26	en	en	CCONJ	KN	_	25	cc	_	_
-27	wÃªreldliggame	wÃªreldliggaam	NOUN	NSM	Number=Plur	25	conj	_	_
-28	geÃ¯nisieer	inisieer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	21	ccomp	_	_
+27	wêreldliggame	wêreldliggaam	NOUN	NSM	Number=Plur	25	conj	_	_
+28	geïnisieer	inisieer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	21	ccomp	_	_
 29	en	en	CCONJ	KN	_	28	cc	_	_
 30	bekendgestel	bekendstel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	28	conj	_	_
 31	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	28	aux	_	_
@@ -4981,21 +4981,21 @@
 49	.	.	PUNCT	ZE	_	29	punct	_	_
 
 # sent_id = test-s209
-# text = In opleidingsentrums het daardie selfde deursettingsvermoÃ« massaverset aangevuur gedurende daardie koue winter nÃ¡ die verbanning van die vryheidstryd en die inhegtenisneming van meeste van die senior leiers daarvan.
+# text = In opleidingsentrums het daardie selfde deursettingsvermoë massaverset aangevuur gedurende daardie koue winter ná die verbanning van die vryheidstryd en die inhegtenisneming van meeste van die senior leiers daarvan.
 # org_sent_id = 1337
 1	In	in	ADP	SVS	AdpType=Prep	2	case	_	_
 2	opleidingsentrums	opleidingsentrum	NOUN	NSM	Number=Plur	8	obl	_	_
 3	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	8	aux	_	_
 4	daardie	daardie	DET	PA	PronType=Dem	6	det	_	_
 5	selfde	selfde	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
-6	deursettingsvermoÃ«	deursettingsvermoÃ«	NOUN	NA	Number=Sing	8	nsubj	_	_
+6	deursettingsvermoë	deursettingsvermoë	NOUN	NA	Number=Sing	8	nsubj	_	_
 7	massaverset	massaverset	NOUN	NSE	Number=Sing	8	obj	_	_
 8	aangevuur	aanvuur	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 9	gedurende	gedurende	ADP	SVS	AdpType=Prep	12	case	_	_
 10	daardie	daardie	DET	PA	PronType=Dem	12	det	_	_
 11	koue	koud	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	12	amod	_	_
 12	winter	winter	NOUN	NSE	Number=Sing	8	obl	_	_
-13	nÃ¡	nÃ¡	ADP	SVS	AdpType=Prep	15	case	_	_
+13	ná	ná	ADP	SVS	AdpType=Prep	15	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	verbanning	verbanning	NOUN	NA	Number=Sing	12	nmod	_	_
 16	van	van	ADP	SVS	AdpType=Prep	18	case	_	_
@@ -5039,7 +5039,7 @@
 21	.	.	PUNCT	ZE	_	20	punct	_	_
 
 # sent_id = test-s211
-# text = Deel van hierdie generasie was die vroeÃ« leiers van Saso, wat die volgende persone ingesluit het: Strini Moodley, Professor Barney Pityana, Steve Biko, Onkgopotse Tiro, Harry Nengwekhulu, Themba Sono, Mapetla Mohapi, Mosioua Lekota, Johnny Issel en Mthuli ka Shezi.
+# text = Deel van hierdie generasie was die vroeë leiers van Saso, wat die volgende persone ingesluit het: Strini Moodley, Professor Barney Pityana, Steve Biko, Onkgopotse Tiro, Harry Nengwekhulu, Themba Sono, Mapetla Mohapi, Mosioua Lekota, Johnny Issel en Mthuli ka Shezi.
 # org_sent_id = 1339
 1	Deel	deel	NOUN	NSE	Number=Sing	8	nsubj	_	_
 2	van	van	ADP	SVS	AdpType=Prep	4	case	_	_
@@ -5047,7 +5047,7 @@
 4	generasie	generasie	NOUN	NSE	Number=Sing	1	nmod	_	_
 5	was	wees	AUX	VVHOK	Tense=Past|VerbForm=Fin|VerbType=Cop	8	cop	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
-7	vroeÃ«	vroeg	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
+7	vroeë	vroeg	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	leiers	leier	NOUN	NSM	Number=Plur	0	root	_	_
 9	van	van	ADP	SVS	AdpType=Prep	10	case	_	_
 10	Saso	Saso	X	RK	_	8	nmod	_	SpaceAfter=No
@@ -5101,7 +5101,7 @@
 4	vir	vir	ADP	SVS	AdpType=Prep	6	case	_	_
 5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
 6	hoop	hoop	NOUN	NA	Number=Sing	2	obl	_	_
-7	wat	wat	PRON	PB	PronType=Rel	9	nsubj	_	_
+7	wat	wat	PRON	PB	PronType=Rel	9	obj	_	_
 8	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
 9	gebring	bring	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	6	ccomp	_	_
 10	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	9	aux	_	_
@@ -5167,7 +5167,7 @@
 31	.	.	PUNCT	ZE	_	8	punct	_	_
 
 # sent_id = test-s215
-# text = In herinnering aan hierdie studente van vervloÃ« dae is daar 'n blywende boodskap, en die dors na vryheid en kennis is nou selfs sterker ingeboesem by ons jeug.
+# text = In herinnering aan hierdie studente van vervloë dae is daar 'n blywende boodskap, en die dors na vryheid en kennis is nou selfs sterker ingeboesem by ons jeug.
 # org_sent_id = 1343
 1	In	in	ADP	SVS	AdpType=Prep	2	case	_	_
 2	herinnering	herinnering	NOUN	NSE	Number=Sing	13	obl	_	_
@@ -5175,7 +5175,7 @@
 4	hierdie	hierdie	DET	PA	PronType=Dem	5	det	_	_
 5	studente	student	NOUN	NSM	Number=Plur	2	nmod	_	_
 6	van	van	ADP	SVS	AdpType=Prep	8	case	_	_
-7	vervloÃ«	vervlieg	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
+7	vervloë	vervlieg	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	dae	dag	NOUN	NSM	Number=Plur	5	nmod	_	_
 9	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	13	cop	_	_
 10	daar	daar	PRON	UXD	PronType=Ind	13	amod	_	_
@@ -5256,7 +5256,7 @@
 51	!	!	PUNCT	ZE	_	50	punct	_	_
 
 # sent_id = test-s217
-# text = Ons onthou hierdie organisasies en leiers om die gees van hoop en uithouvermoÃ« te beklemtoon wat die demokratiese stryd geÃ¯nspireer het, selfs toe alles treurig gelyk het; om die verantwoordelikheid te benadruk wat op ons skouers rus, naamlik om die ideale waarvoor daar soveel opgeoffer is, te bevorder; om te weier om te swig voor terugslae en ontberinge.
+# text = Ons onthou hierdie organisasies en leiers om die gees van hoop en uithouvermoë te beklemtoon wat die demokratiese stryd geïnspireer het, selfs toe alles treurig gelyk het; om die verantwoordelikheid te benadruk wat op ons skouers rus, naamlik om die ideale waarvoor daar soveel opgeoffer is, te bevorder; om te weier om te swig voor terugslae en ontberinge.
 # org_sent_id = 1345
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	onthou	onthou	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -5270,14 +5270,14 @@
 10	van	van	ADP	SVS	AdpType=Prep	11	case	_	_
 11	hoop	hoop	NOUN	NA	Number=Sing	9	nmod	_	_
 12	en	en	CCONJ	KN	_	11	cc	_	_
-13	uithouvermoÃ«	uithouvermoÃ«	NOUN	NA	Number=Sing	11	conj	_	_
+13	uithouvermoë	uithouvermoë	NOUN	NA	Number=Sing	11	conj	_	_
 14	te	te	PART	UPI	PartType=Inf	15	mark	_	_
 15	beklemtoon	beklemtoon	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	obl	_	_
 16	wat	wat	PRON	PB	PronType=Rel	20	nsubj	_	_
 17	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 18	demokratiese	demokraties	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
 19	stryd	stryd	NOUN	NA	Number=Sing	20	obj	_	_
-20	geÃ¯nspireer	inspireer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	15	ccomp	_	_
+20	geïnspireer	inspireer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	15	ccomp	_	_
 21	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	20	aux	_	SpaceAfter=No
 22	,	,	PUNCT	ZM	_	20	punct	_	_
 23	selfs	selfs	ADV	BS	Degree=Pos	20	advmod	_	_
@@ -5466,7 +5466,7 @@
 20	.	.	PUNCT	ZE	_	19	punct	_	_
 
 # sent_id = test-s222
-# text = Die Regering kan met reg trots wees daarop dat ons die demografiese samestelling van die Staatsdiens verander het, wat feitlik in alle opsigte die karakter van ons samelewing weerspieÃ«l.
+# text = Die Regering kan met reg trots wees daarop dat ons die demografiese samestelling van die Staatsdiens verander het, wat feitlik in alle opsigte die karakter van ons samelewing weerspieël.
 # org_sent_id = 1350
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	Regering	regering	NOUN	NSE	Number=Sing	6	nsubj	_	_
@@ -5497,7 +5497,7 @@
 27	van	van	ADP	SVS	AdpType=Prep	29	case	_	_
 28	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	det	_	_
 29	samelewing	samelewing	NOUN	NSE	Number=Sing	26	nmod	_	_
-30	weerspieÃ«l	weerspieÃ«l	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	17	ccomp	_	SpaceAfter=No
+30	weerspieël	weerspieël	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	17	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	ZE	_	30	punct	_	_
 
 # sent_id = test-s223
@@ -5525,7 +5525,7 @@
 20	teiken	teiken	NOUN	NSE	Number=Sing	17	dep	_	_
 21	vir	vir	ADP	SVS	AdpType=Prep	22	case	_	_
 22	gelykheid	gelykheid	NOUN	NA	Number=Sing	20	nmod	_	_
-23	wat	wat	PRON	PB	PronType=Rel	27	nsubj	_	_
+23	wat	wat	PRON	PB	PronType=Rel	27	obj	_	_
 24	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 25	vir	vir	ADP	SVS	AdpType=Prep	26	case	_	_
 26	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	27	obl	_	_
@@ -5639,7 +5639,7 @@
 29	teen	teen	ADP	SVS	AdpType=Prep	31	case	_	_
 30	die	die	DET	LB	Definite=Def|PronType=Art	31	det	_	_
 31	2%-teiken	2%-teiken	NOUN	NSE	Number=Sing	28	obl	_	_
-32	wat	wat	PRON	PB	PronType=Rel	36	nsubj	_	_
+32	wat	wat	PRON	PB	PronType=Rel	36	obj	_	_
 33	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	36	nsubj	_	_
 34	vir	vir	ADP	SVS	AdpType=Prep	35	case	_	_
 35	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	36	obl	_	_
@@ -5661,10 +5661,10 @@
 9	.	.	PUNCT	ZE	_	6	punct	_	_
 
 # sent_id = test-s228
-# text = Verskeie maatreÃ«ls is in plek gestel om die doeltreffendheid van die Staatsdiens te verbeter, insluitend finansiÃ«le bestuur, Thusong-dienssentrums en ander diensleweringsinisiatiewe, izimbizo en, soos tans in die Departement van Binnelandse Sake, ferm leierskap.
+# text = Verskeie maatreëls is in plek gestel om die doeltreffendheid van die Staatsdiens te verbeter, insluitend finansiële bestuur, Thusong-dienssentrums en ander diensleweringsinisiatiewe, izimbizo en, soos tans in die Departement van Binnelandse Sake, ferm leierskap.
 # org_sent_id = 1356
 1	Verskeie	verskeie	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	2	amod	_	_
-2	maatreÃ«ls	maatreÃ«l	NOUN	NSM	Number=Plur	6	nsubj:pass	_	_
+2	maatreëls	maatreël	NOUN	NSM	Number=Plur	6	nsubj:pass	_	_
 3	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	6	aux:pass	_	_
 4	in	in	ADP	SVS	AdpType=Prep	5	case	_	_
 5	plek	plek	NOUN	NSE	Number=Sing	6	obl	_	_
@@ -5679,7 +5679,7 @@
 14	verbeter	verbeter	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	obl	_	SpaceAfter=No
 15	,	,	PUNCT	ZM	_	18	punct	_	_
 16	insluitend	insluit	ADP	SVS	AdpType=Prep	18	case	_	_
-17	finansiÃ«le	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	amod	_	_
+17	finansiële	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	amod	_	_
 18	bestuur	bestuur	NOUN	NA	Number=Sing	14	obl	_	SpaceAfter=No
 19	,	,	PUNCT	ZM	_	18	punct	_	_
 20	Thusong-dienssentrums	Thusong-dienssentrum	NOUN	NSM	Number=Plur	18	conj	_	_
@@ -5759,17 +5759,17 @@
 19	.	.	PUNCT	ZE	_	18	punct	_	_
 
 # sent_id = test-s231
-# text = Dit word onder meer weerspieÃ«l deur wetgewing, reÃ«ls en regulasies vir sowel staatsamptenare as politieke ampsbekleÃ«rs, vennootskappe met die burgerlike gemeenskap en teenkorrupsie-blitslyne.
+# text = Dit word onder meer weerspieël deur wetgewing, reëls en regulasies vir sowel staatsamptenare as politieke ampsbekleërs, vennootskappe met die burgerlike gemeenskap en teenkorrupsie-blitslyne.
 # org_sent_id = 1359
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 2	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	5	aux:pass	_	_
 3	onder	onder	ADP	SVS	AdpType=Prep	4	case	_	_
 4	meer	baie	DET	THPO	PronType=Ind	5	obl	_	_
-5	weerspieÃ«l	weerspieÃ«l	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
+5	weerspieël	weerspieël	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 6	deur	deur	ADP	SVS	AdpType=Prep	7	case	_	_
 7	wetgewing	wetgewing	NOUN	NA	Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	ZM	_	7	punct	_	_
-9	reÃ«ls	reÃ«l	NOUN	NSM	Number=Plur	7	conj	_	_
+9	reëls	reël	NOUN	NSM	Number=Plur	7	conj	_	_
 10	en	en	CCONJ	KN	_	9	cc	_	_
 11	regulasies	regulasie	NOUN	NSM	Number=Plur	9	conj	_	_
 12	vir	vir	ADP	SVS	AdpType=Prep	14	case	_	_
@@ -5777,7 +5777,7 @@
 14	staatsamptenare	staatsamptenaar	NOUN	NSM	Number=Plur	11	nmod	_	_
 15	as	as	SCONJ	KO	_	14	cc	_	_
 16	politieke	politiek	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
-17	ampsbekleÃ«rs	ampsbekleÃ«r	NOUN	NSM	Number=Plur	14	conj	_	SpaceAfter=No
+17	ampsbekleërs	ampsbekleër	NOUN	NSM	Number=Plur	14	conj	_	SpaceAfter=No
 18	,	,	PUNCT	ZM	_	17	punct	_	_
 19	vennootskappe	vennootskap	NOUN	NSM	Number=Plur	17	conj	_	_
 20	met	met	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -5878,7 +5878,7 @@
 12	te	te	PART	UPI	PartType=Inf	5	mark	_	_
 13	doen	doen	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	5	obl	_	_
 14	as	as	SCONJ	KO	_	5	amod	_	_
-15	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
+15	wat	wat	PRON	PB	PronType=Rel	22	obj	_	_
 16	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 17	met	met	ADP	SVS	AdpType=Prep	19	case	_	_
 18	konsekwente	konsekwent	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
@@ -5937,7 +5937,7 @@
 44	.	.	PUNCT	ZE	_	42	punct	_	_
 
 # sent_id = test-s236
-# text = Dit is algemene kennis dat Suid-Afrika, nÃ¡ die ekonomiese stagnasie van die laat-1980's en vroeÃ«-1990's, die langste tydperk van volgehoue ekonomiese groei beleef het sedert statistieke daaroor in 1940 vir die eerste keer aangeteken is.
+# text = Dit is algemene kennis dat Suid-Afrika, ná die ekonomiese stagnasie van die laat-1980's en vroeë-1990's, die langste tydperk van volgehoue ekonomiese groei beleef het sedert statistieke daaroor in 1940 vir die eerste keer aangeteken is.
 # org_sent_id = 1364
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
@@ -5946,7 +5946,7 @@
 5	dat	dat	SCONJ	KO	_	4	amod	_	_
 6	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	25	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	ZM	_	6	punct	_	_
-8	nÃ¡	nÃ¡	ADP	SVS	AdpType=Prep	11	case	_	_
+8	ná	ná	ADP	SVS	AdpType=Prep	11	case	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 10	ekonomiese	ekonomies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	11	amod	_	_
 11	stagnasie	stagnasie	NOUN	NA	Number=Sing	25	obl	_	_
@@ -5954,7 +5954,7 @@
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 14	laat-1980's	laat-1980	NOUN	NSM	Number=Plur	11	nmod	_	_
 15	en	en	CCONJ	KN	_	14	cc	_	_
-16	vroeÃ«-1990's	vroeÃ«-1990	NOUN	NSM	Number=Plur	14	conj	_	SpaceAfter=No
+16	vroeë-1990's	vroeë-1990	NOUN	NSM	Number=Plur	14	conj	_	SpaceAfter=No
 17	,	,	PUNCT	ZM	_	16	punct	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
 19	langste	lank	ADJ	AOA	AdjType=Attr|Case=Nom|Degree=Sup	20	amod	_	_
@@ -6012,7 +6012,7 @@
 29	.	.	PUNCT	ZE	_	19	punct	_	_
 
 # sent_id = test-s238
-# text = Terwyl die verbruikersbloeitydperk, aangevuur deur meer werksgeleenthede, stygende inkomste en laer inflasie- en rentekoerse, in hierdie verband 'n rol gespeel het, word ons bemoedig deur die breÃ« spektrum geleenthede vir verdere ontwikkeling in die toekoms.
+# text = Terwyl die verbruikersbloeitydperk, aangevuur deur meer werksgeleenthede, stygende inkomste en laer inflasie- en rentekoerse, in hierdie verband 'n rol gespeel het, word ons bemoedig deur die breë spektrum geleenthede vir verdere ontwikkeling in die toekoms.
 # org_sent_id = 1366
 1	Terwyl	terwyl	SCONJ	KO	_	28	amod	_	_
 2	die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
@@ -6044,7 +6044,7 @@
 28	bemoedig	bemoedig	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 29	deur	deur	ADP	SVS	AdpType=Prep	33	case	_	_
 30	die	die	DET	LB	Definite=Def|PronType=Art	33	det	_	_
-31	breÃ«	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	33	amod	_	_
+31	breë	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	33	amod	_	_
 32	spektrum	spektrum	NOUN	NSE	Number=Sing	33	nmod	_	_
 33	geleenthede	geleentheid	NOUN	NSM	Number=Plur	28	obl	_	_
 34	vir	vir	ADP	SVS	AdpType=Prep	36	case	_	_
@@ -6056,12 +6056,12 @@
 40	.	.	PUNCT	ZE	_	28	punct	_	_
 
 # sent_id = test-s239
-# text = Dit sluit eerstens hoÃ«r beleggingskoerse in, beide deur die openbare en privaatsektor.
+# text = Dit sluit eerstens hoër beleggingskoerse in, beide deur die openbare en privaatsektor.
 # org_sent_id = 1367
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sluit	sluit	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 3	eerstens	eerstens	ADV	TRBB	Degree=Pos	5	advmod	_	_
-4	hoÃ«r	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	5	amod	_	_
+4	hoër	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	5	amod	_	_
 5	beleggingskoerse	beleggingskoers	NOUN	NSM	Number=Plur	2	obj	_	_
 6	in	in	ADV	UPW	Degree=Pos	2	compound:prt	_	SpaceAfter=No
 7	,	,	PUNCT	ZM	_	2	punct	_	_
@@ -6125,7 +6125,7 @@
 16	aan	aan	ADP	SVS	AdpType=Prep	18	case	_	_
 17	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 18	25%	25%	SYM	RS	_	15	obl	_	_
-19	wat	wat	PRON	PB	PronType=Rel	21	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	21	obj	_	_
 20	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 21	beoog	beoog	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	18	ccomp	_	_
 22	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	21	aux	_	_
@@ -6160,7 +6160,7 @@
 18	.	.	PUNCT	ZE	_	17	punct	_	_
 
 # sent_id = test-s243
-# text = Dit is ook 'n gevolg van beleide om die klimaat vir privaatsektor-beleggings te verbeter; en om fiskale en monetÃªre beleid so te bestuur dat dit toegang tot dienste verbeter en die inflasielas verminder, en terselfdertyd makro-ekonomiese stabiliteit en volhoubaarheid verseker.
+# text = Dit is ook 'n gevolg van beleide om die klimaat vir privaatsektor-beleggings te verbeter; en om fiskale en monetêre beleid so te bestuur dat dit toegang tot dienste verbeter en die inflasielas verminder, en terselfdertyd makro-ekonomiese stabiliteit en volhoubaarheid verseker.
 # org_sent_id = 1371
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	5	cop	_	_
@@ -6181,7 +6181,7 @@
 17	om	om	ADP	SVS	AdpType=Prep	24	case	_	_
 18	fiskale	fiskaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
 19	en	en	CCONJ	KN	_	18	cc	_	_
-20	monetÃªre	monetÃªr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	conj	_	_
+20	monetêre	monetêr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	conj	_	_
 21	beleid	beleid	NOUN	NSE	Number=Sing	24	obj	_	_
 22	so	so	SCONJ	UPV	_	24	mark	_	_
 23	te	te	PART	UPI	PartType=Inf	24	mark	_	_
@@ -6249,7 +6249,7 @@
 38	.	.	PUNCT	ZE	_	37	punct	_	_
 
 # sent_id = test-s245
-# text = Dit is in hierdie konteks dat die Inisiatief vir Versnelde en Gedeelde Groei (AsgiSA) geÃ¯mplementeer word, om te verseker dat alle deurslaggewende blokkasies soos infrastruktuur-bottelnekke, geÃ¯ntegreerde nywerheidsbeleid en -programme, die vaardigheidstekort, gereguleerde opeenhopings en ondoeltreffendheid van regeringsdienste op 'n gefokusde en stelselmatige wyse aangespreek word.
+# text = Dit is in hierdie konteks dat die Inisiatief vir Versnelde en Gedeelde Groei (AsgiSA) geïmplementeer word, om te verseker dat alle deurslaggewende blokkasies soos infrastruktuur-bottelnekke, geïntegreerde nywerheidsbeleid en -programme, die vaardigheidstekort, gereguleerde opeenhopings en ondoeltreffendheid van regeringsdienste op 'n gefokusde en stelselmatige wyse aangespreek word.
 # org_sent_id = 1373
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	5	cop	_	_
@@ -6267,7 +6267,7 @@
 14	(	(	PUNCT	ZPL	_	15	punct	_	SpaceAfter=No
 15	AsgiSA	AsgiSA	X	RK	_	13	appos	_	SpaceAfter=No
 16	)	)	PUNCT	ZPR	_	15	punct	_	_
-17	geÃ¯mplementeer	implementeer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	5	dep	_	_
+17	geïmplementeer	implementeer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	5	dep	_	_
 18	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	17	aux:pass	_	SpaceAfter=No
 19	,	,	PUNCT	ZM	_	18	punct	_	_
 20	om	om	ADP	SVS	AdpType=Prep	22	case	_	_
@@ -6280,7 +6280,7 @@
 27	soos	soos	SCONJ	UPV	_	26	amod	_	_
 28	infrastruktuur-bottelnekke	infrastruktuur-bottelnek	NOUN	NSM	Number=Plur	26	dep	_	SpaceAfter=No
 29	,	,	PUNCT	ZM	_	28	punct	_	_
-30	geÃ¯ntegreerde	integreer	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	31	amod	_	_
+30	geïntegreerde	integreer	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	31	amod	_	_
 31	nywerheidsbeleid	nywerheidsbeleid	NOUN	NSE	Number=Sing	28	conj	_	_
 32	en	en	CCONJ	KN	_	31	cc	_	_
 33	-programme	-program	X	RWD	_	31	conj	_	SpaceAfter=No
@@ -6305,7 +6305,7 @@
 52	.	.	PUNCT	ZE	_	50	punct	_	_
 
 # sent_id = test-s246
-# text = Ons ekonomie het meer toeganklik geword, en sedert 1994 het dit gelyktydig meer geÃ¯ntegreerd geraak in die globale stelsel.
+# text = Ons ekonomie het meer toeganklik geword, en sedert 1994 het dit gelyktydig meer geïntegreerd geraak in die globale stelsel.
 # org_sent_id = 1374
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	ekonomie	ekonomie	NOUN	NSE	Number=Sing	6	nsubj	_	_
@@ -6321,7 +6321,7 @@
 12	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 13	gelyktydig	gelyktydig	ADV	BS	Degree=Pos	16	advmod	_	_
 14	meer	baie	DET	THBO	PronType=Ind	16	amod	_	_
-15	geÃ¯ntegreerd	integreer	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	16	xcomp	_	_
+15	geïntegreerd	integreer	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	16	xcomp	_	_
 16	geraak	raak	VERB	VVHOK	Subcat=Tran|Tense=Past|VerbForm=Part	6	conj	_	_
 17	in	in	ADP	SVS	AdpType=Prep	20	case	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
@@ -6330,10 +6330,10 @@
 21	.	.	PUNCT	ZE	_	16	punct	_	_
 
 # sent_id = test-s247
-# text = Ons finansiÃ«le instellings is 'n kragtige voorbeeld wat ons ietwat beskut het teen die wÃªreldwye ekonomiese storms.
+# text = Ons finansiële instellings is 'n kragtige voorbeeld wat ons ietwat beskut het teen die wêreldwye ekonomiese storms.
 # org_sent_id = 1375
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
-2	finansiÃ«le	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
+2	finansiële	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
 3	instellings	instelling	NOUN	NSM	Number=Plur	7	nsubj	_	_
 4	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	7	cop	_	_
 5	'n	'n	DET	LO	Definite=Ind|PronType=Art	7	det	_	_
@@ -6346,7 +6346,7 @@
 12	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	11	aux	_	_
 13	teen	teen	ADP	SVS	AdpType=Prep	17	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	17	det	_	_
-15	wÃªreldwye	wÃªreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
+15	wêreldwye	wêreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 16	ekonomiese	ekonomies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	storms	storm	NOUN	NSM	Number=Plur	11	obl	_	SpaceAfter=No
 18	.	.	PUNCT	ZE	_	11	punct	_	_
@@ -6425,7 +6425,7 @@
 15	.	.	PUNCT	ZE	_	4	punct	_	_
 
 # sent_id = test-s252
-# text = Dit is presies hierdie swakheid wat verantwoordelik is vir die groot negatiewe saldo van die Lopende Rekening, veral in die tye toe ons hoÃ«r groei beleef het.
+# text = Dit is presies hierdie swakheid wat verantwoordelik is vir die groot negatiewe saldo van die Lopende Rekening, veral in die tye toe ons hoër groei beleef het.
 # org_sent_id = 1380
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	5	cop	_	_
@@ -6451,7 +6451,7 @@
 22	tye	tyd	NOUN	NSM	Number=Plur	19	obl	_	_
 23	toe	toe	PRON	PB	PronType=Rel	27	nsubj	_	_
 24	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	27	dep	_	_
-25	hoÃ«r	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	26	amod	_	_
+25	hoër	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	26	amod	_	_
 26	groei	groei	NOUN	NA	Number=Sing	27	obj	_	_
 27	beleef	beleef	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	22	ccomp	_	_
 28	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	27	aux	_	SpaceAfter=No
@@ -6492,7 +6492,7 @@
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
 3	die	die	DET	LB	Definite=Def|PronType=Art	4	det	_	_
 4	uitdagings	uitdaging	NOUN	NSM	Number=Plur	0	root	_	_
-5	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+5	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 6	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
 7	land	land	NOUN	NSE	Number=Sing	12	nsubj	_	_
 8	vir	vir	ADP	SVS	AdpType=Prep	9	case	_	_
@@ -6711,7 +6711,7 @@
 32	.	.	PUNCT	ZE	_	31	punct	_	_
 
 # sent_id = test-s262
-# text = Om die voordele van groei te deel sluit ook versnelde implementering van regstellende aksie in, insluitend breÃ« swart ekonomiese bemagtiging.
+# text = Om die voordele van groei te deel sluit ook versnelde implementering van regstellende aksie in, insluitend breë swart ekonomiese bemagtiging.
 # org_sent_id = 1390
 1	Om	om	ADP	SVS	AdpType=Prep	7	case	_	_
 2	die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
@@ -6730,7 +6730,7 @@
 15	in	in	ADV	UPW	Degree=Pos	8	compound:prt	_	SpaceAfter=No
 16	,	,	PUNCT	ZM	_	8	punct	_	_
 17	insluitend	insluit	ADP	SVS	AdpType=Prep	21	case	_	_
-18	breÃ«	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
+18	breë	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
 19	swart	swart	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
 20	ekonomiese	ekonomies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
 21	bemagtiging	bemagtiging	NOUN	NA	Number=Sing	8	obl	_	SpaceAfter=No
@@ -6787,7 +6787,7 @@
 30	.	.	PUNCT	ZE	_	29	punct	_	_
 
 # sent_id = test-s265
-# text = Die feit dat die privaatsektor nie genoeg doen om die demografie van bestuurs- en vaardigheidsberoepe in ondernemingsontwikkeling en so meer te verander nie, maak van ons land deels 'n agtergeblewene in hoÃ«groei-aandele.
+# text = Die feit dat die privaatsektor nie genoeg doen om die demografie van bestuurs- en vaardigheidsberoepe in ondernemingsontwikkeling en so meer te verander nie, maak van ons land deels 'n agtergeblewene in hoëgroei-aandele.
 # org_sent_id = 1393
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	feit	feit	NOUN	NSE	Number=Sing	25	nsubj	_	_
@@ -6821,11 +6821,11 @@
 30	'n	'n	DET	LO	Definite=Ind|PronType=Art	31	det	_	_
 31	agtergeblewene	agtergeblewene	NOUN	NSE	Number=Sing	25	obj	_	_
 32	in	in	ADP	SVS	AdpType=Prep	33	case	_	_
-33	hoÃ«groei-aandele	hoÃ«groei-aandeel	NOUN	NSM	Number=Plur	31	nmod	_	SpaceAfter=No
+33	hoëgroei-aandele	hoëgroei-aandeel	NOUN	NSM	Number=Plur	31	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	ZE	_	25	punct	_	_
 
 # sent_id = test-s266
-# text = Om in die voordele van groei te deel beteken ook dat die Staat belastinggeld doeltreffend en billik moet aanwend as 'n instrument om die las van voorsiening van openbare goedere te herverdeel Ã©n te deel.
+# text = Om in die voordele van groei te deel beteken ook dat die Staat belastinggeld doeltreffend en billik moet aanwend as 'n instrument om die las van voorsiening van openbare goedere te herverdeel én te deel.
 # org_sent_id = 1394
 1	Om	om	ADP	SVS	AdpType=Prep	8	case	_	_
 2	in	in	ADP	SVS	AdpType=Prep	4	case	_	_
@@ -6859,7 +6859,7 @@
 30	goedere	goed	NOUN	NSM	Number=Plur	27	nmod	_	_
 31	te	te	PART	UPI	PartType=Inf	32	mark	_	_
 32	herverdeel	herverdeel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	22	xcomp	_	_
-33	Ã©n	en	CCONJ	KN	_	32	cc	_	_
+33	én	en	CCONJ	KN	_	32	cc	_	_
 34	te	te	PART	UPI	PartType=Inf	35	mark	_	_
 35	deel	deel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	32	xcomp	_	SpaceAfter=No
 36	.	.	PUNCT	ZE	_	35	punct	_	_
@@ -6901,7 +6901,7 @@
 12	van	van	ADP	SVS	AdpType=Prep	14	case	_	_
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 14	vooruitgang	vooruitgang	NOUN	NA	Number=Sing	11	nmod	_	_
-15	wat	wat	PRON	PB	PronType=Rel	18	nsubj	_	_
+15	wat	wat	PRON	PB	PronType=Rel	18	obj	_	_
 16	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 17	al	al	ADV	BS	Degree=Pos	18	advmod	_	_
 18	gemaak	maak	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	ccomp	_	_
@@ -7014,12 +7014,12 @@
 18	.	.	PUNCT	ZE	_	6	punct	_	_
 
 # sent_id = test-s273
-# text = Hierdie verbetering word weerspieÃ«l deur toegang tot basiese dienste- 'n vinnige afname in bate-armoede het die afname in geld-metrieke armoede voorafgegaan.
+# text = Hierdie verbetering word weerspieël deur toegang tot basiese dienste- 'n vinnige afname in bate-armoede het die afname in geld-metrieke armoede voorafgegaan.
 # org_sent_id = 1401
 1	Hierdie	hierdie	DET	PA	PronType=Dem	2	det	_	_
 2	verbetering	verbetering	NOUN	NSE	Number=Sing	4	nsubj:pass	_	_
 3	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	4	aux:pass	_	_
-4	weerspieÃ«l	weerspieÃ«l	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
+4	weerspieël	weerspieël	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 5	deur	deur	ADP	SVS	AdpType=Prep	6	case	_	_
 6	toegang	toegang	NOUN	NA	Number=Sing	4	obl	_	_
 7	tot	tot	ADP	SVS	AdpType=Prep	9	case	_	_
@@ -7063,7 +7063,7 @@
 18	.	.	PUNCT	ZE	_	17	punct	_	_
 
 # sent_id = test-s275
-# text = Derdens, die dinamika onderliggend aan armoede- en ongelykheidsneigings bepaal die breÃ« beleidsuitkyk...
+# text = Derdens, die dinamika onderliggend aan armoede- en ongelykheidsneigings bepaal die breë beleidsuitkyk...
 # org_sent_id = 1403
 1	Derdens	derdens	ADV	TRBB	Degree=Pos	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	ZM	_	1	punct	_	_
@@ -7076,7 +7076,7 @@
 9	ongelykheidsneigings	ongelykheidsneiging	NOUN	NSM	Number=Plur	7	conj	_	_
 10	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
-12	breÃ«	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
+12	breë	breed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
 13	beleidsuitkyk	beleidsuitkyk	NOUN	NA	Number=Sing	10	obj	_	SpaceAfter=No
 14	...	...	PUNCT	ZE	_	10	punct	_	_
 
@@ -7284,7 +7284,7 @@
 29	.	.	PUNCT	ZE	_	16	punct	_	_
 
 # sent_id = test-s283
-# text = As gedeeltelike bydraer tot die inkomste van die armes, is die teiken van een miljoen werksgeleenthede deur die Uitgebreide Openbare Werke-Program in 2008 bereik, 'n jaar vroeÃ«r as beoog in die 2004-verkiesingsmandaat.
+# text = As gedeeltelike bydraer tot die inkomste van die armes, is die teiken van een miljoen werksgeleenthede deur die Uitgebreide Openbare Werke-Program in 2008 bereik, 'n jaar vroeër as beoog in die 2004-verkiesingsmandaat.
 # org_sent_id = 1411
 1	As	as	SCONJ	KO	_	25	amod	_	_
 2	gedeeltelike	gedeeltelik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
@@ -7314,7 +7314,7 @@
 26	,	,	PUNCT	ZM	_	25	punct	_	_
 27	'n	'n	DET	LO	Definite=Ind|PronType=Art	28	det	_	_
 28	jaar	jaar	NOUN	NSE	Number=Sing	29	nmod	_	_
-29	vroeÃ«r	vroeg	ADV	BV	Degree=Cmp	25	advmod	_	_
+29	vroeër	vroeg	ADV	BV	Degree=Cmp	25	advmod	_	_
 30	as	as	SCONJ	KO	_	25	amod	_	_
 31	beoog	beoog	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	25	dep	_	_
 32	in	in	ADP	SVS	AdpType=Prep	34	case	_	_
@@ -7371,7 +7371,7 @@
 3	toegang	toegang	NOUN	NA	Number=Sing	15	nsubj	_	_
 4	tot	tot	ADP	SVS	AdpType=Prep	5	case	_	_
 5	drinkwater	drinkwater	NOUN	NM	Number=Sing	3	nmod	_	_
-6	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	15	csubj	_	_
+6	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	15	aux	_	_
 7	van	van	ADP	SVS	AdpType=Prep	8	case	_	_
 8	62%	62%	SYM	RS	_	15	obl	_	_
 9	in	in	ADP	SVS	AdpType=Prep	10	case	_	_
@@ -7401,7 +7401,7 @@
 33	.	.	PUNCT	ZE	_	15	punct	_	_
 
 # sent_id = test-s287
-# text = Bewyse van maatskaplike dienste kan ook gesien word in die reuse verbetering in toegang tot primÃªregesondheidsorggeriewe.
+# text = Bewyse van maatskaplike dienste kan ook gesien word in die reuse verbetering in toegang tot primêregesondheidsorggeriewe.
 # org_sent_id = 1415
 1	Bewyse	bewys	NOUN	NSM	Number=Plur	7	nsubj:pass	_	_
 2	van	van	ADP	SVS	AdpType=Prep	4	case	_	_
@@ -7418,7 +7418,7 @@
 13	in	in	ADP	SVS	AdpType=Prep	14	case	_	_
 14	toegang	toegang	NOUN	NA	Number=Sing	12	nmod	_	_
 15	tot	tot	ADP	SVS	AdpType=Prep	16	case	_	_
-16	primÃªregesondheidsorggeriewe	primÃªregesondheidsorggerief	NOUN	NSM	Number=Plur	14	nmod	_	SpaceAfter=No
+16	primêregesondheidsorggeriewe	primêregesondheidsorggerief	NOUN	NSM	Number=Plur	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	ZE	_	7	punct	_	_
 
 # sent_id = test-s288
@@ -7499,7 +7499,7 @@
 22	.	.	PUNCT	ZE	_	21	punct	_	_
 
 # sent_id = test-s291
-# text = Ons antiretrovirale behandelingsprogramme is nie net die grootste ter wÃªreld nie, maar dit brei ook voortdurend uit, met meer as 690 000 pasiÃ«nte wat al met antiretrovirale behandeling begin het sedert die aanvang van die program.
+# text = Ons antiretrovirale behandelingsprogramme is nie net die grootste ter wêreld nie, maar dit brei ook voortdurend uit, met meer as 690 000 pasiënte wat al met antiretrovirale behandeling begin het sedert die aanvang van die program.
 # org_sent_id = 1419
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 2	antiretrovirale	antiretroviraal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
@@ -7510,7 +7510,7 @@
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	grootste	groot	ADJ	AOP	AdjType=Pred|Case=Nom|Degree=Sup	0	root	_	_
 9	ter	ter	ADP	SVS	AdpType=Prep	10	case	_	_
-10	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	8	obl	_	_
+10	wêreld	wêreld	NOUN	NSE	Number=Sing	8	obl	_	_
 11	nie	nie	PART	UPO	PartType=Neg	8	mark	_	SpaceAfter=No
 12	,	,	PUNCT	ZM	_	11	punct	_	_
 13	maar	maar	CCONJ	KN	_	8	cc	_	_
@@ -7525,7 +7525,7 @@
 22	as	as	SCONJ	KO	_	21	dep	_	_
 23	690	690	SYM	RS	_	21	dep	_	_
 24	000	000	SYM	RS	_	23	dep	_	_
-25	pasiÃ«nte	pasiÃ«nt	NOUN	NSM	Number=Plur	23	nmod	_	_
+25	pasiënte	pasiënt	NOUN	NSM	Number=Plur	23	nmod	_	_
 26	wat	wat	PRON	PB	PronType=Rel	31	nsubj	_	_
 27	al	al	ADV	BS	Degree=Pos	31	advmod	_	_
 28	met	met	ADP	SVS	AdpType=Prep	30	case	_	_
@@ -7654,7 +7654,7 @@
 13	.	.	PUNCT	ZE	_	12	punct	_	_
 
 # sent_id = test-s296
-# text = Natuurlik weet ons dat die uitsakkoers, veral op sekondÃªre en tersiÃªre vlak, onaanvaarbaar hoog is, en dat die onderwysstelsel nog die nodige vaardighede moet voorsien wat deur die samelewing vereis word.
+# text = Natuurlik weet ons dat die uitsakkoers, veral op sekondêre en tersiêre vlak, onaanvaarbaar hoog is, en dat die onderwysstelsel nog die nodige vaardighede moet voorsien wat deur die samelewing vereis word.
 # org_sent_id = 1424
 1	Natuurlik	natuurlik	ADV	BS	Degree=Pos	2	advmod	_	_
 2	weet	weet	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -7665,9 +7665,9 @@
 7	,	,	PUNCT	ZM	_	8	punct	_	_
 8	veral	veral	ADV	BS	Degree=Pos	13	dep	_	_
 9	op	op	ADP	SVS	AdpType=Prep	13	case	_	_
-10	sekondÃªre	sekondÃªr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
+10	sekondêre	sekondêr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
 11	en	en	CCONJ	KN	_	10	cc	_	_
-12	tersiÃªre	tersiÃªr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	10	conj	_	_
+12	tersiêre	tersiêr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	10	conj	_	_
 13	vlak	vlak	NOUN	NSE	Number=Sing	6	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	ZM	_	13	punct	_	_
 15	onaanvaarbaar	onaanvaarbaar	ADV	BS	Degree=Pos	16	advmod	_	_
@@ -7725,7 +7725,7 @@
 28	.	.	PUNCT	ZE	_	7	punct	_	_
 
 # sent_id = test-s298
-# text = Ironies genoeg is die infrastruktuur en administratiewe en onderwyservermoÃ«ns juis die minste indrukwekkend waar onderwys die nodigste is om die siklus van armoede te verlig.
+# text = Ironies genoeg is die infrastruktuur en administratiewe en onderwyservermoëns juis die minste indrukwekkend waar onderwys die nodigste is om die siklus van armoede te verlig.
 # org_sent_id = 1426
 1	Ironies	ironies	ADV	BS	Degree=Pos	12	advmod	_	_
 2	genoeg	genoeg	ADV	BS	Degree=Pos	12	advmod	_	_
@@ -7735,7 +7735,7 @@
 6	en	en	CCONJ	KN	_	5	cc	_	_
 7	administratiewe	administratief	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	conj	_	_
 8	en	en	CCONJ	KN	_	7	cc	_	_
-9	onderwyservermoÃ«ns	onderwyservermoÃ«	NOUN	NSM	Number=Plur	7	conj	_	_
+9	onderwyservermoëns	onderwyservermoë	NOUN	NSM	Number=Plur	7	conj	_	_
 10	juis	juis	ADV	BS	Degree=Pos	12	advmod	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 12	minste	min	DET	THBO	PronType=Ind	0	root	_	_
@@ -7860,7 +7860,7 @@
 13	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 14	sentrale	sentraal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	15	amod	_	_
 15	vraag	vraag	NOUN	NSE	Number=Sing	32	nsubj	_	_
-16	waarmee	waarmee	PRON	PB	PronType=Rel	20	nsubj:pass	_	_
+16	waarmee	waarmee	ADV	PB	Degree=Pos	20	advmod	_	_
 17	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj:pass	_	_
 18	elke	elk	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
 19	dag	dag	NOUN	NSE	Number=Sing	20	nmod	_	_
@@ -7998,7 +7998,7 @@
 10	.	.	PUNCT	ZE	_	9	punct	_	_
 
 # sent_id = test-s310
-# text = Maar ons weet dat die afname nie vinnig genoeg gebeur nie, nie eens teen die koers van 7% tot 10% wat ons vir onsself in verskeie kontakmisdaadkategorieÃ« gestel het nie.
+# text = Maar ons weet dat die afname nie vinnig genoeg gebeur nie, nie eens teen die koers van 7% tot 10% wat ons vir onsself in verskeie kontakmisdaadkategorieë gestel het nie.
 # org_sent_id = 1438
 1	Maar	maar	CCONJ	KN	_	3	amod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
@@ -8021,13 +8021,13 @@
 19	7%	7%	SYM	RS	_	17	nmod	_	_
 20	tot	tot	ADP	SVS	AdpType=Prep	21	case	_	_
 21	10%	10%	SYM	RS	_	19	obl	_	_
-22	wat	wat	PRON	PB	PronType=Rel	29	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	29	obj	_	_
 23	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
 24	vir	vir	ADP	SVS	AdpType=Prep	25	case	_	_
 25	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	29	obl	_	_
 26	in	in	ADP	SVS	AdpType=Prep	28	case	_	_
 27	verskeie	verskeie	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	28	amod	_	_
-28	kontakmisdaadkategorieÃ«	kontakmisdaadkategorie	NOUN	NSM	Number=Plur	29	obl	_	_
+28	kontakmisdaadkategorieë	kontakmisdaadkategorie	NOUN	NSM	Number=Plur	29	obl	_	_
 29	gestel	stel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	21	ccomp	_	_
 30	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	29	aux	_	_
 31	nie	nie	PART	UPO	PartType=Neg	29	advmod	_	SpaceAfter=No
@@ -8181,7 +8181,7 @@
 28	legitimiteit	legitimiteit	NOUN	NA	Number=Sing	29	obj	_	_
 29	geniet	geniet	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	24	obl	_	_
 30	as	as	SCONJ	KO	_	29	amod	_	_
-31	wat	wat	PRON	PB	PronType=Rel	38	nsubj	_	_
+31	wat	wat	PRON	PB	PronType=Rel	38	obj	_	_
 32	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	_	_
 33	ooit	ooit	ADV	BS	Degree=Pos	38	advmod	_	_
 34	tevore	tevore	ADV	BS	Degree=Pos	38	advmod	_	_
@@ -8350,7 +8350,7 @@
 38	.	.	PUNCT	ZE	_	37	punct	_	_
 
 # sent_id = test-s321
-# text = Deur bewusmakingsveldtogte en inderdaad as gevolg van die vennootskappe wat ons gesluit het met organisasies wat hierdie kwesbare groepe verteenwoordig, het ons bewustheid rondom die kwessies wat hulle beÃ¯nvloed verbeter; en toenemend die belangrikheid van hierdie sake aangemoedig.
+# text = Deur bewusmakingsveldtogte en inderdaad as gevolg van die vennootskappe wat ons gesluit het met organisasies wat hierdie kwesbare groepe verteenwoordig, het ons bewustheid rondom die kwessies wat hulle beïnvloed verbeter; en toenemend die belangrikheid van hierdie sake aangemoedig.
 # org_sent_id = 1449
 1	Deur	deur	ADP	SVS	AdpType=Prep	2	case	_	_
 2	bewusmakingsveldtogte	bewusmakingsveldtog	NOUN	NSM	Number=Plur	31	obl	_	_
@@ -8381,7 +8381,7 @@
 27	kwessies	kwessie	NOUN	NSM	Number=Plur	24	nmod	_	_
 28	wat	wat	PRON	PB	PronType=Rel	30	nsubj	_	_
 29	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
-30	beÃ¯nvloed	beÃ¯nvloed	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	27	ccomp	_	_
+30	beïnvloed	beïnvloed	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	27	ccomp	_	_
 31	verbeter	verbeter	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	SpaceAfter=No
 32	;	;	PUNCT	ZM	_	31	punct	_	_
 33	en	en	CCONJ	KN	_	31	cc	_	_
@@ -8395,7 +8395,7 @@
 41	.	.	PUNCT	ZE	_	40	punct	_	_
 
 # sent_id = test-s322
-# text = Ons kan byvoorbeeld met trots getuig dat huishoudings waar vroue aan die hoof staan 'n groter as gemiddelde deel van die maatskaplike toelaes ontvang het, insluitend behuising en gesondheidsorg; en dat van die suksesvolste programme diÃ© rondom kinderimmunisasie en -voeding was.
+# text = Ons kan byvoorbeeld met trots getuig dat huishoudings waar vroue aan die hoof staan 'n groter as gemiddelde deel van die maatskaplike toelaes ontvang het, insluitend behuising en gesondheidsorg; en dat van die suksesvolste programme dié rondom kinderimmunisasie en -voeding was.
 # org_sent_id = 1450
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 2	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	6	aux	_	_
@@ -8405,7 +8405,7 @@
 6	getuig	getuig	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 7	dat	dat	SCONJ	KO	_	6	amod	_	_
 8	huishoudings	huishouding	NOUN	NSM	Number=Plur	24	nsubj	_	_
-9	waar	waar	PRON	PB	PronType=Rel	14	nsubj	_	_
+9	waar	waar	ADV	PB	Degree=Pos	14	advmod	_	_
 10	vroue	vrou	NOUN	NSM	Number=Plur	14	nsubj	_	_
 11	aan	aan	ADP	SVS	AdpType=Prep	13	case	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
@@ -8434,7 +8434,7 @@
 35	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
 36	suksesvolste	suksesvol	ADJ	AOA	AdjType=Attr|Case=Nom|Degree=Sup	37	amod	_	_
 37	programme	program	NOUN	NSM	Number=Plur	6	dep	_	_
-38	diÃ©	diÃ©	DET	PA	PronType=Dem	37	nsubj	_	_
+38	dié	dié	DET	PA	PronType=Dem	37	nsubj	_	_
 39	rondom	rondom	ADP	SVS	AdpType=Prep	40	case	_	_
 40	kinderimmunisasie	kinderimmunisasie	NOUN	NA	Number=Sing	38	obl	_	_
 41	en	en	CCONJ	KN	_	40	cc	_	_
@@ -8526,7 +8526,7 @@
 14	en	en	CCONJ	KN	_	7	cc	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
 16	vordering	vordering	NOUN	NA	Number=Sing	7	conj	_	_
-17	wat	wat	PRON	PB	PronType=Rel	20	nsubj	_	_
+17	wat	wat	PRON	PB	PronType=Rel	20	obj	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 19	Regering	regering	NOUN	NSE	Number=Sing	20	nsubj	_	_
 20	gemaak	maak	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	16	ccomp	_	_
@@ -8647,7 +8647,7 @@
 28	.	.	PUNCT	ZE	_	27	punct	_	_
 
 # sent_id = test-s333
-# text = Ek het 'n oomblik geneem om te rus, om vlugtig na die roemryke vista rondom my te kyk, om terug te kyk oor die afstand wat ek al afgelÃª het.
+# text = Ek het 'n oomblik geneem om te rus, om vlugtig na die roemryke vista rondom my te kyk, om terug te kyk oor die afstand wat ek al afgelê het.
 # org_sent_id = 1461
 1	Ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	5	aux	_	_
@@ -8676,10 +8676,10 @@
 25	oor	oor	ADP	SVS	AdpType=Prep	27	case	_	_
 26	die	die	DET	LB	Definite=Def|PronType=Art	27	det	_	_
 27	afstand	afstand	NOUN	NSE	Number=Sing	24	obl	_	_
-28	wat	wat	PRON	PB	PronType=Rel	31	nsubj	_	_
+28	wat	wat	PRON	PB	PronType=Rel	31	obj	_	_
 29	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
 30	al	al	ADV	BS	Degree=Pos	31	advmod	_	_
-31	afgelÃª	aflÃª	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	27	ccomp	_	_
+31	afgelê	aflê	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	27	ccomp	_	_
 32	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	31	aux	_	SpaceAfter=No
 33	.	.	PUNCT	ZE	_	31	punct	_	_
 
@@ -8737,9 +8737,9 @@
 12	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	_
 13	land	land	NOUN	NSE	Number=Sing	10	nmod	_	_
 14	besluit	besluit	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-15	wie	wie	PRON	PB	PronType=Rel	19	nsubj	_	_
+15	wie	wie	PRON	PB	PronType=Rel	19	obj	_	_
 16	se	se	PART	UPS	PartType=Gen	17	case	_	_
-17	leierskap	leierskap	NOUN	NA	Number=Sing	19	obj	_	_
+17	leierskap	leierskap	NOUN	NA	Number=Sing	19	nmod	_	_
 18	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 19	verkies	verkies	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	14	ccomp	_	_
 20	om	om	ADP	SVS	AdpType=Prep	36	case	_	_
@@ -8762,7 +8762,7 @@
 37	.	.	PUNCT	ZE	_	36	punct	_	_
 
 # sent_id = test-s336
-# text = Terwyl ons benaderings mag verskil, is die doelwitte waarvoor ons moet mik duidelik en ondubbelsinnig uiteengesit in ons Grondwet: om 'n verenigde, nie-rassige, nie-seksistiese, demokratiese en vooruitstrewende samelewing te skep wat 'n positiewe bydrae lewer tot die skep van 'n beter wÃªreld.
+# text = Terwyl ons benaderings mag verskil, is die doelwitte waarvoor ons moet mik duidelik en ondubbelsinnig uiteengesit in ons Grondwet: om 'n verenigde, nie-rassige, nie-seksistiese, demokratiese en vooruitstrewende samelewing te skep wat 'n positiewe bydrae lewer tot die skep van 'n beter wêreld.
 # org_sent_id = 1464
 1	Terwyl	terwyl	SCONJ	KO	_	17	amod	_	_
 2	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
@@ -8773,7 +8773,7 @@
 7	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	17	aux:pass	_	_
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	doelwitte	doelwit	NOUN	NSM	Number=Plur	17	nsubj:pass	_	_
-10	waarvoor	waarvoor	PRON	PB	PronType=Rel	13	nsubj	_	_
+10	waarvoor	waarvoor	ADV	PB	Degree=Pos	13	advmod	_	_
 11	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 12	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	13	aux	_	_
 13	mik	mik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
@@ -8810,11 +8810,11 @@
 44	van	van	ADP	SVS	AdpType=Prep	47	case	_	_
 45	'n	'n	DET	LO	Definite=Ind|PronType=Art	47	det	_	_
 46	beter	goed	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	47	amod	_	_
-47	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	43	nmod	_	SpaceAfter=No
+47	wêreld	wêreld	NOUN	NSE	Number=Sing	43	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	ZE	_	40	punct	_	_
 
 # sent_id = test-s337
-# text = Ses jaar gelede het die leiers van die mense bymekaargekom vir die WÃªreldberaad oor Groei en Ontwikkeling en ooreengekom oor die take wat ons moet uitvoer om die lewenskwaliteit van Suid-Afrikaners te verbeter, spesifiek om werkloosheid en armoede teen 2014 te halveer.
+# text = Ses jaar gelede het die leiers van die mense bymekaargekom vir die Wêreldberaad oor Groei en Ontwikkeling en ooreengekom oor die take wat ons moet uitvoer om die lewenskwaliteit van Suid-Afrikaners te verbeter, spesifiek om werkloosheid en armoede teen 2014 te halveer.
 # org_sent_id = 1465
 1	Ses	ses	NUM	THAB	_	2	nummod	_	_
 2	jaar	jaar	NOUN	NSE	Number=Sing	10	nmod	_	_
@@ -8828,7 +8828,7 @@
 10	bymekaargekom	bymekaarkom	VERB	VVHOO	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 11	vir	vir	ADP	SVS	AdpType=Prep	13	case	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
-13	WÃªreldberaad	wÃªreldberaad	NOUN	NSE	Number=Sing	10	obl	_	_
+13	Wêreldberaad	wêreldberaad	NOUN	NSE	Number=Sing	10	obl	_	_
 14	oor	oor	ADP	SVS	AdpType=Prep	15	case	_	_
 15	Groei	groei	NOUN	NA	Number=Sing	13	nmod	_	_
 16	en	en	CCONJ	KN	_	15	cc	_	_
@@ -8838,7 +8838,7 @@
 20	oor	oor	ADP	SVS	AdpType=Prep	22	case	_	_
 21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
 22	take	taak	NOUN	NSM	Number=Plur	19	obl	_	_
-23	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
+23	wat	wat	PRON	PB	PronType=Rel	26	obj	_	_
 24	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
 25	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	26	aux	_	_
 26	uitvoer	uitvoer	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	22	ccomp	_	_
@@ -8958,7 +8958,7 @@
 # org_sent_id = 1468
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	rede	rede	NOUN	NSE	Number=Sing	12	nsubj	_	_
-3	hoekom	hoekom	PRON	PB	PronType=Rel	6	nsubj	_	_
+3	hoekom	hoekom	ADV	PB	Degree=Pos	6	advmod	_	_
 4	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
 6	noem	noem	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	ccomp	_	_
@@ -8980,7 +8980,7 @@
 22	.	.	PUNCT	ZE	_	20	punct	_	_
 
 # sent_id = test-s341
-# text = Ons uitdaging is om hierdie ideale om te skakel in programme en projekte wat doeltreffend geÃ¯mplementeer kan word.
+# text = Ons uitdaging is om hierdie ideale om te skakel in programme en projekte wat doeltreffend geïmplementeer kan word.
 # org_sent_id = 1469
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	uitdaging	uitdaging	NOUN	NSE	Number=Sing	9	nsubj	_	_
@@ -8997,13 +8997,13 @@
 13	projekte	projek	NOUN	NSM	Number=Plur	11	conj	_	_
 14	wat	wat	PRON	PB	PronType=Rel	16	nsubj:pass	_	_
 15	doeltreffend	doeltreffend	ADV	BS	Degree=Pos	16	advmod	_	_
-16	geÃ¯mplementeer	implementeer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	13	ccomp	_	_
+16	geïmplementeer	implementeer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	13	ccomp	_	_
 17	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	16	aux	_	_
 18	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	16	aux:pass	_	SpaceAfter=No
 19	.	.	PUNCT	ZE	_	16	punct	_	_
 
 # sent_id = test-s342
-# text = Hierdie ideale word deur die hele mensdom gedeel, soos dit weerspieÃ«l word in die Verenigde Nasies se millennium ontwikkelingsdoelwitte.
+# text = Hierdie ideale word deur die hele mensdom gedeel, soos dit weerspieël word in die Verenigde Nasies se millennium ontwikkelingsdoelwitte.
 # org_sent_id = 1470
 1	Hierdie	hierdie	DET	PA	PronType=Dem	2	det	_	_
 2	ideale	ideaal	NOUN	NSM	Number=Plur	8	nsubj	_	_
@@ -9016,7 +9016,7 @@
 9	,	,	PUNCT	ZM	_	8	punct	_	_
 10	soos	soos	SCONJ	UPV	_	8	amod	_	_
 11	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
-12	weerspieÃ«l	weerspieÃ«l	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	dep	_	_
+12	weerspieël	weerspieël	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	dep	_	_
 13	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	12	aux:pass	_	_
 14	in	in	ADP	SVS	AdpType=Prep	17	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	17	det	_	_
@@ -9028,7 +9028,7 @@
 21	.	.	PUNCT	ZE	_	12	punct	_	_
 
 # sent_id = test-s343
-# text = En tog word die mensdom vandag gekonfronteer met die gevaar dat die bereiking van hierdie doelwitte nog vir baie jare, indien nie dekades nie, uitgestel kan word weens die ekonomiese krisis wat die wÃªreld oorval het.
+# text = En tog word die mensdom vandag gekonfronteer met die gevaar dat die bereiking van hierdie doelwitte nog vir baie jare, indien nie dekades nie, uitgestel kan word weens die ekonomiese krisis wat die wêreld oorval het.
 # org_sent_id = 1471
 1	En	en	CCONJ	KN	_	7	amod	_	_
 2	tog	tog	ADV	BS	Degree=Pos	7	advmod	_	_
@@ -9065,19 +9065,19 @@
 33	krisis	krisis	NOUN	NSE	Number=Sing	27	obl	_	_
 34	wat	wat	PRON	PB	PronType=Rel	37	nsubj	_	_
 35	die	die	DET	LB	Definite=Def|PronType=Art	36	det	_	_
-36	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	37	obj	_	_
+36	wêreld	wêreld	NOUN	NSE	Number=Sing	37	obj	_	_
 37	oorval	oorval	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	33	ccomp	_	_
 38	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	37	aux	_	SpaceAfter=No
 39	.	.	PUNCT	ZE	_	37	punct	_	_
 
 # sent_id = test-s344
-# text = Wat oppervlakkig as 'n finansiÃ«le krisis tussen 'n paar krediteure ontstaan het, het ontplof in 'n wÃªreldwye kredietnood, met erge gevolge vir werklike produksie en handel.
+# text = Wat oppervlakkig as 'n finansiële krisis tussen 'n paar krediteure ontstaan het, het ontplof in 'n wêreldwye kredietnood, met erge gevolge vir werklike produksie en handel.
 # org_sent_id = 1472
 1	Wat	wat	PRON	PB	PronType=Rel	11	nsubj	_	_
 2	oppervlakkig	oppervlakkig	ADV	BS	Degree=Pos	11	advmod	_	_
 3	as	as	SCONJ	KO	_	11	amod	_	_
 4	'n	'n	DET	LO	Definite=Ind|PronType=Art	6	det	_	_
-5	finansiÃ«le	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
+5	finansiële	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
 6	krisis	krisis	NOUN	NSE	Number=Sing	11	dep	_	_
 7	tussen	tussen	ADP	SVS	AdpType=Prep	10	case	_	_
 8	'n	'n	DET	LO	Definite=Ind|PronType=Art	10	det	_	_
@@ -9090,7 +9090,7 @@
 15	ontplof	ontplof	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 16	in	in	ADP	SVS	AdpType=Prep	19	case	_	_
 17	'n	'n	DET	LO	Definite=Ind|PronType=Art	19	det	_	_
-18	wÃªreldwye	wÃªreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
+18	wêreldwye	wêreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
 19	kredietnood	kredietnood	NOUN	NA	Number=Sing	15	obl	_	SpaceAfter=No
 20	,	,	PUNCT	ZM	_	19	punct	_	_
 21	met	met	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -9130,7 +9130,7 @@
 22	.	.	PUNCT	ZE	_	21	punct	_	_
 
 # sent_id = test-s346
-# text = Ons kan regeringsbeleide verdoem wat nie behoedsaam was nie en toegelaat het dat die hebsug van ongereguleerde markte verwoesting saai onder finansiÃ«le stelsels.
+# text = Ons kan regeringsbeleide verdoem wat nie behoedsaam was nie en toegelaat het dat die hebsug van ongereguleerde markte verwoesting saai onder finansiële stelsels.
 # org_sent_id = 1474
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 2	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	4	aux	_	_
@@ -9153,7 +9153,7 @@
 19	verwoesting	verwoesting	NOUN	NM	Number=Sing	20	obj	_	_
 20	saai	saai	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	11	dep	_	_
 21	onder	onder	ADP	SVS	AdpType=Prep	23	case	_	_
-22	finansiÃ«le	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	23	amod	_	_
+22	finansiële	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	23	amod	_	_
 23	stelsels	stelsel	NOUN	NSM	Number=Plur	20	obl	_	SpaceAfter=No
 24	.	.	PUNCT	ZE	_	20	punct	_	_
 
@@ -9229,7 +9229,7 @@
 # sent_id = test-s349
 # text = Wat ons wel weet, is dat ons land se regulerende omgewing en die teensikliese begrotingsbeleide wat ons aanvaar het, gehelp het om die ergste impak van die krisis te vermy.
 # org_sent_id = 1477
-1	Wat	wat	PRON	PB	PronType=Rel	4	nsubj	_	_
+1	Wat	wat	PRON	PB	PronType=Rel	4	obj	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 3	wel	wel	ADV	BS	Degree=Pos	4	advmod	_	_
 4	weet	weet	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	ccomp	_	SpaceAfter=No
@@ -9245,7 +9245,7 @@
 14	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
 15	teensikliese	teensiklies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	16	amod	_	_
 16	begrotingsbeleide	begrotingsbeleid	NOUN	NSM	Number=Plur	12	conj	_	_
-17	wat	wat	PRON	PB	PronType=Rel	19	nsubj	_	_
+17	wat	wat	PRON	PB	PronType=Rel	19	obj	_	_
 18	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 19	aanvaar	aanvaar	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	16	ccomp	_	_
 20	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	19	aux	_	SpaceAfter=No
@@ -9264,7 +9264,7 @@
 33	.	.	PUNCT	ZE	_	32	punct	_	_
 
 # sent_id = test-s350
-# text = Maar ons is tog ten volle bewus dat die aanvraag na ons uitvoere verminder omdat ons sterk in die wÃªreldekonomie geÃ¯ntegreer is; dat toegang tot finansies en kapitale invloei versleg het; dat laer aanvraag tot 'n afskaal in produksie gelei het; dat die skep van werk negatief beÃ¯nvloed is en dat personeelvermindering in sommige sektore 'n realiteit geword het.
+# text = Maar ons is tog ten volle bewus dat die aanvraag na ons uitvoere verminder omdat ons sterk in die wêreldekonomie geïntegreer is; dat toegang tot finansies en kapitale invloei versleg het; dat laer aanvraag tot 'n afskaal in produksie gelei het; dat die skep van werk negatief beïnvloed is en dat personeelvermindering in sommige sektore 'n realiteit geword het.
 # org_sent_id = 1478
 1	Maar	maar	CCONJ	KN	_	7	dep	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
@@ -9285,8 +9285,8 @@
 17	sterk	sterk	ADV	BS	Degree=Pos	21	advmod	_	_
 18	in	in	ADP	SVS	AdpType=Prep	20	case	_	_
 19	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
-20	wÃªreldekonomie	wÃªreldekonomie	NOUN	NSE	Number=Sing	21	obl	_	_
-21	geÃ¯ntegreer	integreer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	dep	_	_
+20	wêreldekonomie	wêreldekonomie	NOUN	NSE	Number=Sing	21	obl	_	_
+21	geïntegreer	integreer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	dep	_	_
 22	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	21	aux:pass	_	SpaceAfter=No
 23	;	;	PUNCT	ZM	_	7	punct	_	_
 24	dat	dat	SCONJ	KO	_	7	dep	_	_
@@ -9316,7 +9316,7 @@
 48	van	van	ADP	SVS	AdpType=Prep	49	case	_	_
 49	werk	werk	NOUN	NA	Number=Sing	47	nmod	_	_
 50	negatief	negatief	ADV	BS	Degree=Pos	51	advmod	_	_
-51	beÃ¯nvloed	beÃ¯nvloed	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	7	dep	_	_
+51	beïnvloed	beïnvloed	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	7	dep	_	_
 52	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	51	aux:pass	_	_
 53	en	en	CCONJ	KN	_	7	dep	_	_
 54	dat	dat	SCONJ	KO	_	7	dep	_	_
@@ -9362,7 +9362,7 @@
 7	vir	vir	ADP	SVS	AdpType=Prep	9	case	_	_
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	inkomste	inkomste	NOUN	NSE	Number=Sing	2	obl	_	_
-10	wat	wat	PRON	PB	PronType=Rel	13	nsubj	_	_
+10	wat	wat	PRON	PB	PronType=Rel	13	obj	_	_
 11	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 12	nodig	nodig	ADV	BS	Degree=Pos	13	advmod	_	_
 13	het	het	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
@@ -9449,7 +9449,7 @@
 22	in	in	ADP	SVS	AdpType=Prep	24	case	_	_
 23	'n	'n	DET	LO	Definite=Ind|PronType=Art	24	det	_	_
 24	tyd	tyd	NOUN	NSE	Number=Sing	12	obl	_	_
-25	wanneer	wanneer	PRON	PB	PronType=Rel	29	nsubj	_	_
+25	wanneer	wanneer	ADV	PB	Degree=Pos	29	advmod	_	_
 26	ander	ander	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	27	amod	_	_
 27	lande	land	NOUN	NSM	Number=Plur	29	nsubj	_	_
 28	resessies	resessie	NOUN	NSM	Number=Plur	29	obj	_	_
@@ -9825,7 +9825,7 @@
 42	.	.	PUNCT	ZE	_	41	punct	_	_
 
 # sent_id = test-s368
-# text = Boonop sal ons die Maatskaplike Noodverligting-toelae en voedselsekuriteit-maatreÃ«ls meer gereeld aanwend, spesifiek om ook diegene te teiken wat nie deur die Werkloosheidsversekeringsfonds gedek word nie of wie se voordele uitgeput is.
+# text = Boonop sal ons die Maatskaplike Noodverligting-toelae en voedselsekuriteit-maatreëls meer gereeld aanwend, spesifiek om ook diegene te teiken wat nie deur die Werkloosheidsversekeringsfonds gedek word nie of wie se voordele uitgeput is.
 # org_sent_id = 1496
 1	Boonop	boonop	ADV	BS	Degree=Pos	11	advmod	_	_
 2	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	11	aux	_	_
@@ -9834,7 +9834,7 @@
 5	Maatskaplike	maatskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
 6	Noodverligting-toelae	noodverligting-toelaag	NOUN	NSM	Number=Plur	11	obj	_	_
 7	en	en	CCONJ	KN	_	6	cc	_	_
-8	voedselsekuriteit-maatreÃ«ls	voedselsekuriteit-maatreÃ«l	NOUN	NSM	Number=Plur	6	conj	_	_
+8	voedselsekuriteit-maatreëls	voedselsekuriteit-maatreël	NOUN	NSM	Number=Plur	6	conj	_	_
 9	meer	baie	DET	THBO	PronType=Ind	10	amod	_	_
 10	gereeld	gereeld	ADV	BS	Degree=Pos	11	advmod	_	_
 11	aanwend	aanwend	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	SpaceAfter=No
@@ -9900,7 +9900,7 @@
 9	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 10	ferm	ferm	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	11	amod	_	_
 11	hand	hand	NOUN	NSE	Number=Sing	7	nmod	_	_
-12	waarmee	waarmee	PRON	PB	PronType=Rel	14	nsubj	_	_
+12	waarmee	waarmee	ADV	PB	Degree=Pos	14	advmod	_	_
 13	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	verseker	verseker	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	11	ccomp	_	_
 15	dat	dat	SCONJ	KO	_	14	amod	_	_
@@ -9949,11 +9949,11 @@
 33	.	.	PUNCT	ZE	_	32	punct	_	_
 
 # sent_id = test-s372
-# text = Hierdie onmiddellike maatreÃ«ls sal gelei word deur die beginsel van 'n teensikliese fiskale beleid.
+# text = Hierdie onmiddellike maatreëls sal gelei word deur die beginsel van 'n teensikliese fiskale beleid.
 # org_sent_id = 1500
 1	Hierdie	hierdie	DET	PA	PronType=Dem	3	det	_	_
 2	onmiddellike	onmiddellik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
-3	maatreÃ«ls	maatreÃ«l	NOUN	NSM	Number=Plur	5	nsubj:pass	_	_
+3	maatreëls	maatreël	NOUN	NSM	Number=Plur	5	nsubj:pass	_	_
 4	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	5	aux	_	_
 5	gelei	lei	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	5	aux:pass	_	_
@@ -9997,7 +9997,7 @@
 6	afname	afname	NOUN	NSE	Number=Sing	2	obj	_	_
 7	in	in	ADP	SVS	AdpType=Prep	8	case	_	_
 8	regeringskuldvlakke	regeringskuldvlak	NOUN	NSM	Number=Plur	6	nmod	_	_
-9	wanneer	wanneer	PRON	PB	PronType=Rel	15	nsubj	_	_
+9	wanneer	wanneer	ADV	PB	Degree=Pos	15	advmod	_	_
 10	toestande	toestand	NOUN	NSM	Number=Plur	15	nsubj	_	_
 11	weer	weer	ADV	BS	Degree=Pos	14	advmod	_	_
 12	'n	'n	DET	LO	Definite=Ind|PronType=Art	14	det	_	_
@@ -10007,7 +10007,7 @@
 16	.	.	PUNCT	ZE	_	15	punct	_	_
 
 # sent_id = test-s375
-# text = Ons pogings sal ook ingelig word deur die wete dat die maatreÃ«ls om die omgewing te beskerm en om die impak van klimaatsverandering af te weer ook kan bydra tot werkskepping.
+# text = Ons pogings sal ook ingelig word deur die wete dat die maatreëls om die omgewing te beskerm en om die impak van klimaatsverandering af te weer ook kan bydra tot werkskepping.
 # org_sent_id = 1503
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	pogings	poging	NOUN	NSM	Number=Plur	5	nsubj:pass	_	_
@@ -10020,7 +10020,7 @@
 9	wete	wete	NOUN	NA	Number=Sing	5	obl	_	_
 10	dat	dat	SCONJ	KO	_	9	amod	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
-12	maatreÃ«ls	maatreÃ«l	NOUN	NSM	Number=Plur	29	nsubj	_	_
+12	maatreëls	maatreël	NOUN	NSM	Number=Plur	29	nsubj	_	_
 13	om	om	ADP	SVS	AdpType=Prep	17	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	omgewing	omgewing	NOUN	NSE	Number=Sing	17	obj	_	_
@@ -10078,7 +10078,7 @@
 31	ontstaan	ontstaan	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	27	ccomp	_	_
 32	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	31	aux	_	_
 33	en	en	CCONJ	KN	_	28	cc	_	_
-34	waar	waar	PRON	PB	PronType=Rel	38	nsubj:pass	_	_
+34	waar	waar	ADV	PB	Degree=Pos	38	advmod	_	_
 35	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	38	nsubj:pass	_	_
 36	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
 37	ergste	erg	ADV	BO	Degree=Sup	38	advmod	_	_
@@ -10087,7 +10087,7 @@
 40	.	.	PUNCT	ZE	_	38	punct	_	_
 
 # sent_id = test-s377
-# text = Ons glo dat die tyd nou aangebreek het om binnelandse regulasies en oorsigte oor die finansiÃ«le stelsel te verstewig, maar ook dat strenger toesig oor en optrede op 'n wÃªreldwye skaal onvermydelik en noodsaaklik geword het.
+# text = Ons glo dat die tyd nou aangebreek het om binnelandse regulasies en oorsigte oor die finansiële stelsel te verstewig, maar ook dat strenger toesig oor en optrede op 'n wêreldwye skaal onvermydelik en noodsaaklik geword het.
 # org_sent_id = 1505
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	glo	glo	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -10104,7 +10104,7 @@
 13	oorsigte	oorsig	NOUN	NSM	Number=Plur	11	conj	_	_
 14	oor	oor	ADP	SVS	AdpType=Prep	17	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	17	det	_	_
-16	finansiÃ«le	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
+16	finansiële	finansieel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	stelsel	stelsel	NOUN	NSE	Number=Sing	19	obl	_	_
 18	te	te	PART	UPI	PartType=Inf	19	mark	_	_
 19	verstewig	verstewig	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	7	obl	_	SpaceAfter=No
@@ -10119,7 +10119,7 @@
 28	optrede	optrede	NOUN	NSE	Number=Sing	25	conj	_	_
 29	op	op	ADP	SVS	AdpType=Prep	32	case	_	_
 30	'n	'n	DET	LO	Definite=Ind|PronType=Art	32	det	_	_
-31	wÃªreldwye	wÃªreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
+31	wêreldwye	wêreldwyd	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
 32	skaal	skaal	NOUN	NSE	Number=Sing	28	nmod	_	_
 33	onvermydelik	onvermydelik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	22	dep	_	_
 34	en	en	CCONJ	KN	_	36	cc	_	_
@@ -10129,7 +10129,7 @@
 38	.	.	PUNCT	ZE	_	36	punct	_	_
 
 # sent_id = test-s378
-# text = Uiters belangrik is dat ons ook die integriteit van die wÃªreldhandelstelsel moet beskerm, die huidige samesprekings van die Doha-rondte moet voltooi en verseker dat ontwikkelingshulp nie afgeskaal word nie.
+# text = Uiters belangrik is dat ons ook die integriteit van die wêreldhandelstelsel moet beskerm, die huidige samesprekings van die Doha-rondte moet voltooi en verseker dat ontwikkelingshulp nie afgeskaal word nie.
 # org_sent_id = 1506
 1	Uiters	uiters	ADV	BS	Degree=Pos	2	advmod	_	_
 2	belangrik	belangrik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
@@ -10141,7 +10141,7 @@
 8	integriteit	integriteit	NOUN	NA	Number=Sing	13	obj	_	_
 9	van	van	ADP	SVS	AdpType=Prep	11	case	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
-11	wÃªreldhandelstelsel	wÃªreldhandelstelsel	NOUN	NSE	Number=Sing	8	nmod	_	_
+11	wêreldhandelstelsel	wêreldhandelstelsel	NOUN	NSE	Number=Sing	8	nmod	_	_
 12	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	13	aux	_	_
 13	beskerm	beskerm	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	dep	_	SpaceAfter=No
 14	,	,	PUNCT	ZM	_	13	punct	_	_
@@ -10164,7 +10164,7 @@
 31	.	.	PUNCT	ZE	_	28	punct	_	_
 
 # sent_id = test-s379
-# text = Die grootste les om uit hierdie ervaring te leer is dat ons sterker vennootskappe tussen plaaslike en globale ekonomiese rolspelers nodig het, nie net om die impak van die krisis te stuit nie, maar ook om maatreÃ«ls in plek te stel wat 'n herhaling daarvan sal voorkom.
+# text = Die grootste les om uit hierdie ervaring te leer is dat ons sterker vennootskappe tussen plaaslike en globale ekonomiese rolspelers nodig het, nie net om die impak van die krisis te stuit nie, maar ook om maatreëls in plek te stel wat 'n herhaling daarvan sal voorkom.
 # org_sent_id = 1507
 1	Die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 2	grootste	groot	ADJ	AOA	AdjType=Attr|Case=Nom|Degree=Sup	3	amod	_	_
@@ -10204,7 +10204,7 @@
 36	maar	maar	CCONJ	KN	_	25	cc	_	_
 37	ook	ook	ADV	BS	Degree=Pos	25	conj	_	_
 38	om	om	ADP	SVS	AdpType=Prep	43	case	_	_
-39	maatreÃ«ls	maatreÃ«l	NOUN	NSM	Number=Plur	43	obj	_	_
+39	maatreëls	maatreël	NOUN	NSM	Number=Plur	43	obj	_	_
 40	in	in	ADP	SVS	AdpType=Prep	41	case	_	_
 41	plek	plek	NOUN	NSE	Number=Sing	43	obl	_	_
 42	te	te	PART	UPI	PartType=Inf	43	mark	_	_
@@ -10218,7 +10218,7 @@
 50	.	.	PUNCT	ZE	_	49	punct	_	_
 
 # sent_id = test-s380
-# text = In ons eie land sal ons al hierdie dinge doen as deel van die proses om ons samelewing op 'n pad van hoÃ«r groei en ontwikkeling te plaas.
+# text = In ons eie land sal ons al hierdie dinge doen as deel van die proses om ons samelewing op 'n pad van hoër groei en ontwikkeling te plaas.
 # org_sent_id = 1508
 1	In	in	ADP	SVS	AdpType=Prep	4	case	_	_
 2	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
@@ -10242,7 +10242,7 @@
 20	'n	'n	DET	LO	Definite=Ind|PronType=Art	21	det	_	_
 21	pad	pad	NOUN	NSE	Number=Sing	28	obl	_	_
 22	van	van	ADP	SVS	AdpType=Prep	24	case	_	_
-23	hoÃ«r	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	24	amod	_	_
+23	hoër	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	24	amod	_	_
 24	groei	groei	NOUN	NA	Number=Sing	21	nmod	_	_
 25	en	en	CCONJ	KN	_	24	cc	_	_
 26	ontwikkeling	ontwikkeling	NOUN	NA	Number=Sing	24	conj	_	_
@@ -10251,7 +10251,7 @@
 29	.	.	PUNCT	ZE	_	28	punct	_	_
 
 # sent_id = test-s381
-# text = Dit gaan beteken dat dit effens langer gaan neem om 'n hoÃ«r trajek te bereik.
+# text = Dit gaan beteken dat dit effens langer gaan neem om 'n hoër trajek te bereik.
 # org_sent_id = 1509
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gaan	gaan	VERB	VTUOM	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -10264,7 +10264,7 @@
 9	neem	neem	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	8	dep	_	_
 10	om	om	ADP	SVS	AdpType=Prep	15	case	_	_
 11	'n	'n	DET	LO	Definite=Ind|PronType=Art	13	det	_	_
-12	hoÃ«r	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	13	amod	_	_
+12	hoër	hoog	ADJ	AVA	AdjType=Attr|Case=Nom|Degree=Cmp	13	amod	_	_
 13	trajek	trajek	NOUN	NSE	Number=Sing	15	obj	_	_
 14	te	te	PART	UPI	PartType=Inf	15	mark	_	_
 15	bereik	bereik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	obl	_	SpaceAfter=No
@@ -10300,7 +10300,7 @@
 6	uiters	uiters	ADV	BS	Degree=Pos	7	advmod	_	_
 7	belangrik	belangrik	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
 8	wees	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	7	cop	_	_
-9	hoe	hoe	PRON	PB	PronType=Rel	13	nsubj	_	_
+9	hoe	hoe	ADV	PB	Degree=Pos	13	advmod	_	_
 10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 12	land	land	NOUN	NSE	Number=Sing	13	obj	_	_
@@ -10322,7 +10322,7 @@
 28	.	.	PUNCT	ZE	_	26	punct	_	_
 
 # sent_id = test-s384
-# text = Ek verwys hier spesifiek na die FIFA-WÃªreldbeker in 2010, sowel as die Konfederasiebeker 'n paar maande van nou af.
+# text = Ek verwys hier spesifiek na die FIFA-Wêreldbeker in 2010, sowel as die Konfederasiebeker 'n paar maande van nou af.
 # org_sent_id = 1512
 1	Ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	verwys	verwys	VERB	VTHOV	Subcat=Prep|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -10330,7 +10330,7 @@
 4	spesifiek	spesifiek	ADV	BS	Degree=Pos	2	advmod	_	_
 5	na	na	ADP	SVS	AdpType=Prep	7	case	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
-7	FIFA-WÃªreldbeker	FIFA-wÃªreldbeker	NOUN	NSE	Number=Sing	2	obl	_	_
+7	FIFA-Wêreldbeker	FIFA-wêreldbeker	NOUN	NSE	Number=Sing	2	obl	_	_
 8	in	in	ADP	SVS	AdpType=Prep	9	case	_	_
 9	2010	2010	SYM	RS	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	ZM	_	9	punct	_	_
@@ -10347,7 +10347,7 @@
 21	.	.	PUNCT	ZE	_	2	punct	_	_
 
 # sent_id = test-s385
-# text = Byna al die projekte en planne is voltooi of naby aan klaar- van stadions, vervoerinfrastruktuur, veiligheidsmaatreÃ«ls, kwessies rondom akkommodasie, tot gesondheid- en immigrasieplanne- wat die vertroue bevestig van die globale sokkerwÃªreld dat hierdie 'n waarlik suksesvolle toernooi sal wees.
+# text = Byna al die projekte en planne is voltooi of naby aan klaar- van stadions, vervoerinfrastruktuur, veiligheidsmaatreëls, kwessies rondom akkommodasie, tot gesondheid- en immigrasieplanne- wat die vertroue bevestig van die globale sokkerwêreld dat hierdie 'n waarlik suksesvolle toernooi sal wees.
 # org_sent_id = 1513
 1	Byna	byna	ADV	BS	Degree=Pos	2	advmod	_	_
 2	al	al	DET	THAO	PronType=Ind	4	det	_	_
@@ -10367,7 +10367,7 @@
 16	,	,	PUNCT	ZM	_	15	punct	_	_
 17	vervoerinfrastruktuur	vervoerinfrastruktuur	NOUN	NM	Number=Sing	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	ZM	_	17	punct	_	_
-19	veiligheidsmaatreÃ«ls	veiligheidsmaatreÃ«l	NOUN	NSM	Number=Plur	17	conj	_	SpaceAfter=No
+19	veiligheidsmaatreëls	veiligheidsmaatreël	NOUN	NSM	Number=Plur	17	conj	_	SpaceAfter=No
 20	,	,	PUNCT	ZM	_	19	punct	_	_
 21	kwessies	kwessie	NOUN	NSM	Number=Plur	19	conj	_	_
 22	rondom	rondom	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -10385,7 +10385,7 @@
 34	van	van	ADP	SVS	AdpType=Prep	37	case	_	_
 35	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
 36	globale	globaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	37	amod	_	_
-37	sokkerwÃªreld	sokkerwÃªreld	NOUN	NSE	Number=Sing	33	obl	_	_
+37	sokkerwêreld	sokkerwêreld	NOUN	NSE	Number=Sing	33	obl	_	_
 38	dat	dat	SCONJ	KO	_	37	amod	_	_
 39	hierdie	hierdie	DET	PA	PronType=Dem	43	nsubj	_	_
 40	'n	'n	DET	LO	Definite=Ind|PronType=Art	43	det	_	_
@@ -10397,13 +10397,13 @@
 46	.	.	PUNCT	ZE	_	43	punct	_	_
 
 # sent_id = test-s386
-# text = En ons glo, nÃ¡ vyf agtereenvolgende oorwinnings, dat die nasionale sokkerspan nou met meer selfvertroue voorberei om bo verwagting te presteer!
+# text = En ons glo, ná vyf agtereenvolgende oorwinnings, dat die nasionale sokkerspan nou met meer selfvertroue voorberei om bo verwagting te presteer!
 # org_sent_id = 1514
 1	En	en	CCONJ	KN	_	3	amod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	glo	glo	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	ZM	_	8	punct	_	_
-5	nÃ¡	nÃ¡	ADP	SVS	AdpType=Prep	8	case	_	_
+5	ná	ná	ADP	SVS	AdpType=Prep	8	case	_	_
 6	vyf	vyf	NUM	THAB	_	8	nummod	_	_
 7	agtereenvolgende	agtereenvolgend	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	oorwinnings	oorwinning	NOUN	NSM	Number=Plur	3	obl	_	SpaceAfter=No
@@ -10425,7 +10425,7 @@
 24	!	!	PUNCT	ZE	_	23	punct	_	_
 
 # sent_id = test-s387
-# text = Maar meer as dit, die ware erfenis van hierdie skouspel sal ons vermoÃ« wees om Suid-Afrikaanse en Afrika-gasvryheid en medemenslikheid ten toon te stel- om eens en vir altyd die persepsies oor ons land en ons kontinent in die oÃ« van die wÃªreld te verander.
+# text = Maar meer as dit, die ware erfenis van hierdie skouspel sal ons vermoë wees om Suid-Afrikaanse en Afrika-gasvryheid en medemenslikheid ten toon te stel- om eens en vir altyd die persepsies oor ons land en ons kontinent in die oë van die wêreld te verander.
 # org_sent_id = 1515
 1	Maar	maar	CCONJ	KN	_	14	amod	_	_
 2	meer	baie	DET	THBO	PronType=Ind	14	dep	_	_
@@ -10440,7 +10440,7 @@
 11	skouspel	skouspel	NOUN	NSE	Number=Sing	8	nmod	_	_
 12	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	14	aux	_	_
 13	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
-14	vermoÃ«	vermoÃ«	NOUN	NSE	Number=Sing	0	root	_	_
+14	vermoë	vermoë	NOUN	NSE	Number=Sing	0	root	_	_
 15	wees	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	14	cop	_	_
 16	om	om	ADP	SVS	AdpType=Prep	25	case	_	_
 17	Suid-Afrikaanse	Suid-Afrikaans	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	25	obj	_	_
@@ -10468,10 +10468,10 @@
 39	kontinent	kontinent	NOUN	NSE	Number=Sing	36	conj	_	_
 40	in	in	ADP	SVS	AdpType=Prep	42	case	_	_
 41	die	die	DET	LB	Definite=Def|PronType=Art	42	det	_	_
-42	oÃ«	oog	NOUN	NSM	Number=Plur	33	nmod	_	_
+42	oë	oog	NOUN	NSM	Number=Plur	33	nmod	_	_
 43	van	van	ADP	SVS	AdpType=Prep	45	case	_	_
 44	die	die	DET	LB	Definite=Def|PronType=Art	45	det	_	_
-45	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	42	nmod	_	_
+45	wêreld	wêreld	NOUN	NSE	Number=Sing	42	nmod	_	_
 46	te	te	PART	UPI	PartType=Inf	47	mark	_	_
 47	verander	verander	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	25	obl	_	SpaceAfter=No
 48	.	.	PUNCT	ZE	_	47	punct	_	_
@@ -10526,7 +10526,7 @@
 24	.	.	PUNCT	ZE	_	22	punct	_	_
 
 # sent_id = test-s390
-# text = 'n Spesiale woord van lof aan ons krieketspan wat die kruin van die wÃªreldranglys bereik het.
+# text = 'n Spesiale woord van lof aan ons krieketspan wat die kruin van die wêreldranglys bereik het.
 # org_sent_id = 1518
 1	'n	'n	DET	LO	Definite=Ind|PronType=Art	3	det	_	_
 2	Spesiale	spesiaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
@@ -10541,20 +10541,20 @@
 11	kruin	kruin	NOUN	NSE	Number=Sing	15	obj	_	_
 12	van	van	ADP	SVS	AdpType=Prep	14	case	_	_
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
-14	wÃªreldranglys	wÃªreldranglys	NOUN	NSE	Number=Sing	11	nmod	_	_
+14	wêreldranglys	wêreldranglys	NOUN	NSE	Number=Sing	11	nmod	_	_
 15	bereik	bereik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	ccomp	_	_
 16	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	ZE	_	15	punct	_	_
 
 # sent_id = test-s391
-# text = Ons is natuurlik ook die rugby-wÃªreldkampioene; Giniel de Villiers en sy span het die Dakar-wedren gewen; ons paralimpiese atlete gee ons voortdurend 'n rede om trots te voel; en ons onder-20-sokkerspan het heel goed gevaar in 'n uiters kompeterende omgewing.
+# text = Ons is natuurlik ook die rugby-wêreldkampioene; Giniel de Villiers en sy span het die Dakar-wedren gewen; ons paralimpiese atlete gee ons voortdurend 'n rede om trots te voel; en ons onder-20-sokkerspan het heel goed gevaar in 'n uiters kompeterende omgewing.
 # org_sent_id = 1519
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	6	cop	_	_
 3	natuurlik	natuurlik	ADV	BS	Degree=Pos	6	advmod	_	_
 4	ook	ook	ADV	BS	Degree=Pos	6	advmod	_	_
 5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
-6	rugby-wÃªreldkampioene	rugby-wÃªreldkampioen	NOUN	NSM	Number=Plur	0	root	_	SpaceAfter=No
+6	rugby-wêreldkampioene	rugby-wêreldkampioen	NOUN	NSM	Number=Plur	0	root	_	SpaceAfter=No
 7	;	;	PUNCT	ZM	_	6	punct	_	_
 8	Giniel	Giniel	PROPN	NEE	Number=Sing	17	nsubj	_	_
 9	de	de	DET	LB	Definite=Def|PronType=Art	8	dep	_	_
@@ -10749,17 +10749,17 @@
 23	.	.	PUNCT	ZE	_	16	punct	_	_
 
 # sent_id = test-s397
-# text = Ons vasteland wys die wÃªreld hoe hoop en deursettingsvermoÃ« lyk.
+# text = Ons vasteland wys die wêreld hoe hoop en deursettingsvermoë lyk.
 # org_sent_id = 1525
 1	Ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
 2	vasteland	vasteland	NOUN	NSE	Number=Sing	3	nsubj	_	_
 3	wys	wys	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 4	die	die	DET	LB	Definite=Def|PronType=Art	5	det	_	_
-5	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	3	obj	_	_
+5	wêreld	wêreld	NOUN	NSE	Number=Sing	3	obj	_	_
 6	hoe	hoe	PRON	PB	PronType=Rel	5	amod	_	_
 7	hoop	hoop	NOUN	NA	Number=Sing	10	nsubj	_	_
 8	en	en	CCONJ	KN	_	6	cc	_	_
-9	deursettingsvermoÃ«	deursettingsvermoÃ«	NOUN	NA	Number=Sing	6	conj	_	_
+9	deursettingsvermoë	deursettingsvermoë	NOUN	NA	Number=Sing	6	conj	_	_
 10	lyk	lyk	VERB	VTHOK	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	dep	_	SpaceAfter=No
 11	.	.	PUNCT	ZE	_	10	punct	_	_
 
@@ -10822,7 +10822,7 @@
 13	met	met	ADP	SVS	AdpType=Prep	15	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	onderhandelinge	onderhandeling	NOUN	NSM	Number=Plur	12	obl	_	_
-16	wat	wat	PRON	PB	PronType=Rel	18	nsubj	_	_
+16	wat	wat	PRON	PB	PronType=Rel	18	obj	_	_
 17	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 18	aangegaan	aangaan	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	15	ccomp	_	_
 19	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	18	aux	_	SpaceAfter=No
@@ -11242,7 +11242,7 @@
 8	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
 9	diepgrondige	diepgrondig	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	10	amod	_	_
 10	verhoudings	verhouding	NOUN	NSM	Number=Plur	21	obj	_	_
-11	wat	wat	PRON	PB	PronType=Rel	18	nsubj	_	_
+11	wat	wat	PRON	PB	PronType=Rel	18	obj	_	_
 12	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 13	binne	binne	ADP	SVS	AdpType=Prep	17	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	17	det	_	_
@@ -11260,7 +11260,7 @@
 26	.	.	PUNCT	ZE	_	25	punct	_	_
 
 # sent_id = test-s411
-# text = Ons wil graag van die geleentheid gebruik maak om die mense en leierskorps van ZambiÃ«, Ghana en die Verenigde State van Amerika geluk te wens met verkiesings wat simbolies die nougesette grense van hul lande oorgesteek het.
+# text = Ons wil graag van die geleentheid gebruik maak om die mense en leierskorps van Zambië, Ghana en die Verenigde State van Amerika geluk te wens met verkiesings wat simbolies die nougesette grense van hul lande oorgesteek het.
 # org_sent_id = 1539
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 2	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	8	aux	_	_
@@ -11276,7 +11276,7 @@
 12	en	en	CCONJ	KN	_	11	cc	_	_
 13	leierskorps	leierskorps	NOUN	NM	Number=Sing	11	conj	_	_
 14	van	van	ADP	SVS	AdpType=Prep	15	case	_	_
-15	ZambiÃ«	ZambiÃ«	PROPN	NEE	Number=Sing	13	nmod	_	SpaceAfter=No
+15	Zambië	Zambië	PROPN	NEE	Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	ZM	_	15	punct	_	_
 17	Ghana	Ghana	PROPN	NEE	Number=Sing	15	flat	_	_
 18	en	en	CCONJ	KN	_	17	cc	_	_
@@ -11375,7 +11375,7 @@
 17	.	.	PUNCT	ZE	_	16	punct	_	_
 
 # sent_id = test-s415
-# text = Ons wil ook graag weereens ons verbintenis bevestig aan die noue bande wat ons met Brazil en IndiÃ« gevorm het deur die IBSA; en ook die versterking van bande wat ons land gesmee het met Rusland en lande in AsiÃ«, die Midde-Ooste, sowel as Latyn- en Noord-Amerika.
+# text = Ons wil ook graag weereens ons verbintenis bevestig aan die noue bande wat ons met Brazil en Indië gevorm het deur die IBSA; en ook die versterking van bande wat ons land gesmee het met Rusland en lande in Asië, die Midde-Ooste, sowel as Latyn- en Noord-Amerika.
 # org_sent_id = 1543
 1	Ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 2	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	8	aux	_	_
@@ -11389,12 +11389,12 @@
 10	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 11	noue	nou	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	12	amod	_	_
 12	bande	band	NOUN	NSM	Number=Plur	8	iobj	_	_
-13	wat	wat	PRON	PB	PronType=Rel	19	nsubj	_	_
+13	wat	wat	PRON	PB	PronType=Rel	19	obj	_	_
 14	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 15	met	met	ADP	SVS	AdpType=Prep	16	case	_	_
 16	Brazil	Brazil	PROPN	NEE	Number=Sing	19	obl	_	_
 17	en	en	CCONJ	KN	_	16	cc	_	_
-18	IndiÃ«	IndiÃ«	PROPN	NEE	Number=Sing	16	flat	_	_
+18	Indië	Indië	PROPN	NEE	Number=Sing	16	flat	_	_
 19	gevorm	vorm	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	_
 20	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	19	aux	_	_
 21	deur	deur	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -11407,7 +11407,7 @@
 28	versterking	versterking	NOUN	NSE	Number=Sing	12	conj	_	_
 29	van	van	ADP	SVS	AdpType=Prep	30	case	_	_
 30	bande	band	NOUN	NSM	Number=Plur	28	nmod	_	_
-31	wat	wat	PRON	PB	PronType=Rel	34	nsubj	_	_
+31	wat	wat	PRON	PB	PronType=Rel	34	obj	_	_
 32	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	33	det	_	_
 33	land	land	NOUN	NSE	Number=Sing	34	nsubj	_	_
 34	gesmee	smee	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	30	ccomp	_	_
@@ -11417,7 +11417,7 @@
 38	en	en	CCONJ	KN	_	37	cc	_	_
 39	lande	land	NOUN	NSM	Number=Plur	37	conj	_	_
 40	in	in	ADP	SVS	AdpType=Prep	41	case	_	_
-41	AsiÃ«	AsiÃ«	PROPN	NEE	Number=Sing	39	nmod	_	SpaceAfter=No
+41	Asië	Asië	PROPN	NEE	Number=Sing	39	nmod	_	SpaceAfter=No
 42	,	,	PUNCT	ZM	_	41	punct	_	_
 43	die	die	DET	LB	Definite=Def|PronType=Art	44	det	_	_
 44	Midde-Ooste	Midde-Ooste	PROPN	NEE	Number=Sing	41	flat	_	SpaceAfter=No
@@ -11515,7 +11515,7 @@
 14	.	.	PUNCT	ZE	_	4	punct	_	_
 
 # sent_id = test-s419
-# text = Dit word stadig maar seker sterker, en dit word ondersteun deur 'n Grondwet wat nÃªrens ter wÃªreld geÃ«wenaar kan word nie.
+# text = Dit word stadig maar seker sterker, en dit word ondersteun deur 'n Grondwet wat nêrens ter wêreld geëwenaar kan word nie.
 # org_sent_id = 1316
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	word	word	VERB	VTHOK	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -11532,10 +11532,10 @@
 13	'n	'n	DET	LO	Definite=Ind|PronType=Art	14	det	_	_
 14	Grondwet	grondwet	NOUN	NSE	Number=Sing	11	obl	_	_
 15	wat	wat	PRON	PB	PronType=Rel	19	nsubj:pass	_	_
-16	nÃªrens	nÃªrens	ADV	BS	Degree=Pos	19	advmod	_	_
+16	nêrens	nêrens	ADV	BS	Degree=Pos	19	advmod	_	_
 17	ter	ter	ADP	SVS	AdpType=Prep	18	case	_	_
-18	wÃªreld	wÃªreld	NOUN	NSE	Number=Sing	19	obl	_	_
-19	geÃ«wenaar	ewenaar	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	ccomp	_	_
+18	wêreld	wêreld	NOUN	NSE	Number=Sing	19	obl	_	_
+19	geëwenaar	ewenaar	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	14	ccomp	_	_
 20	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	19	aux	_	_
 21	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	19	aux:pass	_	_
 22	nie	nie	PART	UPO	PartType=Neg	19	advmod	_	SpaceAfter=No
@@ -11584,7 +11584,7 @@
 38	.	.	PUNCT	ZE	_	28	punct	_	_
 
 # sent_id = test-s421
-# text = Dit is Suid-Afrika se mense wat die land se vooruitgang verseker; en dit is hulle wat ons demokrasie sal verseker in die jare wat voorlÃª.
+# text = Dit is Suid-Afrika se mense wat die land se vooruitgang verseker; en dit is hulle wat ons demokrasie sal verseker in die jare wat voorlê.
 # org_sent_id = 1318
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	3	cop	_	_
@@ -11611,7 +11611,7 @@
 23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
 24	jare	jaar	NOUN	NSM	Number=Plur	21	obl	_	_
 25	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
-26	voorlÃª	voorlÃª	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	24	ccomp	_	SpaceAfter=No
+26	voorlê	voorlê	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	24	ccomp	_	SpaceAfter=No
 27	.	.	PUNCT	ZE	_	26	punct	_	_
 
 # sent_id = test-s422
@@ -11682,7 +11682,7 @@
 19	.	.	PUNCT	ZE	_	17	punct	_	_
 
 # sent_id = test-s424
-# text = Maar ons moet ook gebruik maak van die spesiale registrasie-naweek wat deur die Verkiesingskommissie van Suid-Afrika (die OVK) gereÃ«l is, naamlik mÃ´re en Sondag, onderskeidelik die 7de en 8ste Februarie.
+# text = Maar ons moet ook gebruik maak van die spesiale registrasie-naweek wat deur die Verkiesingskommissie van Suid-Afrika (die OVK) gereël is, naamlik môre en Sondag, onderskeidelik die 7de en 8ste Februarie.
 # org_sent_id = 1321
 1	Maar	maar	CCONJ	KN	_	6	amod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
@@ -11704,11 +11704,11 @@
 18	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 19	OVK	OVK	X	RL	_	16	appos	_	SpaceAfter=No
 20	)	)	PUNCT	ZPR	_	19	punct	_	_
-21	gereÃ«l	reÃ«l	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	10	ccomp	_	_
+21	gereël	reël	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	10	ccomp	_	_
 22	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	21	aux:pass	_	SpaceAfter=No
 23	,	,	PUNCT	ZM	_	21	punct	_	_
 24	naamlik	naamlik	ADV	BS	Degree=Pos	10	advmod	_	_
-25	mÃ´re	mÃ´re	ADV	BS	Degree=Pos	10	advmod	_	_
+25	môre	môre	ADV	BS	Degree=Pos	10	advmod	_	_
 26	en	en	CCONJ	KN	_	25	cc	_	_
 27	Sondag	Sondag	PROPN	NEE	Number=Sing	25	conj	_	SpaceAfter=No
 28	,	,	PUNCT	ZM	_	27	punct	_	_
@@ -11721,7 +11721,7 @@
 35	.	.	PUNCT	ZE	_	6	punct	_	_
 
 # sent_id = test-s425
-# text = Ek wil ook van die geleentheid gebruik maak om te sÃª dat ek oor die volgende paar dae samesprekings met die Verkiesingskommissie en die provinsiale premiers sal hÃª en die datum van die verkiesing sal aankondig.
+# text = Ek wil ook van die geleentheid gebruik maak om te sê dat ek oor die volgende paar dae samesprekings met die Verkiesingskommissie en die provinsiale premiers sal hê en die datum van die verkiesing sal aankondig.
 # org_sent_id = 1322
 1	Ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 2	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	8	aux	_	_
@@ -11733,7 +11733,7 @@
 8	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 9	om	om	ADP	SVS	AdpType=Prep	11	case	_	_
 10	te	te	PART	UPI	PartType=Inf	11	mark	_	_
-11	sÃª	sÃª	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	obl	_	_
+11	sê	sê	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	obl	_	_
 12	dat	dat	SCONJ	KO	_	11	amod	_	_
 13	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
 14	oor	oor	ADP	SVS	AdpType=Prep	18	case	_	_
@@ -11750,7 +11750,7 @@
 25	provinsiale	provinsiaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	26	amod	_	_
 26	premiers	premier	NOUN	NSM	Number=Plur	22	conj	_	_
 27	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	28	aux	_	_
-28	hÃª	het	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	11	dep	_	_
+28	hê	het	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	11	dep	_	_
 29	en	en	CCONJ	KN	_	28	cc	_	_
 30	die	die	DET	LB	Definite=Def|PronType=Art	31	det	_	_
 31	datum	datum	NOUN	NSE	Number=Sing	36	obj	_	_

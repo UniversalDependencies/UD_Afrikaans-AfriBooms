@@ -163,7 +163,7 @@
 27	Gateway-inbelsentrum	Gateway-inbelsentrum	NOUN	NSE	Number=Sing	19	conj	_	SpaceAfter=No
 28	,	,	PUNCT	ZM	_	27	punct	_	_
 29	wat	wat	PRON	PB	PronType=Rel	47	nsubj	_	_
-30	diegene	diegene	PRON	PO	PronType=Ind	47	nsubj	_	_
+30	diegene	diegene	PRON	PO	PronType=Ind	47	obj	_	_
 31	wat	wat	PRON	PB	PronType=Rel	30	amod	_	_
 32	nie	nie	ADV	BS	Degree=Pos	34	advmod	_	_
 33	in	in	ADP	SVS	AdpType=Prep	34	dep	_	_
@@ -462,7 +462,7 @@
 5	Engels	Engels	PROPN	NEE	Number=Sing	6	obl	_	_
 6	opgestel	opstel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	ZM	_	6	punct	_	_
-8	waarna	waarna	PRON	PB	PronType=Rel	14	nsubj:pass	_	_
+8	waarna	waarna	ADV	PB	Degree=Pos	14	advmod	_	_
 9	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	_
 10	in	in	ADP	SVS	AdpType=Prep	13	case	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
@@ -720,7 +720,7 @@
 23	venstertjie	venster	NOUN	NSED	Degree=Dim|Number=Sing	25	obl	_	_
 24	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	25	aux	_	_
 25	verskyn	verskyn	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
-26	wanneer	wanneer	PRON	PB	PronType=Rel	32	nsubj:pass	_	_
+26	wanneer	wanneer	ADV	PB	Degree=Pos	32	advmod	_	_
 27	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	28	det	_	_
 28	merker	merker	NOUN	NSE	Number=Sing	32	nsubj:pass	_	_
 29	oor	oor	ADP	SVS	AdpType=Prep	31	case	_	_
@@ -1018,7 +1018,7 @@
 8	op	op	ADP	SVS	AdpType=Prep	10	case	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
 10	dokument	dokument	NOUN	NSE	Number=Sing	7	obl	_	_
-11	wat	wat	PRON	PB	PronType=Rel	15	nsubj	_	_
+11	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 12	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 13	graag	graag	ADV	BS	Degree=Pos	15	advmod	_	_
 14	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	15	aux	_	_
@@ -1059,7 +1059,7 @@
 12	op	op	ADP	SVS	AdpType=Prep	14	case	_	_
 13	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	det	_	_
 14	hardeskyf	hardeskyf	NOUN	NSE	Number=Sing	11	nmod	_	_
-15	waar	waar	PRON	PB	PronType=Rel	20	nsubj	_	_
+15	waar	waar	ADV	PB	Degree=Pos	20	advmod	_	_
 16	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
 17	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 18	dokument	dokument	NOUN	NSE	Number=Sing	20	obj	_	_
@@ -1086,7 +1086,7 @@
 6	na	na	ADP	SVS	AdpType=Prep	8	case	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	plek	plek	NOUN	NSE	Number=Sing	4	obl	_	_
-9	wat	wat	PRON	PB	PronType=Rel	11	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	11	obj	_	_
 10	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	aangedui	aandui	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	8	ccomp	_	_
 12	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	11	aux	_	SpaceAfter=No
@@ -1106,7 +1106,7 @@
 9	daarna	daarna	PRON	PB	PronType=Rel	8	amod	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 11	dokumente	dokument	NOUN	NSM	Number=Plur	8	obj	_	_
-12	wat	wat	PRON	PB	PronType=Rel	14	nsubj	_	_
+12	wat	wat	PRON	PB	PronType=Rel	14	obj	_	_
 13	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 14	afgelaai	aflaai	VERB	VVHOO	Subcat=Intr|Tense=Past|VerbForm=Part	11	ccomp	_	_
 15	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	14	aux	_	_
@@ -1134,7 +1134,7 @@
 16	na	na	ADP	SVS	AdpType=Prep	18	case	_	_
 17	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 18	dokument	dokument	NOUN	NSE	Number=Sing	15	nmod	_	_
-19	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	22	obj	_	_
 20	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
 21	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	22	aux	_	_
 22	stoor	stoor	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	18	ccomp	_	SpaceAfter=No
@@ -1157,7 +1157,7 @@
 12	op	op	ADP	SVS	AdpType=Prep	14	case	_	_
 13	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	14	det	_	_
 14	hardeskyf	hardeskyf	NOUN	NSE	Number=Sing	11	nmod	_	_
-15	waar	waar	PRON	PB	PronType=Rel	20	nsubj	_	_
+15	waar	waar	ADV	PB	Degree=Pos	20	advmod	_	_
 16	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
 17	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 18	dokument	dokument	NOUN	NSE	Number=Sing	20	obj	_	_
@@ -1184,7 +1184,7 @@
 6	na	na	ADP	SVS	AdpType=Prep	8	case	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	plek	plek	NOUN	NSE	Number=Sing	4	obl	_	_
-9	wat	wat	PRON	PB	PronType=Rel	11	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	11	obj	_	_
 10	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 11	aangedui	aandui	VERB	VVHOO	Subcat=Intr|Tense=Past|VerbForm=Part	8	ccomp	_	_
 12	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	11	aux	_	SpaceAfter=No
@@ -1205,7 +1205,7 @@
 10	ook	ook	ADV	BS	Degree=Pos	8	advmod	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 12	dokumente	dokument	NOUN	NSM	Number=Plur	8	obj	_	_
-13	wat	wat	PRON	PB	PronType=Rel	15	nsubj	_	_
+13	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 14	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 15	afgelaai	aflaai	VERB	VVHOO	Subcat=Intr|Tense=Past|VerbForm=Part	12	ccomp	_	_
 16	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	15	aux	_	_
@@ -1453,9 +1453,9 @@
 44	die	die	DET	LB	Definite=Def|PronType=Art	45	det	_	_
 45	Minister	Minister	NOUN	NSE	Number=Sing	46	nsubj	_	_
 46	beslis	beslis	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-47	ingevolge	ingevolge	ADP	SVS	AdpType=Prep	48	case	_	_
-48	watter	watter	PRON	PB	PronType=Rel	60	nsubj	_	_
-49	prosedure	prosedure	NOUN	NSE	Number=Sing	60	nmod	_	_
+47	ingevolge	ingevolge	ADP	SVS	AdpType=Prep	60	case	_	_
+48	watter	watter	PRON	PB	PronType=Rel	49	amod	_	_
+49	prosedure	prosedure	NOUN	NSE	Number=Sing	47	obl	_	_
 50	die	die	DET	LB	Definite=Def|PronType=Art	51	det	_	_
 51	Direkteur-generaal	direkteur-generaal	NOUN	NSE	Number=Sing	60	nsubj	_	_
 52	die	die	DET	LB	Definite=Def|PronType=Art	53	det	_	_
@@ -1791,7 +1791,7 @@
 26	ondertekende	onderteken	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	28	amod	_	_
 27	geskrewe	skryf	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	28	amod	_	_
 28	onderneming	onderneming	NOUN	NSE	Number=Sing	23	conj	_	_
-29	waarin	waarin	PRON	PB	PronType=Rel	38	nsubj	_	_
+29	waarin	waarin	ADV	PB	Degree=Pos	38	advmod	_	_
 30	persone	persoon	NOUN	NSM	Number=Plur	38	nsubj	_	_
 31	wat	wat	PRON	PB	PronType=Rel	36	nsubj	_	_
 32	in	in	ADP	SVS	AdpType=Prep	35	case	_	_
@@ -2392,7 +2392,7 @@
 8	in	in	ADP	SVS	AdpType=Prep	10	case	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
 10	distrik	distrik	NOUN	NSE	Number=Sing	7	nmod	_	_
-11	waar	waar	PRON	PB	PronType=Rel	13	nsubj	_	_
+11	waar	waar	ADV	PB	Degree=Pos	13	advmod	_	_
 12	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
 13	woon	woon	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	10	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	ZE	_	13	punct	_	_
@@ -2408,9 +2408,9 @@
 6	jou	jou	PRON	PTEDP	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
 7	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	8	aux	_	_
 8	sê	sê	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-9	by	by	ADP	SVS	AdpType=Prep	10	case	_	_
-10	watter	watter	PRON	PB	PronType=Rel	17	nsubj	_	_
-11	hof	hof	NOUN	NSE	Number=Sing	10	nmod	_	_
+9	by	by	ADP	SVS	AdpType=Prep	11	case	_	_
+10	watter	watter	PRON	PB	PronType=Rel	11	amod	_	_
+11	hof	hof	NOUN	NSE	Number=Sing	17	nmod	_	_
 12	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
 13	om	om	ADP	SVS	AdpType=Prep	14	case	_	_
 14	onderhoud	onderhoud	NOUN	NM	Number=Sing	17	obl	_	_
@@ -2496,7 +2496,7 @@
 6	van	van	ADP	SVS	AdpType=Prep	8	case	_	_
 7	'n	'n	DET	LO	Definite=Ind|PronType=Art	8	det	_	_
 8	datum	datum	NOUN	NSE	Number=Sing	5	obl	_	_
-9	waarop	waarop	PRON	PB	PronType=Rel	28	nsubj	_	_
+9	waarop	waarop	ADV	PB	Degree=Pos	28	advmod	_	_
 10	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	28	nsubj	_	_
 11	en	en	CCONJ	KN	_	10	cc	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
@@ -2505,7 +2505,7 @@
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
 16	persoon	persoon	NOUN	NSE	Number=Sing	13	nmod	_	_
 17	van	van	ADP	SVS	AdpType=Prep	18	case	_	_
-18	wie	wie	PRON	PB	PronType=Rel	21	nsubj	_	_
+18	wie	wie	PRON	PB	PronType=Rel	21	obl	_	_
 19	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
 20	onderhoud	onderhoud	NOUN	NM	Number=Sing	21	obj	_	_
 21	verlang	verlang	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	16	ccomp	_	SpaceAfter=No
@@ -2549,7 +2549,7 @@
 8	brief	brief	NOUN	NSE	Number=Sing	5	nmod	_	_
 9	wat	wat	PRON	PB	PronType=Rel	13	nsubj	_	_
 10	'n	'n	DET	LO	Definite=Ind|PronType=Art	11	det	_	_
-11	persoon	persoon	NOUN	NSE	Number=Sing	13	nsubj	_	_
+11	persoon	persoon	NOUN	NSE	Number=Sing	13	obl	_	_
 12	opdrag	opdrag	NOUN	NSE	Number=Sing	13	obj	_	_
 13	gee	gee	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	ccomp	_	_
 14	om	om	ADP	SVS	AdpType=Prep	20	case	_	_
@@ -2759,7 +2759,7 @@
 18	'n	'n	DET	LO	Definite=Ind|PronType=Art	19	det	_	_
 19	bevel	bevel	NOUN	NSE	Number=Sing	20	obj	_	_
 20	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-21	waarin	waarin	PRON	PB	PronType=Rel	23	nsubj	_	_
+21	waarin	waarin	ADV	PB	Degree=Pos	23	advmod	_	_
 22	hy	hy	PRON	PDHENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 23	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	20	ccomp	_	_
 24	hoeveel	hoeveel	PRON	PB	PronType=Rel	26	nsubj:pass	_	_
@@ -3418,7 +3418,7 @@
 9	gebruik	gebruik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 10	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	9	aux:pass	_	_
 11	soos	soos	SCONJ	UPV	_	9	amod	_	_
-12	wat	wat	PRON	PB	PronType=Rel	17	nsubj:pass	_	_
+12	wat	wat	ADV	PB	Degree=Pos	17	advmod	_	_
 13	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 14	op	op	ADP	SVS	AdpType=Prep	16	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
@@ -3746,7 +3746,7 @@
 9	gebruik	gebruik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 10	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	9	aux:pass	_	_
 11	soos	soos	SCONJ	UPV	_	9	amod	_	_
-12	wat	wat	PRON	PB	PronType=Rel	17	nsubj:pass	_	_
+12	wat	wat	ADV	PB	Degree=Pos	17	advmod	_	_
 13	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 14	op	op	ADP	SVS	AdpType=Prep	16	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
@@ -4002,7 +4002,7 @@
 6	vraelys	vraelys	NOUN	NSE	Number=Sing	1	obl	_	_
 7	aan	aan	ADV	UPW	Degree=Pos	1	compound:prt	_	_
 8	met	met	ADP	SVS	AdpType=Prep	9	case	_	_
-9	watter	watter	PRON	PB	PronType=Rel	15	nsubj:pass	_	_
+9	watter	watter	PRON	PB	PronType=Rel	11	amod	_	_
 10	bekende	bekend	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	11	amod	_	_
 11	variëteite	variëteit	NOUN	NSM	Number=Plur	15	nsubj:pass	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
@@ -4101,7 +4101,7 @@
 9	vra	vra	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	3	obl	_	_
 10	vir	vir	ADP	SVS	AdpType=Prep	11	case	_	_
 11	gewasse	gewas	NOUN	NSM	Number=Plur	9	obl	_	_
-12	waarvoor	waarvoor	PRON	PB	PronType=Rel	18	nsubj	_	_
+12	waarvoor	waarvoor	ADV	PB	Degree=Pos	18	advmod	_	_
 13	toetsing	toetsing	NOUN	NSE	Number=Sing	18	nsubj	_	_
 14	langer	lank	ADV	BV	Degree=Cmp	18	advmod	_	_
 15	as	as	SCONJ	KO	_	14	amod	_	_
@@ -4177,7 +4177,7 @@
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	soort	soort	NOUN	NSE	Number=Sing	6	obl	_	_
 10	plant	plant	NOUN	NSE	Number=Sing	9	nmod	_	_
-11	waarvoor	waarvoor	PRON	PB	PronType=Rel	14	nsubj	_	_
+11	waarvoor	waarvoor	ADV	PB	Degree=Pos	14	advmod	_	_
 12	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 13	planttelersregte	planttelersreg	NOUN	NSM	Number=Plur	14	obj	_	_
 14	aanvra	aanvra	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	10	ccomp	_	SpaceAfter=No
@@ -4319,7 +4319,7 @@
 15	of	of	CCONJ	KN	_	14	cc	_	_
 16	enige	enig	PRON	PO	PronType=Ind	17	det	_	_
 17	voedsel	voedsel	NOUN	NM	Number=Sing	14	conj	_	_
-18	wat	wat	PRON	PB	PronType=Rel	24	nsubj	_	_
+18	wat	wat	PRON	PB	PronType=Rel	24	obj	_	_
 19	'n	'n	DET	LO	Definite=Ind|PronType=Art	20	det	_	_
 20	boer	boer	NOUN	NSE	Number=Sing	24	nsubj	_	_
 21	vir	vir	ADP	SVS	AdpType=Prep	23	case	_	_
@@ -4501,7 +4501,7 @@
 9	gebruik	gebruik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 10	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	9	aux:pass	_	_
 11	soos	soos	SCONJ	UPV	_	9	amod	_	_
-12	wat	wat	PRON	PB	PronType=Rel	17	nsubj:pass	_	_
+12	wat	wat	ADV	PB	Degree=Pos	17	advmod	_	_
 13	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	_
 14	op	op	ADP	SVS	AdpType=Prep	16	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
@@ -4658,7 +4658,7 @@
 # sent_id = train-s181
 # text = Wanneer 'n bestaande rekreasie-invoerpermit verval, moet jy om 'n nuwe rekreasie-invoerpermit aansoek doen.
 # org_sent_id = 181
-1	Wanneer	wanneer	PRON	PB	PronType=Rel	5	nsubj	_	_
+1	Wanneer	wanneer	ADV	PB	Degree=Pos	5	advmod	_	_
 2	'n	'n	DET	LO	Definite=Ind|PronType=Art	4	det	_	_
 3	bestaande	bestaan	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
 4	rekreasie-invoerpermit	rekreasie-invoerpermit	NOUN	NSE	Number=Sing	5	nsubj	_	_
@@ -5320,7 +5320,7 @@
 17	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 18	vis	vis	NOUN	NM	Number=Sing	24	nsubj	_	_
 19	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
-20	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
+20	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	obj	_	_
 21	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	22	aux	_	_
 22	uitvoer	uitvoer	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	18	ccomp	_	_
 23	nie	nie	ADV	BS	Degree=Pos	24	advmod	_	_
@@ -5697,7 +5697,7 @@
 9	)	)	PUNCT	ZPR	_	8	punct	_	_
 10	wat	wat	PRON	PB	PronType=Rel	4	dep	_	_
 11	wat	wat	PRON	PB	PronType=Rel	17	nsubj	_	_
-12	elk	elk	PRON	PO	PronType=Ind	17	nsubj	_	_
+12	elk	elk	PRON	PO	PronType=Ind	17	nmod	_	_
 13	600	600	SYM	RS	_	17	amod	_	_
 14	g	g	X	RA	_	13	dep	_	_
 15	of	of	CCONJ	KN	_	13	cc	_	_
@@ -5807,7 +5807,7 @@
 1	As	as	SCONJ	KO	_	35	amod	_	_
 2	die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 3	vis	vis	NOUN	NM	Number=Sing	9	nsubj	_	_
-4	wat	wat	PRON	PB	PronType=Rel	6	nsubj	_	_
+4	wat	wat	PRON	PB	PronType=Rel	6	obj	_	_
 5	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 6	gaan	gaan	VERB	VTUOM	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	3	ccomp	_	_
 7	invoer	invoer	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	xcomp	_	_
@@ -6034,7 +6034,7 @@
 16	persoon	persoon	NOUN	NSE	Number=Sing	17	obj	_	_
 17	woon	woon	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	13	ccomp	_	_
 18	aan	aan	ADP	SVS	AdpType=Prep	19	case	_	_
-19	wie	wie	PRON	PB	PronType=Rel	22	nsubj	_	_
+19	wie	wie	PRON	PB	PronType=Rel	22	obl	_	_
 20	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
 21	onderhoud	onderhoud	NOUN	NA	Number=Sing	22	obj	_	_
 22	betaal	betaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	17	ccomp	_	SpaceAfter=No
@@ -6595,7 +6595,7 @@
 13	verklaar	verklaar	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	1	obl	_	_
 14	dat	dat	SCONJ	KO	_	13	amod	_	_
 15	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
-16	hom	hom	PRON	PDHEDP	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+16	hom	hom	PRON	PDHEDP	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 17	of	of	CCONJ	KN	_	16	cc	_	_
 18	haar	haar	PRON	PDVEDP	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	conj	_	_
 19	magtig	magtig	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	13	dep	_	_
@@ -6872,7 +6872,7 @@
 # sent_id = train-s268
 # text = Wanneer moet ek my huwelik registreer?
 # org_sent_id = 268
-1	Wanneer	wanneer	PRON	PV	PronType=Int	6	nsubj	_	_
+1	Wanneer	wanneer	ADV	PV	Degree=Pos	6	advmod	_	_
 2	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	6	aux	_	_
 3	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 4	my	my	PRON	PEEB	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
@@ -7135,7 +7135,7 @@
 3	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	9	aux	_	_
 4	'n	'n	DET	LO	Definite=Ind|PronType=Art	6	det	_	_
 5	geskrewe	skryf	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
-6	ooreenkoms	ooreenkoms	NOUN	NSE	Number=Sing	9	nsubj	_	_
+6	ooreenkoms	ooreenkoms	NOUN	NSE	Number=Sing	9	obj	_	_
 7	/	/	SYM	RS	_	6	dep	_	_
 8	kontrak	kontrak	NOUN	NSE	Number=Sing	7	dep	_	_
 9	sluit	sluit	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
@@ -7976,7 +7976,7 @@
 1	Identifiseer	identifiseer	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 2	die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 3	grond	grond	NOUN	NM	Number=Sing	1	obj	_	_
-4	wat	wat	PRON	PB	PronType=Rel	7	nsubj	_	_
+4	wat	wat	PRON	PB	PronType=Rel	7	obj	_	_
 5	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 6	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	7	aux	_	_
 7	aankoop	aankoop	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	3	ccomp	_	SpaceAfter=No
@@ -8733,7 +8733,7 @@
 3	se	se	PART	UPS	PartType=Gen	2	case	_	_
 4	assesseringstandaarde	assesseringstandaard	NOUN	NSM	Number=Plur	5	nsubj	_	_
 5	toon	toon	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-6	hoe	hoe	PRON	PB	PronType=Rel	14	nsubj	_	_
+6	hoe	hoe	ADV	PB	Degree=Pos	14	advmod	_	_
 7	konseptuele	konseptueel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	9	amod	_	_
 8	en	en	CCONJ	KN	_	7	cc	_	_
 9	vaardigheidsontwikkeling	vaardigheidsontwikkeling	NOUN	NA	Number=Sing	14	nsubj	_	_
@@ -9609,8 +9609,8 @@
 6	wat	wat	PRON	PB	PronType=Rel	5	amod	_	_
 7	ondersteunend	ondersteun	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	6	obj	_	_
 8	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	7	cop	_	_
-9	van	van	ADP	SVS	AdpType=Prep	10	case	_	_
-10	watter	watter	PRON	PB	PronType=Rel	16	nsubj	_	_
+9	van	van	ADP	SVS	AdpType=Prep	11	case	_	_
+10	watter	watter	PRON	PB	PronType=Rel	11	amod	_	_
 11	besluit	besluit	NOUN	NSE	Number=Sing	16	obj	_	_
 12	'n	'n	DET	LO	Definite=Ind|PronType=Art	13	det	_	_
 13	skool	skool	NOUN	NSE	Number=Sing	16	nsubj	_	_
@@ -9774,16 +9774,16 @@
 4	taal	taal	NOUN	NSE	Number=Sing	5	nsubj	_	_
 5	veronderstel	veronderstel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 6	dat	dat	SCONJ	KO	_	5	amod	_	_
-7	leerders	leerder	NOUN	NSM	Number=Plur	5	nsubj	_	_
-8	nie	nie	ADV	BS	Degree=Pos	5	advmod	_	_
-9	noodwendig	noodwendig	ADV	BS	Degree=Pos	5	advmod	_	_
+7	leerders	leerder	NOUN	NSM	Number=Plur	15	nsubj	_	_
+8	nie	nie	ADV	BS	Degree=Pos	15	advmod	_	_
+9	noodwendig	noodwendig	ADV	BS	Degree=Pos	15	advmod	_	_
 10	enige	enig	PRON	PO	PronType=Ind	11	det	_	_
-11	kennis	kennis	NOUN	NM	Number=Sing	5	obj	_	_
+11	kennis	kennis	NOUN	NM	Number=Sing	15	obj	_	_
 12	van	van	ADP	SVS	AdpType=Prep	14	case	_	_
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 14	taal	taal	NOUN	NSE	Number=Sing	11	nmod	_	_
-15	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	5	dep	_	_
-16	wanneer	wanneer	PRON	PB	PronType=Rel	19	nsubj	_	_
+15	het	het	VERB	VUOT	Subcat=Tran|Tense=Pres|VerbForm=Fin	5	dep	_	_
+16	wanneer	wanneer	ADV	PB	Degree=Pos	19	advmod	_	_
 17	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 18	skool	skool	NOUN	NSE	Number=Sing	19	obj	_	_
 19	begin	begin	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	5	ccomp	_	_
@@ -9834,7 +9834,7 @@
 5	om	om	ADP	SVS	AdpType=Prep	23	case	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	geletterdhede	geletterdheid	NOUN	NSM	Number=Plur	23	obj	_	_
-8	wat	wat	PRON	PB	PronType=Rel	13	nsubj	_	_
+8	wat	wat	PRON	PB	PronType=Rel	13	obj	_	_
 9	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 10	in	in	ADP	SVS	AdpType=Prep	12	case	_	_
 11	hul	hul	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
@@ -11029,7 +11029,7 @@
 19	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
 20	kyk	kyk	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	13	ccomp	_	_
 21	en	en	CCONJ	KN	_	18	cc	_	_
-22	wat	wat	PRON	PB	PronType=Rel	25	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	25	obj	_	_
 23	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
 24	self	self	PRON	PDOEW	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	23	amod	_	_
 25	skep	skep	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	18	ccomp	_	SpaceAfter=No
@@ -11383,7 +11383,7 @@
 2	beskryf	beskryf	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 3	die	die	DET	LB	Definite=Def|PronType=Art	4	det	_	_
 4	vlak	vlak	NOUN	NSE	Number=Sing	2	obj	_	_
-5	waarop	waarop	PRON	PB	PronType=Rel	13	nsubj	_	_
+5	waarop	waarop	ADV	PB	Degree=Pos	13	advmod	_	_
 6	leerders	leerder	NOUN	NSM	Number=Plur	13	nsubj	_	_
 7	hul	hul	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	bereiking	bereiking	NOUN	NA	Number=Sing	13	obj	_	_
@@ -11401,7 +11401,7 @@
 20	en	en	CCONJ	KN	_	19	cc	_	_
 21	breedte	breedte	NOUN	NSE	Number=Sing	19	conj	_	SpaceAfter=No
 22	)	)	PUNCT	ZPR	_	21	punct	_	_
-23	waarop	waarop	PRON	PB	PronType=Rel	28	nsubj	_	_
+23	waarop	waarop	ADV	PB	Degree=Pos	28	advmod	_	_
 24	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
 25	hul	hul	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	_	_
 26	prestasie	prestasie	NOUN	NSE	Number=Sing	28	obj	_	_
@@ -11512,7 +11512,7 @@
 # org_sent_id = 452
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	beginsels	beginsel	NOUN	NSM	Number=Plur	7	nsubj	_	_
-3	waarvolgens	waarvolgens	PRON	PB	PronType=Rel	5	nsubj	_	_
+3	waarvolgens	waarvolgens	ADV	PB	Degree=Pos	5	advmod	_	_
 4	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	werk	werk	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	2	ccomp	_	SpaceAfter=No
 6	,	,	PUNCT	ZM	_	5	punct	_	_
@@ -11575,7 +11575,7 @@
 34	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
 35	wat	wat	PRON	PB	PronType=Rel	38	nsubj	_	_
 36	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
-37	assesseringstandaarde	assesseringstandaard	NOUN	NSM	Number=Plur	38	nsubj	_	_
+37	assesseringstandaarde	assesseringstandaard	NOUN	NSM	Number=Plur	38	obj	_	_
 38	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	34	ccomp	_	SpaceAfter=No
 39	,	,	PUNCT	ZM	_	38	punct	_	_
 40	te	te	PART	UPI	PartType=Inf	41	mark	_	_
@@ -11602,7 +11602,7 @@
 12	om	om	ADP	SVS	AdpType=Prep	14	case	_	_
 13	te	te	PART	UPI	PartType=Inf	14	mark	_	_
 14	assesseer	assesseer	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	11	obl	_	_
-15	wanneer	wanneer	PRON	PB	PronType=Rel	26	nsubj	_	_
+15	wanneer	wanneer	ADV	PB	Degree=Pos	26	advmod	_	_
 16	'n	'n	DET	LO	Definite=Ind|PronType=Art	17	det	_	_
 17	leerder	leerder	NOUN	NSE	Number=Sing	26	nsubj	_	_
 18	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
@@ -11670,7 +11670,7 @@
 14	vas	vas	ADV	UPW	Degree=Pos	16	compound:prt	_	_
 15	te	te	PART	UPI	PartType=Inf	16	mark	_	_
 16	stel	stel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	12	obl	_	_
-17	wat	wat	PRON	PB	PronType=Rel	20	nsubj	_	_
+17	wat	wat	PRON	PB	PronType=Rel	20	obj	_	_
 18	leerders	leerder	NOUN	NSM	Number=Plur	20	nsubj	_	_
 19	reeds	reeds	ADV	BS	Degree=Pos	20	advmod	_	_
 20	weet	weet	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	16	ccomp	_	SpaceAfter=No
@@ -11810,7 +11810,7 @@
 23	of	of	CCONJ	KN	_	22	cc	_	_
 24	jaar	jaar	NOUN	NSE	Number=Sing	22	conj	_	_
 25	of	of	CCONJ	KN	_	24	cc	_	_
-26	wanneer	wanneer	PRON	PB	PronType=Rel	33	nsubj	_	_
+26	wanneer	wanneer	ADV	PB	Degree=Pos	33	advmod	_	_
 27	'n	'n	DET	LO	Definite=Ind|PronType=Art	28	det	_	_
 28	leerder	leerder	NOUN	NSE	Number=Sing	33	nsubj	_	_
 29	na	na	ADP	SVS	AdpType=Prep	32	case	_	_
@@ -11971,7 +11971,7 @@
 17	assesseringsmetodes	assesseringsmetode	NOUN	NSM	Number=Plur	27	nsubj	_	_
 18	en	en	CCONJ	KN	_	17	cc	_	_
 19	geleenthede	geleentheid	NOUN	NSM	Number=Plur	17	conj	_	_
-20	waartydens	waartydens	PRON	PB	PronType=Rel	25	nsubj	_	_
+20	waartydens	waartydens	ADV	PB	Degree=Pos	25	advmod	_	_
 21	leerders	leerder	NOUN	NSM	Number=Plur	25	nsubj	_	_
 22	hul	hul	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
 23	vermoë	vermoë	NOUN	NSE	Number=Sing	25	obj	_	_
@@ -12126,7 +12126,7 @@
 10	,	,	PUNCT	ZM	_	7	punct	_	_
 11	maar	maar	CCONJ	KN	_	7	cc	_	_
 12	selfs	selfs	ADV	BS	Degree=Pos	16	advmod	_	_
-13	wanneer	wanneer	PRON	PB	PronType=Rel	16	nsubj	_	_
+13	wanneer	wanneer	ADV	PB	Degree=Pos	16	advmod	_	_
 14	eenderse	eenders	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	15	amod	_	_
 15	hulpmiddels	hulpmiddel	NOUN	NSM	Number=Plur	16	nsubj	_	_
 16	beskikbaar	beskikbaar	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	7	dep	_	_
@@ -12135,7 +12135,7 @@
 19	verskil	verskil	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	16	conj	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	manier	manier	NOUN	NSE	Number=Sing	19	obj	_	_
-22	waarop	waarop	PRON	PB	PronType=Rel	25	nsubj	_	_
+22	waarop	waarop	ADV	PB	Degree=Pos	25	advmod	_	_
 23	onderwysers	onderwyser	NOUN	NSM	Number=Plur	25	nsubj	_	_
 24	keuses	keuse	NOUN	NSM	Number=Plur	25	obj	_	_
 25	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	21	ccomp	_	SpaceAfter=No
@@ -12456,7 +12456,7 @@
 6	aan	aan	ADV	UPW	Degree=Pos	8	compound:prt	_	_
 7	te	te	PART	UPI	PartType=Inf	8	mark	_	_
 8	dui	dui	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	4	obl	_	_
-9	hoe	hoe	PRON	PB	PronType=Rel	17	nsubj	_	_
+9	hoe	hoe	ADV	PB	Degree=Pos	17	advmod	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 11	leerder	leerder	NOUN	NSE	Number=Sing	17	nsubj	_	_
 12	in	in	ADP	SVS	AdpType=Prep	13	case	_	_
@@ -12733,7 +12733,7 @@
 12	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	14	cop	_	_
 13	altyd	altyd	ADV	BS	Degree=Pos	14	advmod	_	_
 14	doeltreffender	doeltreffend	ADJ	AVP	AdjType=Pred|Case=Nom|Degree=Cmp	2	conj	_	_
-15	wanneer	wanneer	PRON	PB	PronType=Rel	20	nsubj:pass	_	_
+15	wanneer	wanneer	ADV	PB	Degree=Pos	20	advmod	_	_
 16	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
 17	met	met	ADP	SVS	AdpType=Prep	19	case	_	_
 18	skriftelike	skriftelik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
@@ -12745,7 +12745,7 @@
 # sent_id = train-s505
 # text = Wanneer leerders skriftelike terugvoering eerder as net 'n punt ontvang, is daar 'n groter kans op verbetering in hul prestasie.
 # org_sent_id = 505
-1	Wanneer	wanneer	PRON	PB	PronType=Rel	10	nsubj	_	_
+1	Wanneer	wanneer	ADV	PB	Degree=Pos	10	advmod	_	_
 2	leerders	leerder	NOUN	NSM	Number=Plur	10	nsubj	_	_
 3	skriftelike	skriftelik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
 4	terugvoering	terugvoering	NOUN	NA	Number=Sing	10	obj	_	_
@@ -12868,7 +12868,7 @@
 # sent_id = train-s509
 # text = Wanneer dit gedoen word, verloor punte hul nut om spesifieke inligting oor te dra.
 # org_sent_id = 509
-1	Wanneer	wanneer	PRON	PB	PronType=Rel	3	nsubj:pass	_	_
+1	Wanneer	wanneer	ADV	PB	Degree=Pos	3	advmod	_	_
 2	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 3	gedoen	doen	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	6	ccomp	_	_
 4	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	3	aux:pass	_	SpaceAfter=No
@@ -12991,7 +12991,7 @@
 5	goeie	goed	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
 6	vordering	vordering	NOUN	NA	Number=Sing	7	dep	_	_
 7	beskou	beskou	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-8	wanneer	wanneer	PRON	PB	PronType=Rel	15	nsubj	_	_
+8	wanneer	wanneer	ADV	PB	Degree=Pos	15	advmod	_	_
 9	'n	'n	DET	LO	Definite=Ind|PronType=Art	10	det	_	_
 10	leerder	leerder	NOUN	NSE	Number=Sing	15	nsubj	_	_
 11	dieselfde	dieselfde	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	12	amod	_	_
@@ -13030,7 +13030,7 @@
 16	graad	graad	NOUN	NSE	Number=Sing	17	nmod	_	_
 17	6-assesseringstandaard	6-assesseringstandaard	NOUN	NSE	Number=Sing	13	obl	_	_
 18	verbloem	verbloem	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-19	hoe	hoe	PRON	PB	PronType=Rel	25	nsubj	_	_
+19	hoe	hoe	ADV	PB	Degree=Pos	25	advmod	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	leerder	leerder	NOUN	NSE	Number=Sing	25	nsubj	_	_
 22	tydens	tydens	ADP	SVS	AdpType=Prep	24	case	_	_
@@ -13658,7 +13658,7 @@
 13	om	om	ADP	SVS	AdpType=Prep	15	case	_	_
 14	te	te	PART	UPI	PartType=Inf	15	mark	_	_
 15	begryp	begryp	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	12	obl	_	_
-16	watter	watter	PRON	PB	PronType=Rel	20	nsubj	_	_
+16	watter	watter	PRON	PB	PronType=Rel	17	amod	_	_
 17	ondersteuning	ondersteuning	NOUN	NA	Number=Sing	20	obj	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 19	leerder	leerder	NOUN	NSE	Number=Sing	20	nsubj	_	_
@@ -14470,7 +14470,7 @@
 6	'n	'n	DET	LO	Definite=Ind|PronType=Art	7	det	_	_
 7	permit	permit	NOUN	NSE	Number=Sing	4	obj	_	_
 8	uit	uit	ADV	UPW	Degree=Pos	4	compound:prt	_	_
-9	wanneer	wanneer	PRON	PB	PronType=Rel	13	nsubj	_	_
+9	wanneer	wanneer	ADV	PB	Degree=Pos	13	advmod	_	_
 10	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
 11	'n	'n	DET	LO	Definite=Ind|PronType=Art	12	det	_	_
 12	afskrif	afskrif	NOUN	NSE	Number=Sing	13	obj	_	_
@@ -15285,7 +15285,7 @@
 3	Sertifikaat	sertifikaat	NOUN	NSE	Number=Sing	5	nsubj	_	_
 4	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	5	aux:pass	_	_
 5	uitgereik	uitreik	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
-6	wanneer	wanneer	PRON	PB	PronType=Rel	13	nsubj	_	_
+6	wanneer	wanneer	ADV	PB	Degree=Pos	13	advmod	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	monster	monster	NOUN	NSE	Number=Sing	13	nsubj	_	_
 9	amptelik	amptelik	ADV	BS	Degree=Pos	13	advmod	_	_
@@ -15782,9 +15782,9 @@
 # org_sent_id = 626
 1	In	in	ADP	SVS	AdpType=Prep	2	case	_	_
 2	gevalle	geval	NOUN	NSM	Number=Plur	42	obl	_	_
-3	waar	waar	PRON	PB	PronType=Rel	19	nsubj	_	_
+3	waar	waar	ADV	PB	Degree=Pos	10	advmod	_	_
 4	onwettige	onwettig	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	amod	_	_
-5	besetters	besetter	NOUN	NSM	Number=Plur	10	obj	_	_
+5	besetters	besetter	NOUN	NSM	Number=Plur	10	nsubj:pass	_	_
 6	van	van	ADP	SVS	AdpType=Prep	8	case	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	grond	grond	NOUN	NM	Number=Sing	10	obl	_	_
@@ -16198,7 +16198,7 @@
 4	eerste	eerste	ADJ	TRAB	AdjType=Attr|Case=Nom|Degree=Pos	5	amod	_	_
 5	plek	plek	NOUN	NSE	Number=Sing	1	obl	_	_
 6	vas	vas	ADV	UPW	Degree=Pos	1	compound:prt	_	_
-7	watter	watter	PRON	PB	PronType=Rel	11	nsubj	_	_
+7	watter	watter	PRON	PB	PronType=Rel	8	amod	_	_
 8	dokument	dokument	NOUN	NSE	Number=Sing	11	obj	_	_
 9	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 10	wil	wil	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	11	aux	_	_
@@ -16279,7 +16279,7 @@
 4	aan	aan	ADP	SVS	AdpType=Prep	5	case	_	_
 5	jou	jou	PRON	PTEDP	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obl	_	_
 6	gegee	gee	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
-7	wanneer	wanneer	PRON	PB	PronType=Rel	11	nsubj	_	_
+7	wanneer	wanneer	ADV	PB	Degree=Pos	11	advmod	_	_
 8	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 9	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	det	_	_
 10	dokumente	dokument	NOUN	NSM	Number=Plur	11	obj	_	_
@@ -16688,7 +16688,7 @@
 17	geregistreer	registreer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	6	ccomp	_	_
 18	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	17	aux:pass	_	_
 19	en	en	CCONJ	KN	_	12	cc	_	_
-20	waarvoor	waarvoor	PRON	PB	PronType=Rel	55	nsubj:pass	_	_
+20	waarvoor	waarvoor	ADV	PB	Degree=Pos	55	advmod	_	_
 21	'n	'n	DET	LO	Definite=Ind|PronType=Art	22	det	_	_
 22	veiligheidsertifikaat	veiligheidsertifikaat	NOUN	NSE	Number=Sing	55	nsubj:pass	_	_
 23	van	van	ADP	SVS	AdpType=Prep	26	case	_	_
@@ -17071,7 +17071,7 @@
 25	van	van	ADP	SVS	AdpType=Prep	27	case	_	_
 26	die	die	DET	LB	Definite=Def|PronType=Art	27	det	_	_
 27	gebied	gebied	NOUN	NSE	Number=Sing	16	obl	_	_
-28	waarin	waarin	PRON	PB	PronType=Rel	31	nsubj	_	_
+28	waarin	waarin	ADV	PB	Degree=Pos	31	advmod	_	_
 29	die	die	DET	LB	Definite=Def|PronType=Art	30	det	_	_
 30	voorval	voorval	NOUN	NSE	Number=Sing	31	nsubj	_	_
 31	plaasgevind	plaasvind	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	27	ccomp	_	_
@@ -17315,10 +17315,10 @@
 20	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	ZM	_	19	punct	_	_
 22	tensy	tensy	SCONJ	KO	_	2	amod	_	_
-23	daar	daar	PRON	UXD	PronType=Ind	2	amod	_	_
+23	daar	daar	PRON	UXD	PronType=Ind	25	nsubj	_	_
 24	buitengewone	buitengewoon	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	25	amod	_	_
-25	omstandighede	omstandigheid	NOUN	NSM	Number=Plur	2	nsubj	_	_
-26	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	2	cop	_	SpaceAfter=No
+25	omstandighede	omstandigheid	NOUN	NSM	Number=Plur	22	nsubj	_	_
+26	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	25	cop	_	SpaceAfter=No
 27	.	.	PUNCT	ZE	_	2	punct	_	_
 
 # sent_id = train-s677
@@ -17577,7 +17577,7 @@
 16	normale	normaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	belasting	belasting	NOUN	NM	Number=Sing	14	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	ZPR	_	17	punct	_	_
-19	wat	wat	PRON	PB	PronType=Rel	27	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	27	obj	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	individu	individu	NOUN	NSE	Number=Sing	27	nsubj	_	_
 22	in	in	ADP	SVS	AdpType=Prep	25	case	_	_
@@ -17778,7 +17778,7 @@
 24	bankkode	bankkode	NOUN	NSE	Number=Sing	22	conj	_	_
 25	te	te	PART	UPI	PartType=Inf	26	mark	_	_
 26	verstrek	verstrek	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-27	wanneer	wanneer	PRON	PB	PronType=Rel	30	nsubj	_	_
+27	wanneer	wanneer	ADV	PB	Degree=Pos	30	advmod	_	_
 28	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	_
 29	betalings	betaling	NOUN	NSM	Number=Plur	30	obj	_	_
 30	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	26	ccomp	_	_
@@ -17963,7 +17963,7 @@
 10	daar	daar	PRON	UXD	PronType=Ind	4	amod	_	_
 11	nou	nou	ADV	BS	Degree=Pos	4	advmod	_	_
 12	ruimte	ruimte	NOUN	NSE	Number=Sing	4	nsubj	_	_
-13	waar	waar	PRON	PB	PronType=Rel	19	nsubj	_	_
+13	waar	waar	ADV	PB	Degree=Pos	19	advmod	_	_
 14	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
 15	so	so	SCONJ	UPV	_	17	amod	_	_
 16	'n	'n	DET	LO	Definite=Ind|PronType=Art	17	det	_	_
@@ -18206,7 +18206,7 @@
 16	gewone	gewoon	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	belasting	belasting	NOUN	NM	Number=Sing	14	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	ZPR	_	17	punct	_	_
-19	wat	wat	PRON	PB	PronType=Rel	32	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	32	obj	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	persoon	persoon	NOUN	NSE	Number=Sing	32	nsubj	_	_
 22	vir	vir	ADP	SVS	AdpType=Prep	25	case	_	_
@@ -18505,7 +18505,7 @@
 19	vir	vir	ADP	SVS	AdpType=Prep	21	case	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	tyd	tyd	NOUN	NM	Number=Sing	18	obl	_	_
-22	wat	wat	PRON	PB	PronType=Rel	29	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	29	obj	_	_
 23	posaflewering	posaflewering	NOUN	NSE	Number=Sing	29	nsubj	_	_
 24	of	of	CCONJ	KN	_	23	cc	_	_
 25	verwerking	verwerking	NOUN	NA	Number=Sing	23	conj	_	_
@@ -18572,7 +18572,7 @@
 24	bankkode	bankkode	NOUN	NSE	Number=Sing	22	conj	_	_
 25	te	te	PART	UPI	PartType=Inf	26	mark	_	_
 26	verstrek	verstrek	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-27	wanneer	wanneer	PRON	PB	PronType=Rel	30	nsubj	_	_
+27	wanneer	wanneer	ADV	PB	Degree=Pos	30	advmod	_	_
 28	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	_
 29	betalings	betaling	NOUN	NSM	Number=Plur	30	obj	_	_
 30	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	26	ccomp	_	_
@@ -18755,7 +18755,7 @@
 10	daar	daar	PRON	UXD	PronType=Ind	12	amod	_	_
 11	nou	nou	ADV	BS	Degree=Pos	12	advmod	_	_
 12	ruimte	ruimte	NOUN	NSE	Number=Sing	0	root	_	_
-13	waar	waar	PRON	PB	PronType=Rel	19	nsubj	_	_
+13	waar	waar	ADV	PB	Degree=Pos	19	advmod	_	_
 14	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	_
 15	so	so	SCONJ	UPV	_	17	amod	_	_
 16	'n	'n	DET	LO	Definite=Ind|PronType=Art	17	det	_	_
@@ -19003,7 +19003,7 @@
 2	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
 3	of	of	CCONJ	KN	_	2	cc	_	_
 4	iemand	iemand	PRON	PO	PronType=Ind	2	conj	_	_
-5	wat	wat	PRON	PB	PronType=Rel	7	nsubj	_	_
+5	wat	wat	PRON	PB	PronType=Rel	7	obj	_	_
 6	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
 7	ken	ken	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	4	ccomp	_	_
 8	hierdie	hierdie	DET	PA	PronType=Dem	10	det	_	_
@@ -19152,7 +19152,7 @@
 3	van	van	ADP	SVS	AdpType=Prep	5	case	_	_
 4	die	die	DET	LB	Definite=Def|PronType=Art	5	det	_	_
 5	polisiestasie	polisiestasie	NOUN	NSE	Number=Sing	2	nmod	_	_
-6	waar	waar	PRON	PB	PronType=Rel	17	nsubj	_	_
+6	waar	waar	ADV	PB	Degree=Pos	17	advmod	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	klaer	klaer	NOUN	NSE	Number=Sing	17	nsubj	_	_
 9	waarskynlik	waarskynlik	ADV	BS	Degree=Pos	17	advmod	_	_
@@ -19231,7 +19231,7 @@
 4	'n	'n	DET	LO	Definite=Ind|PronType=Art	5	det	_	_
 5	datum	datum	NOUN	NSE	Number=Sing	6	obj	_	_
 6	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-7	waarop	waarop	PRON	PB	PronType=Rel	10	nsubj	_	_
+7	waarop	waarop	ADV	PB	Degree=Pos	10	advmod	_	_
 8	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 9	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	10	aux	_	_
 10	verskyn	verskyn	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	6	ccomp	_	_
@@ -19266,7 +19266,7 @@
 18	asook	asook	CCONJ	KN	_	17	cc	_	_
 19	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
 20	datum	datum	NOUN	NSE	Number=Sing	17	conj	_	_
-21	waarop	waarop	PRON	PB	PronType=Rel	29	nsubj	_	_
+21	waarop	waarop	ADV	PB	Degree=Pos	29	advmod	_	_
 22	hy	hy	PRON	PDHENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 23	of	of	CCONJ	KN	_	22	cc	_	_
 24	sy	sy	PRON	PDVENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	conj	_	_
@@ -19481,7 +19481,7 @@
 8	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	ZM	_	8	punct	_	_
 10	soos	soos	SCONJ	UPV	_	5	amod	_	_
-11	toe	toe	PRON	PB	PronType=Rel	22	nsubj	_	_
+11	toe	toe	ADV	PB	Degree=Pos	22	advmod	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 13	Amerikaanse	Amerikaans	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	14	amod	_	_
 14	kitskosgroep	kitskosgroep	NOUN	NSE	Number=Sing	22	nsubj	_	_
@@ -19575,7 +19575,7 @@
 3	registrasiefooi	registrasiefooi	NOUN	NSE	Number=Sing	1	obj	_	_
 4	vooruit	vooruit	ADV	BS	Degree=Pos	1	advmod	_	_
 5	of	of	CCONJ	KN	_	4	cc	_	_
-6	wanneer	wanneer	PRON	PB	PronType=Rel	10	nsubj	_	_
+6	wanneer	wanneer	ADV	PB	Degree=Pos	10	advmod	_	_
 7	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 8	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	9	det	_	_
 9	aansoek	aansoek	NOUN	NSE	Number=Sing	10	obj	_	_
@@ -19589,8 +19589,8 @@
 2	te	te	PART	UPI	PartType=Inf	3	mark	_	_
 3	bepaal	bepaal	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	14	obl	_	_
 4	in	in	ADP	SVS	AdpType=Prep	3	amod	_	_
-5	watter	watter	PRON	PB	PronType=Rel	11	nsubj:pass	_	_
-6	klasgroep	klasgroep	NOUN	NSE	Number=Sing	11	obj	_	_
+5	watter	watter	PRON	PB	PronType=Rel	6	amod	_	_
+6	klasgroep	klasgroep	NOUN	NSE	Number=Sing	11	obl	_	_
 7	jou	jou	PRON	PTEB	Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	det	_	_
 8	goedere	goed	NOUN	NSM	Number=Plur	11	nsubj:pass	_	_
 9	of	of	CCONJ	KN	_	8	cc	_	_
@@ -19647,7 +19647,7 @@
 15	goedere	goed	NOUN	NSM	Number=Plur	11	obl	_	_
 16	of	of	CCONJ	KN	_	15	cc	_	_
 17	dienste	diens	NOUN	NSM	Number=Plur	15	conj	_	_
-18	waarvoor	waarvoor	PRON	PB	PronType=Rel	23	nsubj	_	_
+18	waarvoor	waarvoor	ADV	PB	Degree=Pos	23	advmod	_	_
 19	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	nsubj	_	_
 20	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 21	handelsmerk	handelsmerk	NOUN	NSE	Number=Sing	23	obj	_	_
@@ -19759,7 +19759,7 @@
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
 16	adres	adres	NOUN	NSE	Number=Sing	1	obj	_	_
 17	in	in	ADV	UPW	Degree=Pos	1	compound:prt	_	_
-18	waarby	waarby	PRON	PB	PronType=Rel	26	nsubj	_	_
+18	waarby	waarby	ADV	PB	Degree=Pos	26	advmod	_	_
 19	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	_
 20	alle	al	DET	THAO	PronType=Ind	21	det	_	_
 21	mededelings	mededeling	NOUN	NSM	Number=Plur	26	obj	_	_
@@ -20000,7 +20000,7 @@
 8	boedel	boedel	NOUN	NSE	Number=Sing	5	amod	_	_
 9	(	(	PUNCT	ZPL	_	10	punct	_	SpaceAfter=No
 10	alles	alles	PRON	PO	PronType=Ind	11	dep	_	_
-11	wat	wat	PRON	PB	PronType=Rel	14	nsubj	_	_
+11	wat	wat	PRON	PB	PronType=Rel	14	obj	_	_
 12	'n	'n	DET	LO	Definite=Ind|PronType=Art	13	det	_	_
 13	persoon	persoon	NOUN	NSE	Number=Sing	14	nsubj	_	_
 14	besit	besit	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	ccomp	_	_
@@ -20805,7 +20805,7 @@
 16	normale	normaal	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	belasting	belasting	NOUN	NM	Number=Sing	14	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	ZPR	_	17	punct	_	_
-19	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	26	obj	_	_
 20	individue	individu	NOUN	NSM	Number=Plur	26	nsubj	_	_
 21	in	in	ADP	SVS	AdpType=Prep	24	case	_	_
 22	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
@@ -21317,7 +21317,7 @@
 4	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	3	aux:pass	_	_
 5	vir	vir	ADP	SVS	AdpType=Prep	6	case	_	_
 6	dienste	diens	NOUN	NSM	Number=Plur	3	obl	_	_
-7	wat	wat	PRON	PB	PronType=Rel	30	nsubj	_	_
+7	wat	wat	PRON	PB	PronType=Rel	30	obj	_	_
 8	persone	persoon	NOUN	NSM	Number=Plur	30	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	ZM	_	8	punct	_	_
 10	soos	soos	SCONJ	UPV	_	8	amod	_	_
@@ -21399,7 +21399,7 @@
 11	minerale	mineraal	NOUN	NSM	Number=Plur	9	conj	_	_
 12	of	of	CCONJ	KN	_	11	cc	_	_
 13	edelstene	edelsteen	NOUN	NSM	Number=Plur	11	conj	_	_
-14	wat	wat	PRON	PB	PronType=Rel	16	nsubj	_	_
+14	wat	wat	PRON	PB	PronType=Rel	16	obj	_	_
 15	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	_
 16	bekom	bekom	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	13	ccomp	_	_
 17	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	16	aux	_	_
@@ -21439,7 +21439,7 @@
 11	minerale	mineraal	NOUN	NSM	Number=Plur	9	conj	_	_
 12	of	of	CCONJ	KN	_	11	cc	_	_
 13	edelstene	edelsteen	NOUN	NSM	Number=Plur	11	conj	_	_
-14	wat	wat	PRON	PB	PronType=Rel	21	nsubj	_	_
+14	wat	wat	PRON	PB	PronType=Rel	21	obj	_	_
 15	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj	_	_
 16	as	as	SCONJ	KO	_	21	amod	_	_
 17	agent	agent	NOUN	NSE	Number=Sing	21	dep	_	_
@@ -21459,7 +21459,7 @@
 4	erts	erts	NOUN	NM	Number=Sing	2	conj	_	_
 5	of	of	CCONJ	KN	_	4	cc	_	_
 6	minerale	mineraal	NOUN	NSM	Number=Plur	4	conj	_	_
-7	wat	wat	PRON	PB	PronType=Rel	14	nsubj	_	_
+7	wat	wat	PRON	PB	PronType=Rel	14	obj	_	_
 8	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	_
 9	as	as	SCONJ	KO	_	14	amod	_	_
 10	versendingsagent	versendingsagent	NOUN	NSE	Number=Sing	14	dep	_	_
@@ -21819,7 +21819,7 @@
 23	van	van	ADP	SVS	AdpType=Prep	25	case	_	_
 24	tersiêre	tersiêr	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	25	amod	_	_
 25	onderrig	onderrig	NOUN	NA	Number=Sing	22	nmod	_	_
-26	wat	wat	PRON	PB	PronType=Rel	32	nsubj	_	_
+26	wat	wat	PRON	PB	PronType=Rel	32	obj	_	_
 27	die	die	DET	LB	Definite=Def|PronType=Art	28	det	_	_
 28	Raad	raad	NOUN	NSE	Number=Sing	32	nsubj	_	_
 29	vir	vir	ADP	SVS	AdpType=Prep	31	case	_	_
@@ -22009,12 +22009,12 @@
 7	elektroniese	elektronies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	formaat	formaat	NOUN	NSE	Number=Sing	4	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	ZPR	_	8	punct	_	_
-10	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+10	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 11	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
 12	saamgestel	saamstel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	4	ccomp	_	_
 13	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	12	aux	_	_
 14	of	of	CCONJ	KN	_	10	cc	_	_
-15	waartoe	waartoe	PRON	PB	PronType=Rel	20	nsubj	_	_
+15	waartoe	waartoe	ADV	PB	Degree=Pos	20	advmod	_	_
 16	jy	jy	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
 17	'n	'n	DET	LO	Definite=Ind|PronType=Art	19	det	_	_
 18	wesenlike	wesenlik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
@@ -22192,7 +22192,7 @@
 7	aan	aan	ADP	SVS	AdpType=Prep	8	case	_	_
 8	haar	haar	PRON	PDVEDP	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
 9	betoon	betoon	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-10	wanneer	wanneer	PRON	PB	PronType=Rel	16	nsubj	_	_
+10	wanneer	wanneer	ADV	PB	Degree=Pos	16	advmod	_	_
 11	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 12	haar	haar	PRON	PDVEB	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	oorskot	oorskot	NOUN	NSE	Number=Sing	16	obj	_	_
@@ -22214,7 +22214,7 @@
 8	by	by	ADP	SVS	AdpType=Prep	9	case	_	_
 9	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
 10	wees	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	7	cop	_	_
-11	wanneer	wanneer	PRON	PB	PronType=Rel	53	nsubj	_	_
+11	wanneer	wanneer	ADV	PB	Degree=Pos	53	advmod	_	_
 12	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	53	nsubj	_	_
 13	in	in	ADP	SVS	AdpType=Prep	14	case	_	_
 14	Oktober	Oktober	PROPN	NEE	Number=Sing	53	obl	_	_
@@ -22305,7 +22305,7 @@
 28	wie	wie	PRON	PB	PronType=Rel	31	nmod	_	_
 29	se	se	PART	UPS	PartType=Gen	28	case	_	_
 30	tragiese	tragies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	31	amod	_	_
-31	dood	dood	NOUN	NM	Number=Sing	39	nsubj	_	SpaceAfter=No
+31	dood	dood	NOUN	NM	Number=Sing	39	obj	_	SpaceAfter=No
 32	,	,	PUNCT	ZM	_	31	punct	_	_
 33	40	40	SYM	RS	_	34	dep	_	_
 34	jaar	jaar	NOUN	NSE	Number=Sing	31	nmod	_	_
@@ -22314,7 +22314,7 @@
 37	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	_
 38	vanjaar	vanjaar	ADV	BS	Degree=Pos	39	advmod	_	_
 39	herdenk	herdenk	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	22	ccomp	_	_
-40	wanneer	wanneer	PRON	PB	PronType=Rel	47	nsubj	_	_
+40	wanneer	wanneer	ADV	PB	Degree=Pos	47	advmod	_	_
 41	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	_	_
 42	die	die	DET	LB	Definite=Def|PronType=Art	44	det	_	_
 43	tragiese	tragies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	44	amod	_	_
@@ -22484,7 +22484,7 @@
 23	Parlement	parlement	NOUN	NSE	Number=Sing	25	obl	_	_
 24	te	te	PART	UPI	PartType=Inf	25	mark	_	_
 25	verwelkom	verwelkom	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	7	xcomp	_	_
-26	waar	waar	PRON	PB	PronType=Rel	31	nsubj	_	_
+26	waar	waar	ADV	PB	Degree=Pos	31	advmod	_	_
 27	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 28	in	in	ADP	SVS	AdpType=Prep	30	case	_	_
 29	die	die	DET	LB	Definite=Def|PronType=Art	30	det	_	_
@@ -22539,7 +22539,7 @@
 7	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	ZM	_	7	punct	_	_
 9	namens	namens	ADP	SVS	AdpType=Prep	10	case	_	_
-10	wie	wie	PRON	PB	PronType=Rel	14	nsubj	_	_
+10	wie	wie	PRON	PB	PronType=Rel	14	obl	_	_
 11	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 12	vandag	vandag	ADV	BS	Degree=Pos	14	advmod	_	_
 13	hier	hier	ADV	BS	Degree=Pos	14	advmod	_	_
@@ -22604,7 +22604,7 @@
 23	van	van	ADP	SVS	AdpType=Prep	25	case	_	_
 24	die	die	DET	LB	Definite=Def|PronType=Art	25	det	_	_
 25	regeringstelsel	regeringstelsel	NOUN	NSE	Number=Sing	22	obl	_	_
-26	wat	wat	PRON	PB	PronType=Rel	30	nsubj	_	_
+26	wat	wat	PRON	PB	PronType=Rel	30	obj	_	_
 27	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
 28	die	die	DET	LB	Definite=Def|PronType=Art	29	det	_	_
 29	voorreg	voorreg	NOUN	NSE	Number=Sing	30	obj	_	_
@@ -22662,7 +22662,7 @@
 10	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	_
 11	sou	sal	AUX	VVUOM	Tense=Past|VerbForm=Fin|VerbType=Mod	12	aux	_	_
 12	afvra	afvra	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	7	dep	_	_
-13	watter	watter	PRON	PB	PronType=Rel	16	nsubj	_	_
+13	watter	watter	PRON	PB	PronType=Rel	14	amod	_	_
 14	vordering	vordering	NOUN	NA	Number=Sing	16	obj	_	_
 15	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
 16	gemaak	maak	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	_
@@ -22675,7 +22675,7 @@
 23	doelwitte	doelwit	NOUN	NSM	Number=Plur	25	obj	_	_
 24	te	te	PART	UPI	PartType=Inf	25	mark	_	_
 25	bereik	bereik	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	20	xcomp	_	_
-26	waartoe	waartoe	PRON	PB	PronType=Rel	28	nsubj:pass	_	_
+26	waartoe	waartoe	ADV	PB	Degree=Pos	28	advmod	_	_
 27	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj:pass	_	_
 28	toegewy	toewy	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	25	ccomp	_	_
 29	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	28	aux:pass	_	SpaceAfter=No
@@ -22740,7 +22740,7 @@
 12	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
 13	herinnering	herinnering	NOUN	NSE	Number=Sing	14	obl	_	_
 14	roep	roep	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	8	conj	_	_
-15	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
+15	wat	wat	PRON	PB	PronType=Rel	26	obj	_	_
 16	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	ZM	_	16	punct	_	_
 18	as	as	SCONJ	KO	_	26	amod	_	_
@@ -22946,13 +22946,13 @@
 36	vertroue	vertroue	NOUN	NA	Number=Sing	38	obj	_	_
 37	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	38	aux	_	_
 38	verraai	verraai	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	dep	_	_
-39	wat	wat	PRON	PB	PronType=Rel	43	nsubj	_	_
+39	wat	wat	PRON	PB	PronType=Rel	43	obj	_	_
 40	julle	julle	PRON	PTMP	Case=Acc,Nom|Number=Plur|Person=2|PronType=Prs	43	nsubj	_	_
 41	in	in	ADP	SVS	AdpType=Prep	42	case	_	_
 42	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	43	obl	_	_
 43	gestel	stel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	38	ccomp	_	_
 44	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	43	aux	_	_
-45	toe	toe	PRON	PB	PronType=Rel	47	nsubj	_	_
+45	toe	toe	ADV	PB	Degree=Pos	47	advmod	_	_
 46	julle	julle	PRON	PTMP	Case=Acc,Nom|Number=Plur|Person=2|PronType=Prs	47	nsubj	_	_
 47	gehelp	help	VERB	VVHOO	Subcat=Intr|Tense=Past|VerbForm=Part	43	ccomp	_	_
 48	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	47	aux	_	_
@@ -23431,7 +23431,7 @@
 25	die	die	DET	LB	Definite=Def|PronType=Art	27	det	_	_
 26	groot	groot	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	27	amod	_	_
 27	infrastruktuurprojekte	infrastruktuurprojek	NOUN	NSM	Number=Plur	33	nsubj	_	_
-28	wat	wat	PRON	PB	PronType=Rel	31	nsubj	_	_
+28	wat	wat	PRON	PB	PronType=Rel	31	obj	_	_
 29	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	_
 30	nou	nou	ADV	BS	Degree=Pos	31	advmod	_	_
 31	aanpak	aanpak	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	27	ccomp	_	SpaceAfter=No
@@ -23892,7 +23892,7 @@
 29	baie	baie	DET	THBO	PronType=Ind	30	amod	_	_
 30	stadiger	stadig	ADJ	AVP	AdjType=Pred|Case=Nom|Degree=Cmp	0	root	_	_
 31	as	as	SCONJ	KO	_	30	amod	_	_
-32	wat	wat	PRON	PB	PronType=Rel	34	nsubj	_	_
+32	wat	wat	PRON	PB	PronType=Rel	34	obj	_	_
 33	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
 34	verwag	verwag	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	30	ccomp	_	_
 35	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	34	aux	_	SpaceAfter=No
@@ -24523,7 +24523,7 @@
 12	om	om	ADP	SVS	AdpType=Prep	23	case	_	_
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 14	armoede	armoede	NOUN	NA	Number=Sing	23	obj	_	_
-15	waaronder	waaronder	PRON	PB	PronType=Rel	20	nsubj	_	_
+15	waaronder	waaronder	ADV	PB	Degree=Pos	20	advmod	_	_
 16	baie	baie	DET	THAO	PronType=Ind	19	amod	_	_
 17	van	van	ADP	UPD	AdpType=Prep	16	dep	_	_
 18	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
@@ -24579,7 +24579,7 @@
 36	en	en	CCONJ	KN	_	35	cc	_	_
 37	Chile	Chile	PROPN	NEE	Number=Sing	35	flat	_	SpaceAfter=No
 38	,	,	PUNCT	ZM	_	37	punct	_	_
-39	waar	waar	PRON	PB	PronType=Rel	47	nsubj:pass	_	_
+39	waar	waar	ADV	PB	Degree=Pos	47	advmod	_	_
 40	groot	groot	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	41	amod	_	_
 41	vordering	vordering	NOUN	NA	Number=Sing	47	nsubj:pass	_	_
 42	met	met	ADP	SVS	AdpType=Prep	44	case	_	_
@@ -25025,7 +25025,7 @@
 39	vorme	vorm	NOUN	NSM	Number=Plur	35	nmod	_	_
 40	van	van	ADP	SVS	AdpType=Prep	41	case	_	_
 41	geweld	geweld	NOUN	NA	Number=Sing	39	nmod	_	_
-42	waaraan	waaraan	PRON	PB	PronType=Rel	44	nsubj:pass	_	_
+42	waaraan	waaraan	ADV	PB	Degree=Pos	44	advmod	_	_
 43	vroue	vrou	NOUN	NSM	Number=Plur	44	nsubj:pass	_	_
 44	onderwerp	onderwerp	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	41	ccomp	_	_
 45	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	44	aux:pass	_	SpaceAfter=No
@@ -25110,7 +25110,7 @@
 1	Dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	3	cop	_	_
 3	vanselfsprekend	vanselfsprekend	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
-4	dat	dat	SCONJ	KO	_	3	nsubj	_	_
+4	dat	dat	SCONJ	KO	_	3	amod	_	_
 5	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	stryd	stryd	NOUN	NA	Number=Sing	11	obj	_	_
@@ -25207,9 +25207,9 @@
 33	7	7	SYM	RS	_	30	dep	_	_
 34	tot	tot	ADP	SVS	AdpType=Prep	33	dep	_	_
 35	10%	10%	SYM	RS	_	33	dep	_	_
-36	wat	wat	PRON	PB	PronType=Rel	41	nsubj	_	_
+36	wat	wat	PRON	PB	PronType=Rel	41	obj	_	_
 37	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	_	_
-38	ons	ons	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	41	obj	_	_
+38	ons	ons	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	41	obl	_	_
 39	ten	ten	ADP	SVS	AdpType=Prep	40	case	_	_
 40	doel	doel	NOUN	NSE	Number=Sing	41	obl	_	_
 41	gestel	stel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	33	ccomp	_	_
@@ -25292,7 +25292,7 @@
 5	dat	dat	SCONJ	KO	_	4	amod	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	reguleringstelsel	reguleringstelsel	NOUN	NSE	Number=Sing	14	nsubj	_	_
-8	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+8	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 9	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 10	in	in	ADP	SVS	AdpType=Prep	11	case	_	_
 11	plek	plek	NOUN	NSE	Number=Sing	12	obl	_	_
@@ -25415,7 +25415,7 @@
 20	om	om	ADP	SVS	AdpType=Prep	34	case	_	_
 21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
 22	tempo	tempo	NOUN	NSE	Number=Sing	34	obj	_	_
-23	waarteen	waarteen	PRON	PB	PronType=Rel	30	nsubj:pass	_	_
+23	waarteen	waarteen	ADV	PB	Degree=Pos	30	advmod	_	_
 24	agterstande	agterstand	NOUN	NSM	Number=Plur	30	nsubj:pass	_	_
 25	in	in	ADP	SVS	AdpType=Prep	27	case	_	_
 26	die	die	DET	LB	Definite=Def|PronType=Art	27	det	_	_
@@ -25555,7 +25555,7 @@
 18	van	van	ADP	SVS	AdpType=Prep	20	case	_	_
 19	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
 20	opleiding	opleiding	NOUN	NA	Number=Sing	17	nmod	_	_
-21	wat	wat	PRON	PB	PronType=Rel	26	nsubj	_	_
+21	wat	wat	PRON	PB	PronType=Rel	26	obj	_	_
 22	staatsamptenare	staatsamptenaar	NOUN	NSM	Number=Plur	26	nsubj	_	_
 23	in	in	ADP	SVS	AdpType=Prep	25	case	_	_
 24	verskeie	verskeie	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	25	amod	_	_
@@ -26004,7 +26004,7 @@
 3	die	die	DET	LB	Definite=Def|PronType=Art	4	det	_	_
 4	grondslag	grondslag	NOUN	NSE	Number=Sing	5	obj	_	_
 5	lê	lê	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
-6	waarvolgens	waarvolgens	PRON	PB	PronType=Rel	14	nsubj	_	_
+6	waarvolgens	waarvolgens	ADV	PB	Degree=Pos	14	advmod	_	_
 7	alle	al	DET	THAO	PronType=Ind	9	det	_	_
 8	maatskaplike	maatskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	9	amod	_	_
 9	vennote	vennoot	NOUN	NSM	Number=Plur	14	nsubj	_	_
@@ -26066,7 +26066,7 @@
 46	die	die	DET	LB	Definite=Def|PronType=Art	48	det	_	_
 47	konkrete	konkreet	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	48	amod	_	_
 48	wyse	wyse	NOUN	NSE	Number=Sing	35	conj	_	_
-49	waarop	waarop	PRON	PB	PronType=Rel	82	nsubj	_	_
+49	waarop	waarop	ADV	PB	Degree=Pos	82	advmod	_	_
 50	sy	sy	PRON	PDVENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	82	nsubj	_	_
 51	baie	baie	DET	THBO	PronType=Ind	53	amod	_	_
 52	spesifieke	spesifiek	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	53	amod	_	_
@@ -26113,7 +26113,7 @@
 5	vir	vir	ADP	SVS	AdpType=Prep	7	case	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	bydrae	bydrae	NOUN	NSE	Number=Sing	4	nmod	_	_
-8	wat	wat	PRON	PB	PronType=Rel	25	nsubj	_	_
+8	wat	wat	PRON	PB	PronType=Rel	25	obj	_	_
 9	alle	al	DET	THAO	PronType=Ind	10	det	_	_
 10	lede	lid	NOUN	NSM	Number=Plur	25	nsubj	_	_
 11	van	van	ADP	SVS	AdpType=Prep	14	case	_	_
@@ -26587,9 +26587,9 @@
 28	10	10	SYM	RS	_	29	dep	_	_
 29	ontwikkelingsoproepsentra	ontwikkelingsoproepsentrum	NOUN	NSM	Number=Plur	26	obl	_	_
 30	wat	wat	PRON	PB	PronType=Rel	37	nsubj	_	_
-31	elk	elk	PRON	PO	PronType=Ind	37	nsubj	_	_
-32	1	1	SYM	RS	_	34	dep	_	_
-33	000	000	SYM	RS	_	32	dep	_	_
+31	elk	elk	PRON	PO	PronType=Ind	37	nmod	_	_
+32	1	1	SYM	RS	_	34	amod	_	_
+33	000	000	SYM	RS	_	32	flat	_	_
 34	werknemers	werknemer	NOUN	NSM	Number=Plur	37	obj	_	_
 35	in	in	ADP	SVS	AdpType=Prep	36	case	_	_
 36	diens	diens	NOUN	NSE	Number=Sing	37	obl	_	_
@@ -26737,7 +26737,7 @@
 # org_sent_id = 983
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	vordering	vordering	NOUN	NA	Number=Sing	21	nsubj	_	_
-3	wat	wat	PRON	PB	PronType=Rel	18	nsubj	_	_
+3	wat	wat	PRON	PB	PronType=Rel	18	obj	_	_
 4	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 5	met	met	ADP	SVS	AdpType=Prep	7	case	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
@@ -26832,7 +26832,7 @@
 2	hoop	hoop	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 3	dat	dat	SCONJ	KO	_	2	amod	_	_
 4	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
-5	pogings	poging	NOUN	NSM	Number=Plur	2	nsubj	_	_
+5	pogings	poging	NOUN	NSM	Number=Plur	13	nsubj	_	_
 6	om	om	ADP	SVS	AdpType=Prep	10	case	_	_
 7	hierdie	hierdie	DET	PA	PronType=Dem	8	det	_	_
 8	geleenthede	geleentheid	NOUN	NSM	Number=Plur	10	obj	_	_
@@ -26840,7 +26840,7 @@
 10	bied	bied	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	5	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	ZM	_	10	punct	_	_
 12	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	13	aux	_	_
-13	help	help	VERB	VTUOA	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	dep	_	_
+13	help	help	VERB	VTUOA	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	3	dep	_	_
 14	om	om	ADP	SVS	AdpType=Prep	23	case	_	_
 15	aan	aan	ADP	SVS	AdpType=Prep	18	case	_	_
 16	veral	veral	ADV	BS	Degree=Pos	18	dep	_	_
@@ -26952,7 +26952,7 @@
 34	vir	vir	ADP	SVS	AdpType=Prep	36	case	_	_
 35	die	die	DET	LB	Definite=Def|PronType=Art	36	det	_	_
 36	rol	rol	NOUN	NSE	Number=Sing	33	obl	_	_
-37	wat	wat	PRON	PB	PronType=Rel	39	nsubj	_	_
+37	wat	wat	PRON	PB	PronType=Rel	39	obj	_	_
 38	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	_
 39	gespeel	speel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	36	ccomp	_	_
 40	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	39	aux	_	SpaceAfter=No
@@ -27097,7 +27097,7 @@
 1	Die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 2	ekonomiese	ekonomies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	3	amod	_	_
 3	programme	program	NOUN	NSM	Number=Plur	9	nsubj	_	_
-4	waarna	waarna	PRON	PB	PronType=Rel	6	nsubj	_	_
+4	waarna	waarna	ADV	PB	Degree=Pos	6	advmod	_	_
 5	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 6	verwys	verwys	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	3	ccomp	_	_
 7	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	6	aux	_	SpaceAfter=No
@@ -27108,7 +27108,7 @@
 12	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 13	gesamentlike	gesamentlik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	14	amod	_	_
 14	stukrag	stukrag	NOUN	NM	Number=Sing	10	nmod	_	_
-15	waarby	waarby	PRON	PB	PronType=Rel	21	nsubj	_	_
+15	waarby	waarby	ADV	PB	Degree=Pos	21	advmod	_	_
 16	alle	al	DET	THAO	PronType=Ind	17	det	_	_
 17	Suid-Afrikaners	Suid-Afrikaner	NOUN	NSM	Number=Plur	21	nsubj	_	_
 18	hulle	hulle	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	_	_
@@ -27165,7 +27165,7 @@
 30	die	die	DET	LB	Definite=Def|PronType=Art	32	det	_	_
 31	daadwerklike	daadwerklik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	32	amod	_	_
 32	stappe	stap	NOUN	NSM	Number=Plur	19	obl	_	_
-33	wat	wat	PRON	PB	PronType=Rel	35	nsubj	_	_
+33	wat	wat	PRON	PB	PronType=Rel	35	obj	_	_
 34	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	35	nsubj	_	_
 35	neem	neem	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	32	ccomp	_	_
 36	om	om	ADP	SVS	AdpType=Prep	46	case	_	_
@@ -27190,7 +27190,7 @@
 3	die	die	DET	LB	Definite=Def|PronType=Art	5	det	_	_
 4	maatskaplike	maatskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	amod	_	_
 5	programme	program	NOUN	NSM	Number=Plur	17	obj	_	_
-6	wat	wat	PRON	PB	PronType=Rel	14	nsubj	_	_
+6	wat	wat	PRON	PB	PronType=Rel	14	obj	_	_
 7	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 8	oor	oor	ADP	SVS	AdpType=Prep	10	case	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
@@ -27434,7 +27434,7 @@
 # sent_id = train-s1003
 # text = Wat ons egter moet beklemtoon, is dat die Regering, in sy finalisering van die nuwe bedeling vir maatskaplike sekerheid, uitgebreid met alle maatskaplike vennote oorleg sal pleeg: sowel individueel as deur Nedlac.
 # org_sent_id = 1003
-1	Wat	wat	PRON	PB	PronType=Rel	5	nsubj	_	_
+1	Wat	wat	PRON	PB	PronType=Rel	5	obj	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 3	egter	egter	ADV	BS	Degree=Pos	5	advmod	_	_
 4	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	5	aux	_	_
@@ -27484,7 +27484,7 @@
 7	instel	instel	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	5	xcomp	_	_
 8	na	na	ADP	SVS	AdpType=Prep	9	case	_	_
 9	maatreëls	maatreël	NOUN	NSM	Number=Plur	7	obl	_	_
-10	waarmee	waarmee	PRON	PB	PronType=Rel	22	nsubj	_	_
+10	waarmee	waarmee	ADV	PB	Degree=Pos	22	advmod	_	_
 11	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nsubj	_	_
 12	kwesbare	kwesbaar	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
 13	kinders	kind	NOUN	NSM	Number=Plur	22	obj	_	_
@@ -27967,7 +27967,7 @@
 19	en	en	CCONJ	KN	_	18	cc	_	_
 20	geïntegreerde	integreer	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	conj	_	_
 21	armoedebekampingstrategie	armoedebekampingstrategie	NOUN	NSE	Number=Sing	15	nmod	_	_
-22	wat	wat	PRON	PB	PronType=Rel	25	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	25	obj	_	_
 23	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	_
 24	reeds	reeds	ADV	BS	Degree=Pos	25	advmod	_	_
 25	genoem	noem	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	21	ccomp	_	_
@@ -28158,7 +28158,7 @@
 30	klein	klein	ADV	BS	Degree=Pos	32	advmod	_	_
 31	bietjie	bietjie	DET	THAO	PronType=Ind	32	amod	_	_
 32	gehaltetyd	gehaltetyd	NOUN	NA	Number=Sing	54	obj	_	_
-33	wat	wat	PRON	PB	PronType=Rel	40	nsubj	_	_
+33	wat	wat	PRON	PB	PronType=Rel	40	obj	_	_
 34	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	_
 35	saam	saam	ADV	BS	Degree=Pos	40	advmod	_	_
 36	met	met	ADP	SVS	AdpType=Prep	38	case	_	_
@@ -28968,7 +28968,7 @@
 34	neem	neem	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	26	obl	_	_
 35	wat	wat	PRON	PB	PronType=Rel	55	nsubj	_	_
 36	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
-37	Regering	regering	NOUN	NSE	Number=Sing	55	nsubj	_	_
+37	Regering	regering	NOUN	NSE	Number=Sing	55	obj	_	_
 38	so	so	SCONJ	UPV	_	42	amod	_	_
 39	'n	'n	DET	LO	Definite=Ind|PronType=Art	42	det	_	_
 40	getrou	trou	ADV	BS	Degree=Pos	42	advmod	_	_
@@ -29143,7 +29143,7 @@
 6	op	op	ADP	SVS	AdpType=Prep	8	case	_	_
 7	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 8	rol	rol	NOUN	NSE	Number=Sing	5	obl	_	_
-9	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 10	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
 11	mense	mens	NOUN	NSM	Number=Plur	12	nsubj	_	_
 12	gespeel	speel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	8	ccomp	_	_
@@ -29275,7 +29275,7 @@
 24	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	66	nsubj	_	_
 25	die	die	DET	LB	Definite=Def|PronType=Art	26	det	_	_
 26	uitdagings	uitdaging	NOUN	NSM	Number=Plur	66	obj	_	_
-27	wat	wat	PRON	PB	PronType=Rel	32	nsubj	_	_
+27	wat	wat	PRON	PB	PronType=Rel	32	obl	_	_
 28	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 29	die	die	DET	LB	Definite=Def|PronType=Art	30	det	_	_
 30	hoof	hoof	NOUN	NSE	Number=Sing	32	obj	_	_
@@ -29332,7 +29332,7 @@
 9	in	in	ADP	SVS	AdpType=Prep	11	case	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 11	mate	mate	NOUN	NSE	Number=Sing	4	conj	_	_
-12	waartoe	waartoe	PRON	PB	PronType=Rel	18	nsubj	_	_
+12	waartoe	waartoe	ADV	PB	Degree=Pos	18	advmod	_	_
 13	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
 14	kapasiteit	kapasiteit	NOUN	NSE	Number=Sing	18	nsubj	_	_
 15	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	18	obj	_	_
@@ -29692,7 +29692,7 @@
 4	mees	baie	ADV	BO	Degree=Sup	5	advmod	_	_
 5	kritieke	kritiek	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
 6	vraagstukke	vraagstuk	NOUN	NSM	Number=Plur	1	obj	_	_
-7	waaraan	waaraan	PRON	PB	PronType=Rel	14	nsubj	_	_
+7	waaraan	waaraan	ADV	PB	Degree=Pos	14	advmod	_	_
 8	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 9	in	in	ADP	SVS	AdpType=Prep	11	case	_	_
 10	hierdie	hierdie	DET	PA	PronType=Dem	11	det	_	_
@@ -29837,7 +29837,7 @@
 17	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 18	gemeenskaplike	gemeenskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	19	amod	_	_
 19	doel	doel	NOUN	NSE	Number=Sing	31	obj	_	_
-20	wat	wat	PRON	PB	PronType=Rel	27	nsubj	_	_
+20	wat	wat	PRON	PB	PronType=Rel	27	obj	_	_
 21	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 22	as	as	SCONJ	KO	_	27	amod	_	_
 23	'n	'n	DET	LO	Definite=Ind|PronType=Art	24	det	_	_
@@ -29999,7 +29999,7 @@
 19	van	van	ADP	SVS	AdpType=Prep	21	case	_	_
 20	dié	dié	DET	PA	PronType=Dem	21	det	_	_
 21	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	18	nmod	_	_
-22	waarna	waarna	PRON	PB	PronType=Rel	24	nsubj	_	_
+22	waarna	waarna	ADV	PB	Degree=Pos	24	advmod	_	_
 23	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 24	streef	streef	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	27	ccomp	_	SpaceAfter=No
 25	,	,	PUNCT	ZM	_	24	punct	_	_
@@ -30010,7 +30010,7 @@
 30	gesamentlike	gesamentlik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	31	amod	_	_
 31	verantwoordelikheid	verantwoordelikheid	NOUN	NSE	Number=Sing	27	conj	_	_
 32	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	27	cop	_	_
-33	wat	wat	PRON	PB	PronType=Rel	37	nsubj	_	_
+33	wat	wat	PRON	PB	PronType=Rel	37	obj	_	_
 34	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	_
 35	met	met	ADP	SVS	AdpType=Prep	36	case	_	_
 36	mekaar	mekaar	PRON	PW	PronType=Rcp	37	obl	_	_
@@ -30083,7 +30083,7 @@
 14	wees	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	9	cop	_	SpaceAfter=No
 15	,	,	PUNCT	ZM	_	9	punct	_	_
 16	soos	soos	SCONJ	UPV	_	9	dep	_	_
-17	wat	wat	PRON	PB	PronType=Rel	20	nsubj	_	_
+17	wat	wat	ADV	PB	Degree=Pos	20	advmod	_	_
 18	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
 19	almal	almal	PRON	PO	PronType=Ind	18	amod	_	_
 20	saamwerk	saamwerk	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
@@ -30151,10 +30151,10 @@
 4	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
 6	opdrag	opdrag	NOUN	NSE	Number=Sing	0	root	_	_
-7	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+7	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	geskiedenis	geskiedenis	NOUN	NA	Number=Sing	12	nsubj	_	_
-10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	12	amod	_	_
+10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	12	obl	_	_
 11	vandag	vandag	ADV	BS	Degree=Pos	12	advmod	_	_
 12	oplê	oplê	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	6	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	ZE	_	12	punct	_	_
@@ -30228,7 +30228,7 @@
 20	eis	eis	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	dep	_	_
 21	dat	dat	SCONJ	KO	_	20	amod	_	_
 22	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
-23	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+23	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
 24	en	en	CCONJ	KN	_	23	cc	_	_
 25	ander	ander	PRON	PO	PronType=Ind	23	conj	_	_
 26	soos	soos	SCONJ	UPV	_	25	dep	_	_
@@ -30615,7 +30615,7 @@
 19	en	en	CCONJ	KN	_	18	cc	_	_
 20	regering	regering	NOUN	NSE	Number=Sing	18	conj	_	SpaceAfter=No
 21	,	,	PUNCT	ZM	_	20	punct	_	_
-22	waarna	waarna	PRON	PB	PronType=Rel	30	nsubj	_	_
+22	waarna	waarna	ADV	PB	Degree=Pos	30	advmod	_	_
 23	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
 24	binnekort	binnekort	ADV	BS	Degree=Pos	30	advmod	_	_
 25	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	det	_	_
@@ -30678,7 +30678,7 @@
 13	om	om	ADP	SVS	AdpType=Prep	27	case	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	verbintenisse	verbintenis	NOUN	NSM	Number=Plur	27	obj	_	_
-16	wat	wat	PRON	PB	PronType=Rel	23	nsubj	_	_
+16	wat	wat	PRON	PB	PronType=Rel	23	obj	_	_
 17	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
 18	aan	aan	ADP	SVS	AdpType=Prep	20	case	_	_
 19	die	die	DET	LB	Definite=Def|PronType=Art	20	det	_	_
@@ -30764,7 +30764,7 @@
 5	om	om	ADP	SVS	AdpType=Prep	23	case	_	_
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	doelwitte	doelwit	NOUN	NSM	Number=Plur	23	obj	_	_
-8	wat	wat	PRON	PB	PronType=Rel	13	nsubj	_	_
+8	wat	wat	PRON	PB	PronType=Rel	18	nsubj	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
 10	mense	mens	NOUN	NSM	Number=Plur	13	nsubj	_	_
 11	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	12	det	_	_
@@ -30941,7 +30941,7 @@
 # sent_id = train-s1095
 # text = Wanneer ons praat van "Besigheid Buitengewoon" verwys ons nie na enige veranderings in ons bestaande beleide nie, maar wel na die spoedige, doeltreffende en doelmatige implementering van hierdie beleide en programme, sodat die lewensgehalte van ons mense ten goede kan verander, eerder vroeër as later.
 # org_sent_id = 1095
-1	Wanneer	wanneer	PRON	PB	PronType=Rel	3	nsubj	_	_
+1	Wanneer	wanneer	ADV	PB	Degree=Pos	3	advmod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	praat	praat	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
 4	van	van	ADP	SVS	AdpType=Prep	6	case	_	_
@@ -31018,7 +31018,7 @@
 19	die	die	DET	LB	Definite=Def|PronType=Art	21	det	_	_
 20	jaarlikse	jaarliks	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	21	amod	_	_
 21	Begroting	begroting	NOUN	NSE	Number=Sing	37	nsubj	_	_
-22	wat	wat	PRON	PB	PronType=Rel	31	nsubj	_	_
+22	wat	wat	PRON	PB	PronType=Rel	31	obj	_	_
 23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
 24	Minister	minister	NOUN	NSE	Number=Sing	31	nsubj	_	_
 25	van	van	ADP	SVS	AdpType=Prep	26	case	_	_
@@ -31066,9 +31066,9 @@
 13	en	en	CCONJ	KN	_	2	cc	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	take	taak	NOUN	NSM	Number=Plur	2	conj	_	_
-16	wat	wat	PRON	PB	PronType=Rel	19	nsubj	_	_
+16	wat	wat	PRON	PB	PronType=Rel	19	obj	_	_
 17	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
-18	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	amod	_	_
+18	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	19	obl	_	_
 19	opgelê	oplê	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	15	ccomp	_	_
 20	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	ZM	_	19	punct	_	_
@@ -31356,7 +31356,7 @@
 8	sterk	sterk	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	9	amod	_	_
 9	basis	basis	NOUN	NSE	Number=Sing	2	obl	_	_
 10	van	van	ADP	SVS	AdpType=Prep	11	case	_	_
-11	waar	waar	PRON	PB	PronType=Rel	14	nsubj	_	_
+11	waar	waar	ADV	PB	Degree=Pos	14	advmod	_	_
 12	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 13	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	14	aux	_	_
 14	voortgaan	voortgaan	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	9	ccomp	_	_
@@ -31517,7 +31517,7 @@
 6	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 7	moontlike	moontlik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	uitwerking	uitwerking	NOUN	NSE	Number=Sing	4	obl	_	_
-9	wat	wat	PRON	PB	PronType=Rel	23	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	23	obj	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
 11	dreigende	dreig	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
 12	ekonomiese	ekonomies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	13	amod	_	_
@@ -31866,7 +31866,7 @@
 42	te	te	PART	UPI	PartType=Inf	43	mark	_	_
 43	behou	behou	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	37	obl	_	_
 44	wat	wat	PRON	PB	PronType=Rel	47	nsubj	_	_
-45	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	47	nsubj	_	_
+45	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	47	obj	_	_
 46	almal	almal	PRON	PO	PronType=Ind	45	amod	_	_
 47	aangespoor	aanspoor	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	43	ccomp	_	_
 48	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	47	aux	_	_
@@ -31921,7 +31921,7 @@
 25	aan	aan	ADP	SVS	AdpType=Prep	27	case	_	_
 26	die	die	DET	LB	Definite=Def|PronType=Art	27	det	_	_
 27	beroep	beroep	NOUN	NSE	Number=Sing	24	iobj	_	_
-28	wat	wat	PRON	PB	PronType=Rel	32	nsubj	_	_
+28	wat	wat	PRON	PB	PronType=Rel	32	obj	_	_
 29	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
 30	so	so	ADV	BS	Degree=Pos	32	advmod	_	_
 31	pas	pas	ADV	BS	Degree=Pos	30	dep	_	_
@@ -32025,7 +32025,7 @@
 30	Cynthia	Cynthia	PROPN	NEE	Number=Sing	28	flat	_	_
 31	Caroll	Caroll	PROPN	NEE	Number=Sing	30	flat	_	SpaceAfter=No
 32	,	,	PUNCT	ZM	_	31	punct	_	_
-33	toe	toe	PRON	PB	PronType=Rel	49	nsubj	_	_
+33	toe	toe	ADV	PB	Degree=Pos	49	advmod	_	_
 34	sy	sy	PRON	PDVENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
 35	die	die	DET	LB	Definite=Def|PronType=Art	36	det	_	_
 36	Mynberaad	mynberaad	NOUN	NSE	Number=Sing	49	obj	_	_
@@ -32148,7 +32148,7 @@
 28	,	,	PUNCT	ZM	_	27	punct	_	_
 29	omskryf	omskryf	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 30	asook	asook	CCONJ	KN	_	29	amod	_	_
-31	wat	wat	PRON	PB	PronType=Rel	36	nsubj	_	_
+31	wat	wat	PRON	PB	PronType=Rel	36	obj	_	_
 32	elkeen	elkeen	PRON	PO	PronType=Ind	36	nsubj	_	_
 33	van	van	ADP	SVS	AdpType=Prep	34	case	_	_
 34	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	32	obl	_	_
@@ -32165,7 +32165,7 @@
 # text = Verlede week het die agbare lede die geleentheid gehad om oor hierdie aangeleenthede te besin.
 # org_sent_id = 1125
 1	Verlede	verlede	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	2	amod	_	_
-2	week	week	NOUN	NSE	Number=Sing	9	nsubj	_	_
+2	week	week	NOUN	NSE	Number=Sing	9	obl	_	_
 3	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	9	aux	_	_
 4	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
 5	agbare	agbaar	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	amod	_	_
@@ -32202,7 +32202,7 @@
 16	die	die	DET	LB	Definite=Def|PronType=Art	18	det	_	_
 17	nuwe	nuut	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	18	amod	_	_
 18	kapasiteit	kapasiteit	NOUN	NSE	Number=Sing	24	obj	_	_
-19	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
+19	wat	wat	PRON	PB	PronType=Rel	22	obj	_	_
 20	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 21	beskikbaar	beskikbaar	ADV	BS	Degree=Pos	22	advmod	_	_
 22	gestel	stel	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	18	ccomp	_	_
@@ -32257,7 +32257,7 @@
 13	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 14	enigste	enig	ADJ	AOA	AdjType=Attr|Case=Nom|Degree=Sup	15	amod	_	_
 15	manier	manier	NOUN	NSE	Number=Sing	28	nsubj	_	_
-16	waarop	waarop	PRON	PB	PronType=Rel	21	nsubj	_	_
+16	waarop	waarop	ADV	PB	Degree=Pos	21	advmod	_	_
 17	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
 18	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 19	onmiddellik	onmiddellik	ADV	BS	Degree=Pos	21	advmod	_	_
@@ -32344,7 +32344,7 @@
 2	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
 3	daadwerklike	daadwerklik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
 4	stappe	stap	NOUN	NSM	Number=Plur	0	root	_	_
-5	wat	wat	PRON	PB	PronType=Rel	13	nsubj	_	_
+5	wat	wat	PRON	PB	PronType=Rel	13	obj	_	_
 6	elke	elk	PRON	PO	PronType=Ind	7	det	_	_
 7	individu	individu	NOUN	NSE	Number=Sing	13	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	ZM	_	7	punct	_	_
@@ -32375,7 +32375,7 @@
 15	enige	enige	PRON	PO	PronType=Ind	17	amod	_	_
 16	ander	ander	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	voorstelle	voorstel	NOUN	NSM	Number=Plur	14	obj	_	_
-18	wat	wat	PRON	PB	PronType=Rel	27	nsubj	_	_
+18	wat	wat	PRON	PB	PronType=Rel	27	obj	_	_
 19	u	u	PRON	PTENP	Case=Nom|Number=Sing|Person=2|PronType=Prs	27	nsubj	_	SpaceAfter=No
 20	,	,	PUNCT	ZM	_	21	punct	_	_
 21	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
@@ -32829,7 +32829,7 @@
 6	die	die	DET	LB	Definite=Def|PronType=Art	8	det	_	_
 7	negatiewe	negatief	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	8	amod	_	_
 8	uitwerking	uitwerking	NOUN	NSE	Number=Sing	20	obj	_	_
-9	wat	wat	PRON	PB	PronType=Rel	15	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 10	hierdie	hierdie	DET	PA	PronType=Dem	11	det	_	_
 11	gebeure	gebeure	NOUN	NSM	Number=Plur	15	nsubj	_	_
 12	op	op	ADP	SVS	AdpType=Prep	14	case	_	_
@@ -33020,7 +33020,7 @@
 58	werklike	werklik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	59	amod	_	_
 59	situasie	situasie	NOUN	NSE	Number=Sing	55	obl	_	_
 60	en	en	CCONJ	KN	_	48	cc	_	_
-61	hoe	hoe	PRON	PB	PronType=Rel	64	nsubj	_	_
+61	hoe	hoe	ADV	PB	Degree=Pos	64	advmod	_	_
 62	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	64	nsubj	_	_
 63	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	64	aux	_	_
 64	bydra	bydra	VERB	VTHSO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	48	ccomp	_	_
@@ -33052,7 +33052,7 @@
 14	van	van	ADP	SVS	AdpType=Prep	16	case	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	16	det	_	_
 16	ondersteuning	ondersteuning	NOUN	NA	Number=Sing	13	nmod	_	_
-17	wat	wat	PRON	PB	PronType=Rel	21	nsubj	_	_
+17	wat	wat	PRON	PB	PronType=Rel	21	obj	_	_
 18	die	die	DET	LB	Definite=Def|PronType=Art	19	det	_	_
 19	Regering	regering	NOUN	NSE	Number=Sing	21	nsubj	_	_
 20	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	21	aux	_	_
@@ -33254,7 +33254,7 @@
 15	noodsaaklike	noodsaaklik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 16	energiedoeltreffende	energiedoeltreffend	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	toekoms	toekoms	NOUN	NA	Number=Sing	12	obl	_	_
-18	wat	wat	PRON	PB	PronType=Rel	22	nsubj	_	_
+18	wat	wat	PRON	PB	PronType=Rel	22	obj	_	_
 19	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 20	nie	nie	ADV	BS	Degree=Pos	22	advmod	_	_
 21	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	22	aux	_	_
@@ -33276,7 +33276,7 @@
 9	om	om	ADP	SVS	AdpType=Prep	19	case	_	_
 10	die	die	DET	LB	Definite=Def|PronType=Art	11	det	_	_
 11	ontwrigtings	ontwrigting	NOUN	NSM	Number=Plur	19	obj	_	_
-12	wat	wat	PRON	PB	PronType=Rel	14	nsubj	_	_
+12	wat	wat	PRON	PB	PronType=Rel	14	obj	_	_
 13	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	getref	tref	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	11	ccomp	_	_
 15	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	14	aux	_	SpaceAfter=No
@@ -33309,7 +33309,7 @@
 3	presies	presies	ADV	BS	Degree=Pos	5	advmod	_	_
 4	dieselfde	dieselfde	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	amod	_	_
 5	benadering	benadering	NOUN	NSE	Number=Sing	0	root	_	_
-6	wat	wat	PRON	PB	PronType=Rel	9	nsubj	_	_
+6	wat	wat	PRON	PB	PronType=Rel	9	obj	_	_
 7	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	moet	moet	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	9	aux	_	_
 9	aanneem	aanneem	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	5	ccomp	_	_
@@ -33441,7 +33441,7 @@
 # org_sent_id = 1169
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	indruk	indruk	NOUN	NSE	Number=Sing	36	nsubj	_	_
-3	wat	wat	PRON	PB	PronType=Rel	5	nsubj	_	_
+3	wat	wat	PRON	PB	PronType=Rel	5	obj	_	_
 4	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	kry	kry	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	ccomp	_	_
 6	onder	onder	ADP	SVS	AdpType=Prep	8	case	_	_
@@ -33603,7 +33603,7 @@
 9	aanvoorwerk	aanvoorwerk	NOUN	NA	Number=Sing	10	obj	_	_
 10	gedoen	doen	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	6	ccomp	_	_
 11	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	10	aux	_	_
-12	toe	toe	PRON	PB	PronType=Rel	18	nsubj	_	_
+12	toe	toe	ADV	PB	Degree=Pos	18	advmod	_	_
 13	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 14	die	die	DET	LB	Definite=Def|PronType=Art	15	det	_	_
 15	Rugbywêreldbeker	rugbywêreldbeker	NOUN	NSE	Number=Sing	18	obj	_	_
@@ -33624,7 +33624,7 @@
 6	,	,	PUNCT	ZM	_	5	punct	_	_
 7	net	net	ADV	BS	Degree=Pos	5	advmod	_	_
 8	soos	soos	SCONJ	UPV	_	7	dep	_	_
-9	wat	wat	PRON	PB	PronType=Rel	24	nsubj	_	_
+9	wat	wat	ADV	PB	Degree=Pos	24	advmod	_	_
 10	dit	dit	PRON	PDOENP	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 11	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	_
 12	atlete	atleet	NOUN	NSM	Number=Plur	24	obj	_	_
@@ -33654,7 +33654,7 @@
 7	na	na	ADP	SVS	AdpType=Prep	9	case	_	_
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	top-prioriteite	top-prioriteit	NOUN	NSM	Number=Plur	6	obl	_	_
-10	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+10	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 11	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 12	genoem	noem	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	9	ccomp	_	_
 13	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	12	aux	_	SpaceAfter=No
@@ -33754,7 +33754,7 @@
 18	ontwikkel	ontwikkel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 19	in	in	ADP	SVS	AdpType=Prep	20	case	_	_
 20	sektore	sektor	NOUN	NSM	Number=Plur	18	obl	_	_
-21	waar	waar	PRON	PB	PronType=Rel	25	nsubj	_	_
+21	waar	waar	ADV	PB	Degree=Pos	25	advmod	_	_
 22	sulke	sulke	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	23	amod	_	_
 23	planne	plan	NOUN	NSM	Number=Plur	25	nsubj	_	_
 24	nie	nie	ADV	BS	Degree=Pos	25	advmod	_	_
@@ -34076,8 +34076,8 @@
 9	van	van	ADP	SVS	AdpType=Prep	11	case	_	_
 10	"	"	PUNCT	ZPL	_	11	punct	_	SpaceAfter=No
 11	set	set	X	RV	_	8	nmod	_	_
-12	top	top	X	RV	_	11	dep	_	_
-13	boxes	boxes	X	RV	_	12	dep	_	_
+12	top	top	X	RV	_	11	flat	_	_
+13	boxes	boxes	X	RV	_	12	flat	_	_
 14	"	"	PUNCT	ZPL	_	13	punct	_	SpaceAfter=No
 15	in	in	ADP	SVS	AdpType=Prep	16	case	_	_
 16	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	8	nmod	_	SpaceAfter=No
@@ -34104,7 +34104,7 @@
 4	van	van	ADP	SVS	AdpType=Prep	6	case	_	_
 5	die	die	DET	LB	Definite=Def|PronType=Art	6	det	_	_
 6	traagheid	traagheid	NOUN	NA	Number=Sing	3	nmod	_	_
-7	waarmee	waarmee	PRON	PB	PronType=Rel	11	nsubj	_	_
+7	waarmee	waarmee	ADV	PB	Degree=Pos	11	advmod	_	_
 8	die	die	DET	LB	Definite=Def|PronType=Art	9	det	_	_
 9	Regering	regering	NOUN	NSE	Number=Sing	11	nsubj	_	_
 10	aansoeke	aansoek	NOUN	NSM	Number=Plur	11	obj	_	_
@@ -34124,7 +34124,7 @@
 24	en	en	CCONJ	KN	_	23	cc	_	_
 25	omgewingsimpakevaluerings	omgewingsimpakevaluering	NOUN	NSM	Number=Plur	23	conj	_	SpaceAfter=No
 26	-	-	PUNCT	ZM	_	25	punct	_	_
-27	waarvan	waarvan	PRON	PB	PronType=Rel	37	nsubj	_	_
+27	waarvan	waarvan	ADV	PB	Degree=Pos	37	advmod	_	_
 28	almal	almal	PRON	PO	PronType=Ind	37	nsubj	_	_
 29	somtyds	somtyds	ADV	BS	Degree=Pos	37	advmod	_	_
 30	beleggers	belegger	NOUN	NSM	Number=Plur	32	nmod	_	_
@@ -34392,7 +34392,7 @@
 1	Nadat	nadat	SCONJ	KO	_	35	amod	_	_
 2	die	die	DET	LB	Definite=Def|PronType=Art	3	det	_	_
 3	tekortkominge	tekortkoming	NOUN	NSM	Number=Plur	15	nsubj:pass	_	_
-4	wat	wat	PRON	PB	PronType=Rel	12	nsubj	_	_
+4	wat	wat	PRON	PB	PronType=Rel	12	obj	_	_
 5	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 6	verlede	verlede	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	7	amod	_	_
 7	jaar	jaar	NOUN	NSE	Number=Sing	12	nmod	_	_
@@ -34676,7 +34676,7 @@
 20	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
 21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
 22	doelwitte	doelwit	NOUN	NSM	Number=Plur	30	obj	_	_
-23	wat	wat	PRON	PB	PronType=Rel	27	nsubj	_	_
+23	wat	wat	PRON	PB	PronType=Rel	27	obj	_	_
 24	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
 25	vir	vir	ADP	SVS	AdpType=Prep	26	case	_	_
 26	onsself	onsself	PRON	PEMW	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	27	obl	_	_
@@ -34918,7 +34918,7 @@
 8	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
 9	ingrypings	ingryping	NOUN	NSM	Number=Plur	10	nmod	_	_
 10	dinge	ding	NOUN	NSM	Number=Plur	6	obj	_	_
-11	wat	wat	PRON	PB	PronType=Rel	15	nsubj	_	_
+11	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 12	die	die	DET	LB	Definite=Def|PronType=Art	13	det	_	_
 13	Regering	regering	NOUN	NSE	Number=Sing	15	nsubj	_	_
 14	alreeds	alreeds	ADV	BS	Degree=Pos	15	advmod	_	_
@@ -35014,7 +35014,7 @@
 15	armoede	armoede	NOUN	NA	Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	ZM	_	15	punct	_	_
 17	en	en	CCONJ	KN	_	6	cc	_	_
-18	waartydens	waartydens	PRON	PB	PronType=Rel	51	nsubj	_	_
+18	waartydens	waartydens	ADV	PB	Degree=Pos	51	advmod	_	_
 19	departemente	departement	NOUN	NSM	Number=Plur	51	nsubj	_	_
 20	soos	soos	SCONJ	UPV	_	19	amod	_	_
 21	maatskaplike	maatskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	22	amod	_	_
@@ -35730,7 +35730,7 @@
 22	van	van	ADP	SVS	AdpType=Prep	24	case	_	_
 23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
 24	aangeleenthede	aangeleentheid	NOUN	NSM	Number=Plur	21	nmod	_	_
-25	wat	wat	PRON	PB	PronType=Rel	30	nsubj	_	_
+25	wat	wat	PRON	PB	PronType=Rel	30	obj	_	_
 26	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
 27	as	as	SCONJ	KO	_	30	amod	_	_
 28	'n	'n	DET	LO	Definite=Ind|PronType=Art	29	det	_	_
@@ -35883,7 +35883,7 @@
 # sent_id = train-s1233
 # text = Toe ons besin het oor misdaad tydens verlede jaar se Gesamentlike Sitting van die Parlement, het almal ernstige kommer uitgespreek oor die hoë misdaadsyfer en ook oor die feit dat dit wou voorkom of omstandighede vererger het, veral ten opsigte van moord- iets wat alle vooruitgang sedert die demokrasie in die wiele ry.
 # org_sent_id = 1233
-1	Toe	toe	PRON	PB	PronType=Rel	3	nsubj	_	_
+1	Toe	toe	ADV	PB	Degree=Pos	3	advmod	_	_
 2	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 3	besin	besin	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	21	ccomp	_	_
 4	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	3	aux	_	_
@@ -36407,10 +36407,10 @@
 38	gelyke	gelyk	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	39	amod	_	_
 39	menseregte	mensereg	NOUN	NSM	Number=Plur	36	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	ZM	_	39	punct	_	_
-41	wat	wat	PRON	PB	PronType=Rel	45	nsubj	_	_
+41	wat	wat	PRON	PB	PronType=Rel	45	obj	_	_
 42	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	43	det	_	_
 43	Grondwet	grondwet	NOUN	NSE	Number=Sing	45	nsubj	_	_
-44	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	45	obj	_	_
+44	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	45	obl	_	_
 45	beveel	beveel	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	39	ccomp	_	_
 46	om	om	ADP	SVS	AdpType=Prep	55	case	_	_
 47	in	in	ADP	SVS	AdpType=Prep	50	case	_	_
@@ -36492,7 +36492,7 @@
 6	en	en	CCONJ	KN	_	5	cc	_	_
 7	kritiese	krities	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	5	conj	_	_
 8	prioriteite	prioriteit	NOUN	NSM	Number=Plur	0	root	_	_
-9	waaraan	waaraan	PRON	PB	PronType=Rel	13	nsubj	_	_
+9	waaraan	waaraan	ADV	PB	Degree=Pos	13	advmod	_	_
 10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 11	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	13	aux	_	_
 12	aandag	aandag	NOUN	NA	Number=Sing	13	obj	_	_
@@ -37091,7 +37091,7 @@
 # org_sent_id = 1263
 1	Die	die	DET	LB	Definite=Def|PronType=Art	2	det	_	_
 2	program	program	NOUN	NSE	Number=Sing	7	nsubj	_	_
-3	wat	wat	PRON	PB	PronType=Rel	5	nsubj	_	_
+3	wat	wat	PRON	PB	PronType=Rel	5	obj	_	_
 4	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	uiteengesit	uiteensit	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	2	ccomp	_	_
 6	het	het	AUX	VUOT	Tense=Pres|VerbForm=Fin,Inf|VerbType=Aux	5	aux	_	_
@@ -37420,7 +37420,7 @@
 22	met	met	ADP	SVS	AdpType=Prep	24	case	_	_
 23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
 24	aangeleenthede	aangeleentheid	NOUN	NSM	Number=Plur	20	obl	_	_
-25	wat	wat	PRON	PB	PronType=Rel	28	nsubj	_	_
+25	wat	wat	PRON	PB	PronType=Rel	28	obj	_	_
 26	hulle	hulle	PRON	PDMP	Case=Acc,Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
 27	moes	moet	AUX	VVUOM	Tense=Past|VerbForm=Fin|VerbType=Mod	28	aux	_	_
 28	aanspreek	aanspreek	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	24	ccomp	_	SpaceAfter=No
@@ -37524,7 +37524,7 @@
 9	staats-	staats-	X	RWD	_	2	obl	_	_
 10	en	en	CCONJ	KN	_	9	cc	_	_
 11	regeringshoofde	regeringshoof	NOUN	NSM	Number=Plur	9	conj	_	_
-12	wanneer	wanneer	PRON	PB	PronType=Rel	15	nsubj	_	_
+12	wanneer	wanneer	ADV	PB	Degree=Pos	15	advmod	_	_
 13	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 14	diegene	diegene	PRON	PO	PronType=Ind	15	obj	_	_
 15	gelukwens	gelukwens	VERB	VTHSG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	2	ccomp	_	_
@@ -37562,7 +37562,7 @@
 # text = Soos wat die SADC staats- en regeringshoofde ons versoek het, is ons steeds gereed om voort te gaan om die Zimbabwe-onderhandelings te fasiliteer.
 # org_sent_id = 1276
 1	Soos	soos	SCONJ	UPV	_	15	amod	_	_
-2	wat	wat	PRON	PB	PronType=Rel	9	nsubj	_	_
+2	wat	wat	ADV	PB	Degree=Pos	9	advmod	_	_
 3	die	die	DET	LB	Definite=Def|PronType=Art	4	det	_	_
 4	SADC	SADC	X	RK	_	9	nsubj	_	_
 5	staats-	staats-	X	RWD	_	4	amod	_	_
@@ -37734,7 +37734,7 @@
 6	die	die	DET	LB	Definite=Def|PronType=Art	7	det	_	_
 7	vooruitgang	vooruitgang	NOUN	NA	Number=Sing	8	obj	_	_
 8	kniehalter	kniehalter	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	3	ccomp	_	_
-9	wat	wat	PRON	PB	PronType=Rel	15	nsubj	_	_
+9	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 12	afgelope	afloop	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	14	amod	_	_
@@ -38133,7 +38133,7 @@
 20	sterkste	sterkste	ADV	BO	Degree=Sup	18	obl	_	_
 21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
 22	vertroue	vertroue	NOUN	NA	Number=Sing	18	obj	_	_
-23	wat	wat	PRON	PB	PronType=Rel	29	nsubj	_	_
+23	wat	wat	PRON	PB	PronType=Rel	29	obj	_	_
 24	die	die	DET	LB	Definite=Def|PronType=Art	25	det	_	_
 25	mensdom	mensdom	NOUN	NM	Number=Sing	29	nsubj	_	_
 26	in	in	ADP	SVS	AdpType=Prep	28	case	_	_
@@ -38292,7 +38292,7 @@
 # sent_id = train-s1295
 # text = Wat ek wel weet en prontuit kan sê, is: wat ook al die uitdagings van die oomblik is, ons is steeds op koers!
 # org_sent_id = 1295
-1	Wat	wat	PRON	PB	PronType=Rel	4	nsubj	_	_
+1	Wat	wat	PRON	PB	PronType=Rel	4	obj	_	_
 2	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	wel	wel	ADV	BS	Degree=Pos	4	advmod	_	_
 4	weet	weet	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	10	ccomp	_	_
@@ -38398,7 +38398,7 @@
 73	aan	aan	ADV	UPW	Degree=Pos	75	compound:prt	_	_
 74	te	te	PART	UPI	PartType=Inf	75	mark	_	_
 75	gryp	gryp	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	38	conj	_	_
-76	wat	wat	PRON	PB	PronType=Rel	86	nsubj	_	_
+76	wat	wat	PRON	PB	PronType=Rel	86	obj	_	_
 77	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	78	det	_	_
 78	land	land	NOUN	NSE	Number=Sing	80	nmod	_	_
 79	se	se	PART	UPS	PartType=Gen	78	case	_	_
@@ -38506,7 +38506,7 @@
 10	vir	vir	ADP	SVS	AdpType=Prep	12	case	_	_
 11	die	die	DET	LB	Definite=Def|PronType=Art	12	det	_	_
 12	geleentheid	geleentheid	NOUN	NSE	Number=Sing	2	obl	_	_
-13	wat	wat	PRON	PB	PronType=Rel	15	nsubj:pass	_	_
+13	wat	wat	PRON	PB	PronType=Rel	15	obj	_	_
 14	ek	ek	PRON	PEENP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj:pass	_	_
 15	gegun	gun	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	_
 16	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	15	aux:pass	_	_
@@ -38761,7 +38761,7 @@
 12	dat	dat	SCONJ	KO	_	11	amod	_	_
 13	die	die	DET	LB	Definite=Def|PronType=Art	14	det	_	_
 14	Suid-Afrika	Suid-Afrika	PROPN	NEE	Number=Sing	37	nsubj	_	_
-15	wat	wat	PRON	PB	PronType=Rel	19	nsubj	_	_
+15	wat	wat	PRON	PB	PronType=Rel	19	obj	_	_
 16	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
 17	vandag	vandag	ADV	BS	Degree=Pos	19	advmod	_	_
 18	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	19	aux	_	_
@@ -38837,7 +38837,7 @@
 12	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
 13	demokratiese	demokraties	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	14	amod	_	_
 14	Parlement	parlement	NOUN	NSE	Number=Sing	10	nmod	_	_
-15	wat	wat	PRON	PB	PronType=Rel	24	nsubj	_	_
+15	wat	wat	PRON	PB	PronType=Rel	24	obl	_	_
 16	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
 17	ongelukkig	ongelukkig	ADV	BS	Degree=Pos	24	advmod	_	_
 18	sedert	sedert	ADP	SVS	AdpType=Prep	20	case	_	_
