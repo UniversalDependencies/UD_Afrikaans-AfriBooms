@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit b418fa770b9e0271167100d9ced4b954b410b37f
+commit 47b3f084cd7b7e96fbd8f1e426fd36978f2c0c18
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 07:05:50 2023 +0200
+Date:   Tue May 9 09:16:43 2023 +0200
 Size: counted 49260 of 49260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79422478538478.
 Size: maximum value 13.815511 is for 1000000 words or more.
