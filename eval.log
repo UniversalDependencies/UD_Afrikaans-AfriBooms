@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit 47b3f084cd7b7e96fbd8f1e426fd36978f2c0c18
+commit bf6368f99a1ae594f873acee50fb38d7b52a3f83
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 09:16:43 2023 +0200
+Date:   Mon Nov 6 11:24:46 2023 +0100
 Size: counted 49260 of 49260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79422478538478.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 25 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        818
-Udapi: found 818 bugs.
+               TOTAL        815
+Udapi: found 815 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 49260 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.564164802501028) = 0.14465764166693
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.833942346731628) = 0.256597645148193
+(weight=0.307692307692308) * (score{udapi}=0.834551360129923) = 0.25678503388613
 (weight=0.0769230769230769) * (score{udeprels}=0.540540540540541) = 0.0415800415800416
-(TOTAL score=0.667239551622918) * (availability=1) * (validity=1) = 0.667239551622918
+(TOTAL score=0.667426940360855) * (availability=1) * (validity=1) = 0.667426940360855
 STARS = 3.5
-UD_Afrikaans-AfriBooms	0.667239551622918	3.5
+UD_Afrikaans-AfriBooms	0.667426940360855	3.5
