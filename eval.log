@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Afrikaans-AfriBooms:
-commit bf6368f99a1ae594f873acee50fb38d7b52a3f83
+commit 62f01d14edfd080f5328baf7b11bead45240b642
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:24:46 2023 +0100
+Date:   Sun May 5 11:47:32 2024 +0200
 Size: counted 49260 of 49260 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.79422478538478.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,8 +27,24 @@ Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-test.conllu
+[Line 1511 Sent test-s68 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:al:det --> 12:11:dep)
+[Line 3891 Sent test-s171 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:ons:det --> 11:almal:amod)
+[Line 6877 Sent test-s267 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:meeste:det --> 8:van:dep)
+[Line 9884 Sent test-s369 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:sommige:det --> 18:van:amod)
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-train.conllu
+[Line 14274 Sent train-s568 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:hierdie:det --> 1:Albei:dep)
+[Line 28594 Sent train-s1032 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:alle:det --> 17:te:dep)
+[Line 30510 Sent train-s1084 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:hierdie:det --> 1:Al:dep)
+[Line 31122 Sent train-s1097 Node 68]: [L3 Warning leaf-det] 'det' not expected to have children (68:ons:det --> 69:almal:amod)
+[Line 31123 Sent train-s1097 Node 68]: [L3 Warning leaf-det] 'det' not expected to have children (68:ons:det --> 70:se:dep)
+[Line 35428 Sent train-s1220 Node 48]: [L3 Warning leaf-det] 'det' not expected to have children (48:meer:det --> 49:as:dep)
+[Line 35429 Sent train-s1220 Node 48]: [L3 Warning leaf-det] 'det' not expected to have children (48:meer:det --> 50:3:dep)
+[Line 35639 Sent train-s1225 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:meer:det --> 28:as:dep)
+[Line 35640 Sent train-s1225 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:meer:det --> 29:3:dep)
+[Line 39049 Sent train-s1312 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:party:det --> 4:van:amod)
+Warnings: 10
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
