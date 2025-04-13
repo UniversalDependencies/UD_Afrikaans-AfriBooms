@@ -2477,7 +2477,7 @@
 22	,	,	PUNCT	ZM	_	21	punct	_	_
 23	die	die	DET	LB	Definite=Def|PronType=Art	24	det	_	_
 24	elektrisiteitsrekening	elektrisiteitsrekening	NOUN	NSE	Number=Sing	21	conj	_	_
-25	en	en	CCONJ	KN	_	28	cc	_	_
+25	en	en	CCONJ	KN	ExtPos=CCONJ	28	cc	_	_
 26	/	/	SYM	RS	_	25	fixed	_	_
 27	of	of	CCONJ	KN	_	25	fixed	_	_
 28	betaling	betaling	NOUN	NSE	Number=Sing	24	conj	_	_
@@ -8397,7 +8397,7 @@
 6	visuele	visueel	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	ZM	_	6	punct	_	_
 8	simboliese	simbolies	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	6	conj	_	_
-9	en	en	CCONJ	KN	_	12	cc	_	_
+9	en	en	CCONJ	KN	ExtPos=CCONJ	12	cc	_	_
 10	/	/	SYM	RS	_	9	fixed	_	_
 11	of	of	CCONJ	KN	_	9	fixed	_	_
 12	taalvaardighede	taalvaardigheid	NOUN	NSM	Number=Plur	8	conj	_	_
@@ -14271,7 +14271,7 @@
 # sent_id = train-s568
 # text = Albei hierdie oorspronklike permitte moet by die plek van binnekoms aan die veeartsenybeampte voorgelê word, saam met die oorspronklike veeartsenygesondheidsertifikaat wat deur die land van uitvoer uitgereik is.
 # org_sent_id = 568
-1	Albei	albei	NUM	THAB	_	2	dep	_	_
+1	Albei	albei	NUM	THAB	_	4	nummod	_	_
 2	hierdie	hierdie	DET	PA	PronType=Dem	4	det	_	_
 3	oorspronklike	oorspronklik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
 4	permitte	permit	NOUN	NSM	Number=Plur	14	nsubj	_	_
@@ -15739,7 +15739,7 @@
 29	reg	reg	NOUN	NSE	Number=Sing	22	obl	_	_
 30	op	op	ADP	SVS	AdpType=Prep	31	case	_	_
 31	grond	grond	NOUN	NM	Number=Sing	29	nmod	_	_
-32	en	en	CCONJ	KN	_	35	cc	_	_
+32	en	en	CCONJ	KN	ExtPos=CCONJ	35	cc	_	_
 33	/	/	SYM	RS	_	32	fixed	_	_
 34	of	of	CCONJ	KN	_	32	fixed	_	_
 35	behuising	behuising	NOUN	NA	Number=Sing	31	conj	_	SpaceAfter=No
@@ -16445,7 +16445,7 @@
 4	geboorte-	geboorte-	X	RWD	_	10	dep	_	SpaceAfter=No
 5	,	,	PUNCT	ZM	_	4	punct	_	_
 6	huwelik-	huwelik-	X	RWD	_	10	dep	_	_
-7	en	en	CCONJ	KN	_	6	cc	_	_
+7	en	en	CCONJ	KN	ExtPos=CCONJ	6	cc	_	_
 8	/	/	SYM	RS	_	7	fixed	_	_
 9	of	of	CCONJ	KN	_	7	fixed	_	_
 10	doodsertifikate	doodsertifikaat	NOUN	NSM	Number=Plur	0	root	_	_
@@ -20142,7 +20142,7 @@
 9	kom	kom	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	8	dep	_	_
 10	en	en	CCONJ	KN	_	8	cc	_	_
 11	eiendom	eiendom	NOUN	NSE	Number=Sing	17	obj	_	_
-12	en	en	CCONJ	KN	_	16	cc	_	_
+12	en	en	CCONJ	KN	ExtPos=CCONJ	16	cc	_	_
 13	/	/	SYM	RS	_	12	fixed	_	_
 14	of	of	CCONJ	KN	_	12	fixed	_	_
 15	'n	'n	DET	LO	Definite=Ind|PronType=Art	16	det	_	_
@@ -27338,9 +27338,9 @@
 9	dat	dat	SCONJ	KO	_	8	amod	_	_
 10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	ZM	_	10	punct	_	_
-12	bo	bo	ADP	SVS	AdpType=Prep	17	case	_	_
+12	bo	bo	ADP	SVS	AdpType=Prep|ExtPos=ADP	17	case	_	_
 13	en	en	CCONJ	KN	_	12	fixed	_	_
-14	behalwe	behalwe	SCONJ	KO	_	12	fixed	_	_
+14	behalwe	behalwe	ADP	SVS	_	12	fixed	_	_
 15	die	die	DET	LB	Definite=Def|PronType=Art	17	det	_	_
 16	maatskaplike	maatskaplik	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	17	amod	_	_
 17	bystand	bystand	NOUN	NA	Number=Sing	27	obl	_	_
@@ -28591,9 +28591,9 @@
 14	dat	dat	SCONJ	KO	_	13	cc	_	_
 15	hulle	hulle	PRON	PDMB	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	werksaamhede	werksaamheid	NOUN	NSM	Number=Plur	28	nsubj	_	_
-17	te	te	PART	UPI	PartType=Inf	18	dep	_	_
+17	te	te	PART	UPI	PartType=Inf	19	case	_	_
 18	alle	al	DET	THAO	PronType=Ind	19	det	_	_
-19	tye	tyd	NOUN	NSM	Number=Plur	28	obj	_	_
+19	tye	tyd	NOUN	NSM	Number=Plur	28	obl	_	_
 20	binne	binne	ADP	SVS	AdpType=Prep	22	case	_	_
 21	die	die	DET	LB	Definite=Def|PronType=Art	22	det	_	_
 22	raamwerk	raamwerk	NOUN	NSE	Number=Sing	28	obl	_	_
@@ -30507,7 +30507,7 @@
 # sent_id = train-s1084
 # text = Al hierdie agbare gaste wat herinnering sowel as hoop verteenwoordig, herinner ons deur hul teenwoordigheid dat ons taak dié is van 'n afloswedloop van voortdurende hergeboorte sodat die droom van 'n beter lewe 'n werklikheid word vir alle Suid-Afrikaners.
 # org_sent_id = 1084
-1	Al	al	DET	THAO	PronType=Ind	2	dep	_	_
+1	Al	al	DET	THAO	PronType=Ind	4	dep	_	_
 2	hierdie	hierdie	DET	PA	PronType=Dem	4	det	_	_
 3	agbare	agbaar	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	4	amod	_	_
 4	gaste	gas	NOUN	NSM	Number=Plur	12	nsubj	_	_
@@ -31117,11 +31117,11 @@
 64	,	,	PUNCT	ZM	_	63	punct	_	_
 65	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	66	det	_	_
 66	toekoms	toekoms	NOUN	NA	Number=Sing	60	nsubj	_	_
-67	in	in	ADP	SVS	AdpType=Prep	71	case	_	_
-68	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	71	det	_	_
-69	almal	almal	PRON	PO	PronType=Ind	68	amod	_	_
-70	se	se	PART	UPS	PartType=Gen	68	dep	_	_
-71	hande	hand	NOUN	NSM	Number=Plur	60	obl	_	_
+67	in	in	ADP	SVS	AdpType=Prep	69	case	_	_
+68	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	69	det	_	_
+69	almal	almal	PRON	PO	PronType=Ind	60	nmod	_	_
+70	se	se	PART	UPS	PartType=Gen	71	case	_	_
+71	hande	hand	NOUN	NSM	Number=Plur	69	obl	_	_
 72	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	60	cop	_	SpaceAfter=No
 73	!	!	PUNCT	ZE	_	60	punct	_	_
 
@@ -35423,28 +35423,27 @@
 44	000	000	SYM	RS	_	43	dep	_	_
 45	nuwe	nuut	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	46	amod	_	_
 46	persele	perseel	NOUN	NSM	Number=Plur	41	nmod	_	_
-47	met	met	ADP	SVS	AdpType=Prep	52	case	_	_
-48	meer	baie	DET	THBO	PronType=Ind	52	det	_	_
+47	met	met	ADP	SVS	AdpType=Prep	51	case	_	_
+48	meer	baie	DET	THBO	PronType=Ind	51	amod	_	_
 49	as	as	SCONJ	KO	_	48	dep	_	_
-50	3	3	SYM	RS	_	48	dep	_	_
-51	500	500	SYM	RS	_	50	dep	_	_
-52	praktisyns	praktisyn	NOUN	NSM	Number=Plur	46	nmod	_	_
-53	wat	wat	PRON	PB	PronType=Rel	54	nsubj	_	_
-54	opgelei	oplei	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	52	ccomp	_	_
-55	en	en	CCONJ	KN	_	54	cc	_	_
-56	in	in	ADP	SVS	AdpType=Prep	57	case	_	_
-57	diens	diens	NOUN	NSE	Number=Sing	58	obl	_	_
-58	geneem	neem	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	54	conj	_	_
-59	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	58	aux:pass	_	SpaceAfter=No
-60	,	,	PUNCT	ZM	_	59	punct	_	_
-61	en	en	CCONJ	KN	_	67	cc	_	_
-62	deur	deur	ADP	SVS	AdpType=Prep	67	case	_	_
-63	die	die	DET	LB	Definite=Def|PronType=Art	64	det	_	_
-64	aantal	aantal	NOUN	NSE	Number=Sing	67	obj	_	_
-65	versorgers	versorger	NOUN	NSM	Number=Plur	64	nmod	_	_
-66	te	te	PART	UPI	PartType=Inf	67	mark	_	_
-67	verhoog	verhoog	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	39	conj	_	SpaceAfter=No
-68	.	.	PUNCT	ZE	_	67	punct	_	_
+50	3 500	3 500	SYM	RS	_	48	nummod	_	_
+51	praktisyns	praktisyn	NOUN	NSM	Number=Plur	46	nmod	_	_
+52	wat	wat	PRON	PB	PronType=Rel	53	nsubj	_	_
+53	opgelei	oplei	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	51	ccomp	_	_
+54	en	en	CCONJ	KN	_	53	cc	_	_
+55	in	in	ADP	SVS	AdpType=Prep	56	case	_	_
+56	diens	diens	NOUN	NSE	Number=Sing	57	obl	_	_
+57	geneem	neem	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	53	conj	_	_
+58	is	wees	AUX	VVUOP	Tense=Past|VerbForm=Fin|VerbType=Pas	57	aux:pass	_	SpaceAfter=No
+59	,	,	PUNCT	ZM	_	58	punct	_	_
+60	en	en	CCONJ	KN	_	66	cc	_	_
+61	deur	deur	ADP	SVS	AdpType=Prep	66	case	_	_
+62	die	die	DET	LB	Definite=Def|PronType=Art	63	det	_	_
+63	aantal	aantal	NOUN	NSE	Number=Sing	66	obj	_	_
+64	versorgers	versorger	NOUN	NSM	Number=Plur	63	nmod	_	_
+65	te	te	PART	UPI	PartType=Inf	66	mark	_	_
+66	verhoog	verhoog	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	39	conj	_	SpaceAfter=No
+67	.	.	PUNCT	ZE	_	66	punct	_	_
 
 # sent_id = train-s1221
 # text = Ongeveer R1 biljoen sal oor die basislyn toegeken word aan programme wat binne die openbare werke-program val.
@@ -35633,40 +35632,39 @@
 22	na	na	ADP	SVS	AdpType=Prep	23	case	_	_
 23	7%	7%	SYM	RS	_	19	obl	_	SpaceAfter=No
 24	,	,	PUNCT	ZM	_	23	punct	_	_
-25	en	en	CCONJ	KN	_	34	cc	_	_
-26	om	om	ADP	SVS	AdpType=Prep	34	case	_	_
-27	meer	baie	DET	THBO	PronType=Ind	31	det	_	_
+25	en	en	CCONJ	KN	_	33	cc	_	_
+26	om	om	ADP	SVS	AdpType=Prep	33	case	_	_
+27	meer	baie	DET	THBO	PronType=Ind	30	amod	_	_
 28	as	as	SCONJ	KO	_	27	dep	_	_
-29	3	3	SYM	RS	_	27	dep	_	_
-30	000	000	SYM	RS	_	29	dep	_	_
-31	gesondheidspersoneel	gesondheidspersoneel	NOUN	NM	Number=Sing	34	obj	_	_
-32	op	op	ADV	UPW	Degree=Pos	34	compound:prt	_	_
-33	te	te	PART	UPI	PartType=Inf	34	mark	_	_
-34	lei	lei	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	4	conj	_	_
-35	in	in	ADP	SVS	AdpType=Prep	37	case	_	_
-36	die	die	DET	LB	Definite=Def|PronType=Art	37	det	_	_
-37	bestuur	bestuur	NOUN	NA	Number=Sing	34	obl	_	_
-38	van	van	ADP	SVS	AdpType=Prep	40	case	_	_
-39	die	die	DET	LB	Definite=Def|PronType=Art	40	det	_	_
-40	siekte	siekte	NOUN	NSE	Number=Sing	37	nmod	_	SpaceAfter=No
-41	,	,	PUNCT	ZM	_	40	punct	_	_
-42	en	en	CCONJ	KN	_	46	cc	_	_
-43	om	om	ADP	SVS	AdpType=Prep	46	case	_	_
-44	seker	seker	ADV	BS	Degree=Pos	46	advmod	_	_
-45	te	te	PART	UPI	PartType=Inf	46	mark	_	_
-46	maak	maak	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	26	conj	_	_
-47	dat	dat	SCONJ	KO	_	46	amod	_	_
-48	alle	al	DET	THAO	PronType=Ind	49	det	_	_
-49	pasiënte	pasiënt	NOUN	NSM	Number=Plur	57	nsubj	_	_
-50	wat	wat	PRON	PB	PronType=Rel	49	amod	_	_
-51	bestand	bestand	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	50	obj	_	_
-52	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	51	cop	_	_
-53	teen	teen	ADP	SVS	AdpType=Prep	54	case	_	_
-54	TB-medikasie	TB-medikasie	NOUN	NM	Number=Sing	51	obl	_	SpaceAfter=No
-55	,	,	PUNCT	ZM	_	54	punct	_	_
-56	behandeling	behandeling	NOUN	NA	Number=Sing	57	obj	_	_
-57	ontvang	ontvang	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	46	dep	_	SpaceAfter=No
-58	.	.	PUNCT	ZE	_	57	punct	_	_
+29	3 000	3 000	SYM	RS	_	27	nummod	_	_
+30	gesondheidspersoneel	gesondheidspersoneel	NOUN	NM	Number=Sing	33	obj	_	_
+31	op	op	ADV	UPW	Degree=Pos	33	compound:prt	_	_
+32	te	te	PART	UPI	PartType=Inf	33	mark	_	_
+33	lei	lei	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	4	conj	_	_
+34	in	in	ADP	SVS	AdpType=Prep	36	case	_	_
+35	die	die	DET	LB	Definite=Def|PronType=Art	36	det	_	_
+36	bestuur	bestuur	NOUN	NA	Number=Sing	33	obl	_	_
+37	van	van	ADP	SVS	AdpType=Prep	39	case	_	_
+38	die	die	DET	LB	Definite=Def|PronType=Art	39	det	_	_
+39	siekte	siekte	NOUN	NSE	Number=Sing	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	ZM	_	39	punct	_	_
+41	en	en	CCONJ	KN	_	45	cc	_	_
+42	om	om	ADP	SVS	AdpType=Prep	45	case	_	_
+43	seker	seker	ADV	BS	Degree=Pos	45	advmod	_	_
+44	te	te	PART	UPI	PartType=Inf	45	mark	_	_
+45	maak	maak	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	26	conj	_	_
+46	dat	dat	SCONJ	KO	_	45	amod	_	_
+47	alle	al	DET	THAO	PronType=Ind	48	det	_	_
+48	pasiënte	pasiënt	NOUN	NSM	Number=Plur	56	nsubj	_	_
+49	wat	wat	PRON	PB	PronType=Rel	48	amod	_	_
+50	bestand	bestand	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	49	obj	_	_
+51	is	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	50	cop	_	_
+52	teen	teen	ADP	SVS	AdpType=Prep	53	case	_	_
+53	TB-medikasie	TB-medikasie	NOUN	NM	Number=Sing	50	obl	_	SpaceAfter=No
+54	,	,	PUNCT	ZM	_	53	punct	_	_
+55	behandeling	behandeling	NOUN	NA	Number=Sing	56	obj	_	_
+56	ontvang	ontvang	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	45	dep	_	SpaceAfter=No
+57	.	.	PUNCT	ZE	_	56	punct	_	_
 
 # sent_id = train-s1226
 # text = Ons beplan om die werk ten opsigte van die uitgebreide maatskaplike sekuriteitstelsel af te handel, en voordeel te trek uit die samesprekings wat alreeds met maatskaplike vennote gevoer is.
@@ -39045,9 +39043,9 @@
 # org_sent_id = 1312
 1	Gevolglik	gevolglik	ADV	BS	Degree=Pos	7	advmod	_	_
 2	kan	kan	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	7	aux	_	_
-3	party	party	DET	THAO	PronType=Ind	5	det	_	_
-4	van	van	ADP	UPD	AdpType=Prep	3	amod	_	_
-5	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj:pass	_	_
+3	party	party	DET	THAO	PronType=Ind	7	nsubj:pass	_	_
+4	van	van	ADP	UPD	AdpType=Prep	5	case	_	_
+5	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:pass	_	_
 6	dalk	dalk	ADV	BS	Degree=Pos	7	advmod	_	_
 7	gehipnotiseer	hipnotiseer	VERB	VVHOG	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 8	word	word	AUX	VTUOP	Tense=Pres|VerbForm=Fin,Inf|VerbType=Pas	7	aux:pass	_	_

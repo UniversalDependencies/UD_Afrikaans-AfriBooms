@@ -1507,8 +1507,8 @@
 8	te	te	PART	UPI	PartType=Inf	9	mark	_	_
 9	gebruik	gebruik	VERB	VTHOO	Subcat=Intr|Tense=Pres|VerbForm=Fin,Inf	5	obl	_	_
 10	in	in	ADP	SVS	AdpType=Prep	13	case	_	_
-11	al	al	DET	THBO	PronType=Ind	13	det	_	_
-12	11	11	SYM	RS	_	11	dep	_	_
+11	al	al	DET	THBO	PronType=Ind	12	det	_	_
+12	11	11	SYM	RS	_	13	dep	_	_
 13	tale	taal	NOUN	NSM	Number=Plur	9	obl	_	_
 14	aan	aan	ADP	SVS	AdpType=Prep	15	case	_	_
 15	studente	student	NOUN	NSM	Number=Plur	16	obl	_	_
@@ -3887,11 +3887,11 @@
 7	gebruik	gebruik	NOUN	NA	Number=Sing	8	obj	_	_
 8	maak	maak	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	0	root	_	_
 9	om	om	ADP	SVS	AdpType=Prep	16	case	_	_
-10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	14	det	_	_
-11	almal	almal	PRON	PO	PronType=Ind	10	amod	_	_
+10	ons	ons	PRON	PEMP	Case=Acc,Nom|Number=Plur|Person=1|PronType=Prs	11	det	_	_
+11	almal	almal	PRON	PO	PronType=Ind	14	nmod	_	_
 12	se	se	PART	UPS	PartType=Gen	11	case	_	_
 13	diepe	diep	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	14	amod	_	_
-14	meegevoel	meegevoel	NOUN	NA	Number=Sing	16	obj	_	_
+14	meegevoel	meegevoel	NOUN	NA	Number=Sing	16	nmod	_	_
 15	te	te	PART	UPI	PartType=Inf	16	mark	_	_
 16	betuig	betuig	VERB	VTHOG	Subcat=Tran|Tense=Pres|VerbForm=Fin,Inf	8	obl	_	_
 17	teenoor	teenoor	ADP	SVS	AdpType=Prep	19	case	_	_
@@ -6872,11 +6872,11 @@
 3	sal	sal	AUX	VTUOM	Tense=Pres|VerbForm=Fin,Inf|VerbType=Mod	4	aux	_	_
 4	bekend	bekend	ADJ	ASP	AdjType=Pred|Case=Nom|Degree=Pos	0	root	_	_
 5	wees	wees	AUX	VTHOK	Tense=Pres|VerbForm=Fin,Inf|VerbType=Cop	4	cop	_	_
-6	met	met	ADP	SVS	AdpType=Prep	10	case	_	_
-7	meeste	baie	DET	THAO	PronType=Ind	10	det	_	_
-8	van	van	ADP	UPD	AdpType=Prep	7	dep	_	_
+6	met	met	ADP	SVS	AdpType=Prep	7	case	_	_
+7	meeste	baie	DET	THAO	PronType=Ind	4	obl	_	_
+8	van	van	ADP	UPD	AdpType=Prep	10	dep	_	_
 9	die	die	DET	LB	Definite=Def|PronType=Art	10	det	_	_
-10	data	data	NOUN	NM	Number=Sing	4	obl	_	_
+10	data	data	NOUN	NM	Number=Sing	7	obl	_	_
 11	oor	oor	ADP	SVS	AdpType=Prep	12	case	_	_
 12	kwessies	kwessie	NOUN	NSM	Number=Plur	10	nmod	_	_
 13	rakende	rakend	ADP	SVS	AdpType=Prep	15	case	_	_
@@ -9880,10 +9880,10 @@
 14	anti-kompeterende	anti-kompeterend	ADJ	ASA	AdjType=Attr|Case=Nom|Degree=Pos	15	amod	_	_
 15	gedrag	gedrag	NOUN	NA	Number=Sing	12	nmod	_	_
 16	deur	deur	ADP	SVS	AdpType=Prep	20	case	_	_
-17	sommige	sommige	DET	THAO	PronType=Ind	20	det	_	_
-18	van	van	ADP	UPD	AdpType=Prep	17	amod	_	_
+17	sommige	sommige	DET	THAO	PronType=Ind	15	obl	_	_
+18	van	van	ADP	UPD	AdpType=Prep	20	case	_	_
 19	ons	ons	PRON	PEMB	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	det	_	_
-20	korporasies	korporasie	NOUN	NSM	Number=Plur	15	nmod	_	SpaceAfter=No
+20	korporasies	korporasie	NOUN	NSM	Number=Plur	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	ZE	_	9	punct	_	_
 
 # sent_id = test-s370
