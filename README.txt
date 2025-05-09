@@ -17,6 +17,8 @@ The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at 
 
 # Changelog
 
+* 2025-05-15 v2.16
+  * Fixed validation errors coming from new validation scripts, in particular for auxiliaries, copulas, and coordinations.
 * 2020-11-15 v2.7
   * Fixed validation errors coming from new validation scripts, in particular for auxiliaries, copulas, and coordinations.
   * Fixed lemma of 'is' and 'was' to 'wees'
@@ -28,7 +30,7 @@ The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at 
   * First release in UD
 
 <pre>
-=== Machine-readable metadata (DO NOT REMOVE!) ================================
+=== Machine-readable metadata (DO NOT REMOVE!) ====================================
 Data available since: UD v2.1
 License: CC BY-SA 4.0
 Includes text: yes
@@ -40,6 +42,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Dirix, Peter; Augustinus, Liesbeth; van Niekerk, Daniel
 Contributing: here
-Contact: peter.dirix@kuleuven.be, liesbeth.augustinus@kuleuven.be
-===============================================================================
+Contact: peter.dirix@kuleuven.be, peedirix@gmail.com, liesbeth.augustinus@gmail.com
+===================================================================================
 </pre>
