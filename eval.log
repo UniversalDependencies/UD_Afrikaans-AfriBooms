@@ -1,7 +1,79 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Afrikaans-AfriBooms:
+commit d4816c70a6ecb9646a4e7f4b04a4eee78a6813fd
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:38:24 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'af_afribooms'
+Language code (from CoNLL-U file name) = 'af'
+Found the following data files: af_afribooms-ud-dev.conllu, af_afribooms-ud-test.conllu, af_afribooms-ud-train.conllu
+Size: counted 49258 of 49258 words (nodes).
+Size: min(0, log((N/1000)**2)) = 7.79414358194987.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.8.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 40630 out of 49258 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 25 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Genres: found 2 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-dev.conllu
+[Line 87 Sent dev-s3]: [L3 Warning verbform-fin-without-mood] Finite verb 'was' lacks the 'Mood' feature
+[Line 292 Sent dev-s7]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 370 Sent dev-s9]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 711 Sent dev-s20]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 817 Sent dev-s21]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 903 Sent dev-s23]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 996 Sent dev-s26]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1184 Sent dev-s29]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1296 Sent dev-s33]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1596 Sent dev-s39]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 43
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-test.conllu
+[Line 43 Sent test-s3]: [L3 Warning verbform-fin-without-mood] Finite verb 'was' lacks the 'Mood' feature
+[Line 237 Sent test-s11]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 270 Sent test-s12]: [L3 Warning verbform-fin-without-mood] Finite verb 'sou' lacks the 'Mood' feature
+[Line 299 Sent test-s14]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 509 Sent test-s22]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 740 Sent test-s33]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1066 Sent test-s47]: [L3 Warning verbform-fin-without-mood] Finite verb 'sou' lacks the 'Mood' feature
+[Line 2088 Sent test-s92]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 2419 Sent test-s109]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 2767 Sent test-s124]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 59
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang af --max-err=10 UD_Afrikaans-AfriBooms/af_afribooms-ud-train.conllu
+[Line 73 Sent train-s3]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 245 Sent train-s8]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 280 Sent train-s9]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 298 Sent train-s10]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 488 Sent train-s16]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 635 Sent train-s23]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 655 Sent train-s24]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 851 Sent train-s35]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1602 Sent train-s62]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+[Line 1723 Sent train-s68]: [L3 Warning verbform-fin-without-mood] Finite verb 'is' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+Warnings: 262
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.564158924800412) = 0.208947749926079
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.540540540540541) = 0.0600600600600601
+(TOTAL score=0.592421027124846) * (availability=1) * (validity=1) = 0.592421027124846
+STARS = 3
+UD_Afrikaans-AfriBooms	0.592421027124846	3
