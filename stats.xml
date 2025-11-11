@@ -20,12 +20,12 @@
     <tag name="ADV">2145</tag><!-- nie, ook, in, saam, nog, uit, aan, egter, reeds, slegs -->
     <tag name="AUX">3144</tag><!-- wees, word, sal, het, moet, kan, wil, mag, behoort, hoef -->
     <tag name="CCONJ">1946</tag><!-- en, of, maar, asook, want, plus -->
-    <tag name="DET">5342</tag><!-- die, 'n, hierdie, al, baie, daardie, dié, paar, sommige, sodanig -->
+    <tag name="DET">5341</tag><!-- die, 'n, hierdie, al, baie, daardie, dié, paar, sommige, sodanig -->
     <tag name="NOUN">10458</tag><!-- jaar, land, aansoek, leerder, regering, mens, inligting, diens, departement, gebruiker -->
     <tag name="NUM">218</tag><!-- een, geen, drie, twee, miljoen, albei, beide, ses, vyf, biljoen -->
     <tag name="PART">1431</tag><!-- te, nie, se, s'n -->
     <tag name="PRON">3607</tag><!-- ons, wat, dit, jy, hulle, jou, ek, enig, sy, daar -->
-    <tag name="PROPN">590</tag><!-- Suid-Afrika, Afrika, Februarie, Madiba, Crime, Mandela, of, Bafana, Maart, Tambo -->
+    <tag name="PROPN">591</tag><!-- Suid-Afrika, Afrika, Februarie, Madiba, Crime, Mandela, of, Bafana, Maart, Tambo -->
     <tag name="PUNCT">4499</tag><!-- ., ,, (, ), ", -, ;, :, ?, ' -->
     <tag name="SCONJ">1030</tag><!-- dat, as, indien, soos, sodat, sowel, so, terwyl, omdat, nadat -->
     <tag name="SYM">505</tag><!-- 000, /, 2004, 2010, 1947, 30, 15, 2008, 2014, 36 -->
@@ -33,7 +33,7 @@
     <tag name="X">437</tag><!-- GCIS, IRP, SAID, Eskom, MIV, mnr, FIFA, SAPD, Mariene-, OKD -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="43">
+  <feats unique="44">
     <feat name="AdjType" value="Attr" upos="ADJ">2683</feat><!-- ander, nasionale, Suid-Afrikaanse, openbare, maatskaplike, voorlopige, nuwe, plaaslike, ekonomiese, groot -->
     <feat name="AdjType" value="Pred" upos="ADJ">490</feat><!-- nodig, moontlik, aanspreeklik, belangrik, Buitengewoon, trots, verantwoordelik, beskikbaar, seker, gereed -->
     <feat name="AdpType" value="Prep" upos="ADP">6286</feat><!-- van, om, in, vir, op, met, aan, deur, tot, by -->
@@ -48,8 +48,8 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">63</feat><!-- naaste, beste, grootste, mees, belangrikste, ergste, hoogste, meeste, enigste, minste -->
     <feat name="ExtPos" value="ADP" upos="ADP">1</feat><!-- bo -->
     <feat name="ExtPos" value="CCONJ" upos="CCONJ">8</feat><!-- en -->
-    <feat name="Number" value="Plur" upos="NOUN,PRON">4148</feat><!-- ons, hulle, mense, leerders, hul, dienste, opsigte, Suid-Afrikaners, pogings, lande -->
-    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN">9045</feat><!-- dit, jy, jaar, jou, regering, aansoek, inligting, land, ek, Suid-Afrika -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">4149</feat><!-- ons, hulle, mense, leerders, hul, dienste, opsigte, Suid-Afrikaners, pogings, lande -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN">9044</feat><!-- dit, jy, jaar, jou, regering, aansoek, inligting, land, ek, Suid-Afrika -->
     <feat name="PartType" value="Gen" upos="PART">178</feat><!-- se, s'n -->
     <feat name="PartType" value="Inf" upos="PART">986</feat><!-- te -->
     <feat name="PartType" value="Neg" upos="PART">267</feat><!-- nie -->
@@ -63,16 +63,17 @@
     <feat name="PronType" value="Int" upos="PRON">19</feat><!-- hoe, wat, Wie, Watter, Hoekom, Waar, Waarom, waaroor -->
     <feat name="PronType" value="Prs" upos="PRON">2144</feat><!-- ons, dit, jy, hulle, jou, ek, sy, hul, hy, my -->
     <feat name="PronType" value="Rcp" upos="PRON">6</feat><!-- mekaar -->
-    <feat name="PronType" value="Rel" upos="PRON">1114</feat><!-- wat, daarvan, waar, wanneer, watter, daartoe, wie, daarop, hoe, waarin -->
+    <feat name="PronType" value="Rel" upos="PRON">1115</feat><!-- wat, daarvan, waar, wanneer, watter, daartoe, wie, daarop, hoe, waarin -->
     <feat name="Reflex" value="Yes" upos="PRON">37</feat><!-- onsself, self, ons, hulle, hom, haarself, homself, hulself, jouself, myself -->
     <feat name="Subcat" value="Intr" upos="VERB">717</feat><!-- werk, voortgaan, gaan, maak, tree, verskyn, het, reageer, staan, val -->
     <feat name="Subcat" value="Prep" upos="VERB">28</feat><!-- voldoen, verwys, kondig, beveel -->
     <feat name="Subcat" value="Tran" upos="VERB">3697</feat><!-- doen, gebruik, maak, verbeter, verseker, stel, het, verskaf, betaal, bereik -->
     <feat name="Tense" value="Past" upos="AUX,VERB">1266</feat><!-- is, was, gemaak, gedoen, gestel, uitgereik, geneem, geregistreer, ingedien, ingevul -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">6324</feat><!-- word, is, het, sal, moet, kan, doen, wees, maak, gebruik -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">366</feat><!-- is, was, moes, sou, kon, gelyk, gewees, het, wees, wou -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">364</feat><!-- is, was, moes, sou, kon, gewees, het, wou -->
     <feat name="VerbForm" value="Fin,Inf" upos="AUX,VERB">6323</feat><!-- word, is, het, sal, moet, kan, doen, wees, maak, gebruik -->
-    <feat name="VerbForm" value="Part" upos="VERB">901</feat><!-- gemaak, gedoen, gestel, uitgereik, geneem, geregistreer, ingedien, ingevul, gebaseer, ingevoer -->
+    <feat name="VerbForm" value="Inf" upos="AUX">1</feat><!-- wees -->
+    <feat name="VerbForm" value="Part" upos="VERB">902</feat><!-- gemaak, gedoen, gestel, uitgereik, geneem, geregistreer, ingedien, ingevul, gebaseer, ingevoer -->
     <feat name="VerbType" value="Aux" upos="AUX">422</feat><!-- het, sal -->
     <feat name="VerbType" value="Cop" upos="AUX">688</feat><!-- is, wees, was, gewees, word -->
     <feat name="VerbType" value="Mod" upos="AUX">1173</feat><!-- sal, moet, kan, wil, mag, behoort, moes, sou, hoef, kon -->
@@ -81,31 +82,31 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="27">
     <dep name="advmod">1893</dep>
-    <dep name="amod">4460</dep>
+    <dep name="amod">4459</dep>
     <dep name="appos">63</dep>
     <dep name="aux">1570</dep>
     <dep name="aux:pass">855</dep>
-    <dep name="case">6283</dep>
-    <dep name="cc">1889</dep>
-    <dep name="ccomp">908</dep>
+    <dep name="case">6293</dep>
+    <dep name="cc">1890</dep>
+    <dep name="ccomp">913</dep>
     <dep name="compound:prt">324</dep>
-    <dep name="conj">2149</dep>
+    <dep name="conj">2169</dep>
     <dep name="cop">659</dep>
     <dep name="csubj">2</dep>
-    <dep name="dep">1705</dep>
+    <dep name="dep">1700</dep>
     <dep name="det">5965</dep>
     <dep name="fixed">18</dep>
     <dep name="flat">234</dep>
-    <dep name="iobj">59</dep>
-    <dep name="mark">1050</dep>
-    <dep name="nmod">2945</dep>
+    <dep name="iobj">66</dep>
+    <dep name="mark">1049</dep>
+    <dep name="nmod">3009</dep>
     <dep name="nsubj">2764</dep>
     <dep name="nsubj:pass">498</dep>
     <dep name="nummod">155</dep>
-    <dep name="obj">2817</dep>
-    <dep name="obl">3195</dep>
+    <dep name="obj">2778</dep>
+    <dep name="obl">3132</dep>
     <dep name="punct">4499</dep>
     <dep name="root">1934</dep>
-    <dep name="xcomp">365</dep>
+    <dep name="xcomp">367</dep>
   </deps>
 </treebank>
