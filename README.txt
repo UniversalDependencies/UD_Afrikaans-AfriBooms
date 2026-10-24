@@ -11,6 +11,10 @@ Size of the differents parts:
   - dev size   =  194 sentences
   - test size  =  425 sentences
 
+# References
+
+Peter Dirix, Liesbeth Augustinus, Daniel van Niekerk, and Frank Van Eynde. 2017. Universal Dependencies for Afrikaans. In Proceedings of the NoDaLiDa 2017 Workshop on Universal Dependencies (UDW 2017), pages 38–47, Gothenburg, Sweden. Association for Computational Linguistics.
+
 # Acknowledgments
 
 The new conversion has been performed by Peter Dirix and Liesbeth Augustinus at the University of Leuven and by Daniel van Niekerk at the Potchefstroom campus of North West University.
